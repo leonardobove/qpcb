@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8319ACPZ-R7
+D ANALOG DEVICES - AD8319ACPZ-R7 - Logarithmic Amplifier, 1 Amplifier, 45 dB, 20 ns, LFCSP, 8 Pins
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8319.pdf
+$ENDCMP
+#
+#End Doc Library

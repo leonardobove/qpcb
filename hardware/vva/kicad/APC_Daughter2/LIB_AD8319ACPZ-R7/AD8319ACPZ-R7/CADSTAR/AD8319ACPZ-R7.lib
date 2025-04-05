@@ -1,0 +1,16 @@
+.AD8319ACPZ-R7 :1 ;ANALOG DEVICES - AD8319ACPZ-R7 - Logarithmic Amplifier, 1 Amplifier, 45 dB, 20 ns, LFCSP, 8 Pins
+SON50P200X300X80-9N-D
+*STM IC
+*NGS
+*PLB 1="INHI" 2="COMM_1" 3="CLPF" 4="VSET" 5="VOUT" 6="TADJ" 7="VPOS" 8="INLO" 9="COMM_2"
+*MXP 9
+*DFN AD8319ACPZ-R7
+~!Mouser Part Number (584-AD8319ACPZ-R7)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8319ACPZ-R7?qs=%2FtpEQrCGXCzPBHijRykptA%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (AD8319ACPZ-R7)
+~!Link Datasheet (https://www.analog.com/media/en/technical-documentation/data-sheets/AD8319.pdf)
+~!Height (0.8mm)
+~!3D_Model (AD8319ACPZ-R7)
+AD8319ACPZ-R7
+1.1!I 2.1!G 3.1!Y 4.1!I 9.1!G 8.1!I 7.1!P 6.1!Y 5.1!Y 

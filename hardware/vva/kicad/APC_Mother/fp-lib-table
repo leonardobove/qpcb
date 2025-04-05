@@ -1,0 +1,13 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Raspberry_Pi_Pico")(type "KiCad")(uri "${KIPRJMOD}/Raspberry_Pi_Pico.pretty")(options "")(descr ""))
+  (lib (name "LT1632CN8_PBF")(type "KiCad")(uri "${KIPRJMOD}/LT1632CN8_PBF.pretty")(options "")(descr ""))
+  (lib (name "header_microwave")(type "KiCad")(uri "${KIPRJMOD}/header_microwave.pretty")(options "")(descr ""))
+  (lib (name "DAC8562")(type "KiCad")(uri "${KIPRJMOD}/DAC8562.pretty")(options "")(descr ""))
+  (lib (name "attenuatori_tfa32")(type "KiCad")(uri "${KIPRJMOD}/attenuatori_tfa32.pretty")(options "")(descr ""))
+  (lib (name "splitter")(type "KiCad")(uri "C:/Users/Pavilion/Desktop/Tesi/rilevatore/splitter.pretty")(options "")(descr ""))
+  (lib (name "rilevatore")(type "KiCad")(uri "C:/Users/Pavilion/Desktop/Tesi/rilevatore/rilevatore.pretty")(options "")(descr ""))
+  (lib (name "ADM7150")(type "KiCad")(uri "C:/Users/Pavilion/Desktop/Tesi/LO_mother/ADM7150.pretty")(options "")(descr ""))
+  (lib (name "atten")(type "KiCad")(uri "C:/Users/Pavilion/Desktop/Tesi/atten/atten.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/LT1632CN8_PBF/KiCADv6/footprints.pretty")(options "")(descr ""))
+)

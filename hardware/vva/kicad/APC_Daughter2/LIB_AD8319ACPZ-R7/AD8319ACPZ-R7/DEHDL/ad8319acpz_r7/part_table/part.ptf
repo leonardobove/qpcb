@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AD8319ACPZ_R7'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "AD8319ACPZ-R7" (!) = "", "SON50P200X300X80-9N-D", "Small Outline No-lead", "584-AD8319ACPZ-R7", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8319ACPZ-R7?qs=%2FtpEQrCGXCzPBHijRykptA%3D%3D", "ANALOG DEVICES - AD8319ACPZ-R7 - Logarithmic Amplifier, 1 Amplifier, 45 dB, 20 ns, LFCSP, 8 Pins", "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8319.pdf", "0.8 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=AD8319ACPZ-R7
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=9
+Version=1.1
+Released=2021-05-28 12:43:52
+Downloaded=2025-01-30 10:35:46
+3D=Y

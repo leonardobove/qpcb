@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LT1632CN8_PBF")(type "KiCad")(uri "${KIPRJMOD}/symbols/LT1632CN8_PBF.kicad_sym")(options "")(descr ""))
+  (lib (name "RaspberryPiPico")(type "KiCad")(uri "${KIPRJMOD}/symbols/RaspberryPiPico.kicad_sym")(options "")(descr ""))
+  (lib (name "DAC8562T")(type "KiCad")(uri "${KIPRJMOD}/symbols/DAC8562T.kicad_sym")(options "")(descr ""))
+  (lib (name "dac8562tdgsr")(type "KiCad")(uri "${KIPRJMOD}/symbols/dac8562tdgsr.kicad_sym")(options "")(descr ""))
+)

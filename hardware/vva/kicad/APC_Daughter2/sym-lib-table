@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "EP2K1+")(type "KiCad")(uri "C:/Users/Pavilion/Desktop/Tesi/APC_Daughter/EP2K1+.kicad_sym")(options "")(descr ""))
+  (lib (name "EP2W1_")(type "KiCad")(uri "C:/Users/Pavilion/Desktop/Tesi/APC_Daughter/EP2W1_.kicad_sym")(options "")(descr ""))
+  (lib (name "splitter")(type "KiCad")(uri "C:/Users/Pavilion/Desktop/Tesi/APC_Daughter/splitter.kicad_sym")(options "")(descr ""))
+  (lib (name "SMA-J-P-H-ST-TH1")(type "KiCad")(uri "C:/Users/Pavilion/Desktop/Tesi/APC_Daughter/LIB_SMA-J-P-H-ST-TH1/SMA-J-P-H-ST-TH1/KiCad/SMA-J-P-H-ST-TH1.kicad_sym")(options "")(descr ""))
+  (lib (name "AD8319ACPZ-R7")(type "KiCad")(uri "${KIPRJMOD}/LIB_AD8319ACPZ-R7/AD8319ACPZ-R7/KiCad/AD8319ACPZ-R7.kicad_sym")(options "")(descr ""))
+  (lib (name "rilevatore")(type "KiCad")(uri "C:/Users/Pavilion/Desktop/Tesi/rilevatore/rilevatore.kicad_sym")(options "")(descr ""))
+  (lib (name "atten")(type "KiCad")(uri "C:/Users/Pavilion/Desktop/Tesi/atten/atten.kicad_sym")(options "")(descr ""))
+)

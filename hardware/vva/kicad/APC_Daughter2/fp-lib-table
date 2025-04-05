@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/LIB_AD8319ACPZ-R7/AD8319ACPZ-R7/KiCad.pretty")(options "")(descr ""))
+  (lib (name "LIB_AD8319ACPZ-R7")(type "KiCad")(uri "${KIPRJMOD}/LIB_AD8319ACPZ-R7.pretty")(options "")(descr ""))
+  (lib (name "LIB_SMA-J-P-H-ST-TH1")(type "KiCad")(uri "C:/Users/Pavilion/Desktop/Tesi/APC_Daughter/LIB_SMA-J-P-H-ST-TH1.pretty")(options "")(descr ""))
+  (lib (name "atten")(type "KiCad")(uri "C:/Users/Pavilion/Desktop/Tesi/atten/atten.pretty")(options "")(descr ""))
+  (lib (name "attenuatori_tfa32")(type "KiCad")(uri "C:/Users/Pavilion/Desktop/Tesi/APC_Daughter/attenuatori_tfa32.pretty")(options "")(descr ""))
+  (lib (name "splitter")(type "KiCad")(uri "C:/Users/Pavilion/Desktop/Tesi/rilevatore/splitter.pretty")(options "")(descr ""))
+)
