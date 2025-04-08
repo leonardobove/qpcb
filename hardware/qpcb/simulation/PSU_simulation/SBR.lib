@@ -1,0 +1,706 @@
+* DIODES INCORPORATED AND ITS AFFILIATED COMPANIES AND SUBSIDIARIES (COLLECTIVELY, "DIODES") 
+* PROVIDE THESE SPICE MODELS AND DATA (COLLECTIVELY, THE "SM DATA") "AS IS" AND WITHOUT ANY 
+* REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY 
+* OR FITNESS FOR A PARTICULAR PURPOSE, ANY WARRANTY ARISING FROM COURSE OF DEALING OR COURSE OF 
+* PERFORMANCE, OR ANY WARRANTY THAT ACCESS TO OR OPERATION OF THE SM DATA WILL BE UNINTERRUPTED, 
+* OR THAT THE SM DATA OR ANY SIMULATION USING THE SM DATA WILL BE ERROR FREE. TO THE MAXIMUM 
+* EXTENT PERMITTED BY LAW, IN NO EVENT WILL DIODES BE LIABLE FOR ANY DIRECT OR INDIRECT, 
+* SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN CONNECTION WITH 
+* THE PRODUCTION OR USE OF SM DATA, HOWEVER CAUSED AND UNDER WHATEVER CAUSE OF ACTION OR THEORY 
+* OF LIABILITY BROUGHT (INCLUDING, WITHOUT LIMITATION, UNDER ANY CONTRACT, NEGLIGENCE OR OTHER 
+* TORT THEORY OF LIABILITY), EVEN IF DIODES HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, 
+* AND DIODES' TOTAL LIABILITY (WHETHER IN CONTRACT, TORT OR OTHERWISE) WITH REGARD TO THE SM 
+* DATA WILL NOT, IN THE AGGREGATE, EXCEED ANY SUMS PAID BY YOU TO DIODES FOR THE SM DATA.
+
+
+*SBR0230T5 Spice Model v1.0 Last Revised 1/12/2016  Diodes Inc SUPER BARRIER RECTIFIER
+ SIMULATOR=SPICE3
+.MODEL DI_SDM02U30LP3 D  ( IS=54.13n RS=378.1m BV=50.00 IBV=10.00
++ CJO=237.7p M=526.0m N=1.032 TT=10.00n EG=480.0m VJ=12.71m )
+
+*                (c)  2015 Diodes Incorporated
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Diodes ").  They  are  supplied
+*   free of charge by Diodes for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved. The models
+*   are believed accurate but  no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Taiwan Inc.7F.,No. 50,Min-Chuan Road,Hsin-Tien District,New Taipei City 23141, Taiwan
+
+
+*SBR02M30LP Spice Model v1.0 Last Revised 1/20/2017  Diodes Inc SUPER BARRIER RECTIFIER
+ SIMULATOR=SPICE3
+.MODEL DI_SBR02M30LP D  ( IS=87.49n RS=387.2m BV=35.00 IBV=1.000m
++ CJO=59.00p M=110.0k N=1.045 TT=20.00n EG=480.0m VJ=1.100 )
+
+*                (c)  2015 Diodes Incorporated
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Diodes ").  They  are  supplied
+*   free of charge by Diodes for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved. The models
+*   are believed accurate but  no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Taiwan Inc.7F.,No. 50,Min-Chuan Road,Hsin-Tien District,New Taipei City 23141, Taiwan
+
+
+.MODEL SBR02U100LP D (
++ IS=37.999E-9
++ N=1.2423
++ RS=1.0042
++ IKF=6.4683E-3
++ CJO=138.07E-12
++ M=1.4985
++ VJ=.79033
++ ISR=7.0384E-12
++ NR=4.9950
++ BV=103
++ IBV=1.0000E-3 
++ XTI=2.67 )
+
+
+*SBR0330CW Spice Model v1.0 Last Revised 9/29/2020  Diodes Inc SUPER BARRIER RECTIFIER
+ SIMULATOR=SPICE3
+.MODEL DI_SBR0330CW D  ( IS=581.5n RS=527.7m BV=34.00 IBV=10.00
++ CJO=180.0p M=610.0m N=1.119 TT=15.00n EG=480.0m VJ=50.00m )
+
+
+*SBR0560S1 Spice Model v1.0 Last Revised 5/24/2022  Diodes Inc SUPER BARRIER RECTIFIER
+ SIMULATOR=SPICE3
+.MODEL DI_SBR0560S1   D  ( IS=2.051u RS=136.4m BV=66.0 IBV=10.00
++ CJO=810.0p M=569.3m N=1.063 TT=7.792n EG=480.0m VJ=35.54m )
+
+
+*SBR10U200P5 Spice Model v1.0 Last Revised 2/24/2015  Diodes Inc SUPER BARRIER RECTIFIER
+ SIMULATOR=SPICE3
+.MODEL DI_SBR10U200P5 D  ( IS=35.49n RS=15.06m BV=220.0 IBV=10.00
++ CJO=1.190n M=412.1m N=1.366 TT=21.70n EG=480.0m VJ=61.27m )
+
+*                (c)  2015 Diodes Incorporated
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Diodes ").  They  are  supplied
+*   free of charge by Diodes for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved. The models
+*   are believed accurate but  no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Taiwan Inc.7F.,No. 50,Min-Chuan Road,Hsin-Tien District,New Taipei City 23141, Taiwan
+
+
+*SRC=SBR10U40CT;DI_SBR10U40CT;Diodes;Si;  40.0V  5.00A  35.0ns   Diodes INC SBR rectifier
+.MODEL DI_SBR10U40CT D  ( IS=6.83m RS=6.69u BV=40.0 IBV=0.100
++ CJO=593p  M=0.333 N=7.19 TT=50.4n )
+
+
+*DIODES_INC_SPICE_MODEL SBR10U45SP5
+*SIMULATOR=SIMETRIX
+*ORIGIN=DZSL_DPG_SU
+*DATE=3/10/2012
+*VERSION=1
+
+
+.MODEL SBR10U45SP5 D( IS=28E-6 RS=10m BV=46.0 IBV=300u N=.97 TT=10n EG=.48 TRS1=4m CJO=12590p M=.8 VJ=.4)
+
+
+*                (c)  2012 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+
+
+*SBR12U120P5 Spice Model v1.0 Last Revised 3/28/2016  Diodes Inc SUPER BARRIER RECTIFIER
+ SIMULATOR=SPICE3
+.MODEL DI_SBR12U120P5 D  ( IS=3.440u RS=40.05m BV=135.0 IBV=10.00
++ CJO=3.462n M=3.523 N=1.047 TT=10.00n EG=480.0m VJ=682.4m )
+
+*                (c)  2015 Diodes Incorporated
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Diodes ").  They  are  supplied
+*   free of charge by Diodes for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved. The models
+*   are believed accurate but  no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*   Diodes Taiwan Inc.7F.,No. 50,Min-Chuan Road,Hsin-Tien District,New Taipei City 23141, Taiwan
+
+
+*SBR12U45LH1 Spice Model v1.0 Last Revised 10/17/2014  Diodes Inc SUPER BARRIER RECTIFIER
+ SIMULATOR=SPICE3
+.MODEL DI_SBR12U45LH1 D  ( IS=29.84u RS=6.504m BV=50.00 IBV=10.00
++ CJO=10.37n M=523.4m N=1.052 TT=34.00n EG=480.0m VJ=32.79m )
+
+*                (c)  2014 Diodes Incorporated
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Diodes ").  They  are  supplied
+*   free of charge by Diodes for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved. The models
+*   are believed accurate but  no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Taiwan Inc.7F.,No. 50,Min-Chuan Road,Hsin-Tien District,New Taipei City 23141, Taiwan
+
+
+*SRC=SBR130S3;SBR130S3;Diodes;Si;  30.0V  1.00A  39.0ns   Diodes 
+.MODEL SBR130S3 D  ( IS=7.30u RS=80.3m BV=30.0 IBV=12.2u
++ CJO=416p  M=0.333 N=1.09 TT=56.2n
+
+
+*SBRT15U50SP5 Spice Model v1.0 Last Revised 10/30/2014  Diodes Inc TRENCH SUPER BARRIER RECTIFIER
+*SIMULATOR=SPICE3
+
+.MODEL DI_SBRT15U50SP5 D  ( IS=74.23u RS=5.775m BV=55.00 IBV=10.00
++ CJO=14.41n M=489.9m N=1.023 TT=49.80n EG=480.0m VJ=20.30m )
+
+*                (c)  2014 Diodes Incorporated
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Diodes ").  They  are  supplied
+*   free of charge by Diodes for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved. The models
+*   are believed accurate but  no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Taiwan Inc.7F.,No. 50,Min-Chuan Road,Hsin-Tien District,New Taipei City 23141, Taiwan
+
+
+*SBR1U150SA Spice Model v1.0 Last Revised 05/07/2014  Diodes Inc SURFACE MOUNT SUPER BARRIER RECTIFIER
+
+.MODEL DI_SBR1U150SA D  ( IS=1.020m RS=1.983u BV=165.00 IBV=10.00
++ CJO=1.164n M=461.9m N=3.651 TT=10.00n EG=480.0m VJ=12.68m )
+
+*                (c)  2014 Diodes Incorporated
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Diodes ").  They  are  supplied
+*   free of charge by Diodes for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved. The models
+*   are believed accurate but  no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Taiwan Inc.7F.,No. 50,Min-Chuan Road,Hsin-Tien District,New Taipei City 23141, Taiwan
+
+
+*TITLE=SBR1U200P1
+*DATE=5/02/2016
+*ORIGIN=DZSL_DPG_SU
+*SIMULATOR=SIMETRIX
+*VERSION=2
+
+
+
+.SUBCKT SBR1U200P1 1 2 
+D1 1 2 Dsch
+D2 1 2 Dpn 
+.MODEL Dsch D(IS=55n RS=1.8 BV=201 IBV=50u CJO=355p M=.41 VJ=.41 N=1.05 ISR=20n IKF=10m TRS1=.001 XTI1=3 TT=50n EG=.6 TIKF=.1)
+.model Dpn D(IS=8p IKF=30m BV=250 N=1 TT=50n EG=1.12 RS=.008 ISR=.1n)
+.ends
+
+
+
+*                (c)  2016 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+*
+
+
+*TITLE=SBR1U400P1
+*DATE=12/03/2012
+*ORIGIN=DZSL_DPG_SU
+*SIMULATOR=SIMETRIX
+*VERSION=1
+
+
+.MODEL SBR1U400P1 D(IS=70n RS=.05 BV=401 IBV=50u CJO=65p M=.41 VJ=.41 N=1.25 ISR=20n IKF=.51m TRS1=0 XTI1=3 TT=85n EG=.75 TIKF=.1)
+
+
+
+*                (c)  2011 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+*
+
+
+*TITLE: SBR1U40LP
+*SIMULATOR=SIMETRIX
+*ORIGIN=DZSL_DPG_SU
+*DATE=27Apr2012
+*VERSION=1
+*PIN 1=Anode 2=Cathode
+
+.SUBCKT SBR1U40LP 1 2
+M1 3 4 5 5 NMOD
+D1 5 3 DMOD
+R1 1 4 1u
+C1 3 5 1p
+R2 1 5 1u
+R3 3 2 1u
+.MODEL NMOD NMOS(LEVEL=3 VTO=.24 TOX=90E-10 NSUB=6E+15 KP=40 NFS=.2E+12 RS=0.3)
+.MODEL DMOD D(IS=5.7E-7 TT=3u N=1.74)
+.ENDS
+
+.SIMULATOR DEFAULT
+
+
+*                (c)  2012 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*SRC=SBR20A200CTB;DI_SBR20A200CTB;Diodes;Si;  200V  20.0A  20.0ns   Diodes INC Schottky rectifier
+.MODEL DI_SBR20A200CTB D  ( IS=4.16m RS=1.34m BV=200 IBV=3.28u
++ CJO=514p  M=0.333 N=3.98 TT=28.8n
+
+
+*SBR20M150D1Q Spice Model v1.0 Last Revised 7/19/2019  Diodes Inc SUPER BARRIER RECTIFIER
+ SIMULATOR=SPICE3
+.MODEL DI_SBR20M150D1Q D  ( IS=11.31u RS=23.20m BV=165.0 IBV=10.00
++ CJO=11.60n M=552.0m N=1.329 TT=24.00n EG=480.0m VJ=13.53m )
+
+*                (c)  2019 Diodes Incorporated
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Diodes ").  They  are  supplied
+*   free of charge by Diodes for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved. The models
+*   are believed accurate but  no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Taiwan Inc.7F.,No. 50,Min-Chuan Road,Hsin-Tien District,New Taipei City 23141, Taiwan
+
+
+*SRC=SBR20U150CT;DI_SBR20U150CT;Diodes;Si;  150V  20.0A  30.0ns   Diodes Inc. SBR/ SKY
+.MODEL DI_SBR20U150CT D  ( IS=3.25m RS=2.57m BV=150 IBV=500u
++ CJO=11.3n  M=0.333 N=3.28 TT=43.2n )
+
+
+*SRC=SBR20U150CTFP;DI_SBR20U150CTFP;Diodes;Si;  150V  20.0A  30.0ns   Diodes Inc. SBR/ SKY
+.MODEL DI_SBR20U150CTFP D  ( IS=3.25m RS=2.57m BV=150 IBV=500u
++ CJO=11.3n  M=0.333 N=3.28 TT=43.2n )
+
+
+*SRC=SBR2A30P1;DI_SBR2A30P1;Diodes;Si;  30.0V  2.00A  12.0ns   Diodes INC Schottky rectifier
+.MODEL DI_SBR2A30P1 D  ( IS=78.9u RS=29.8m BV=30.0 IBV=60.0u
++ CJO=806p  M=0.333 N=1.25 TT=17.3n)
+
+
+*SRC=SBR2A40P1;DI_SBR2A40P1;Diodes;Si;  40.0V  2.00A  12.0ns   Diodes INC Schottky rectifier
+.MODEL DI_SBR2A40P1 D  ( IS=17.0u RS=28.8m BV=40.0 IBV=15.9u
++ CJO=705p  M=0.333 N=1.17 TT=17.3n)
+
+
+*SRC=SBR2M30P1;DI_SBR2M30P1;Diodes;Si;  30.0V  2.00A  12.0ns   Diodes INC Schottky rectifier
+.MODEL DI_SBR2M30P1 D  ( IS=17.0u RS=28.8m BV=30.0 IBV=20.0u
++ CJO=865p  M=0.333 N=1.17 TT=17.3n)
+
+
+*SBR2M60S1F Spice Model v1.0 Last Revised 7/18/2022  Diodes Inc SUPER BARRIER RECTIFIER
+ SIMULATOR=SPICE3
+.MODEL DI_SBR2M60S1F   D  ( IS=122.1n RS=66.59m BV=66.0 IBV=10.00
++ CJO=1.674n M=463.4m N=1.075 TT=12.00n EG=480.0m VJ=13.64m )
+
+
+*SBR2U100LP Spice Model v1.0 Last Revised 3/22/2018  Diodes Inc SUPER BARRIER RECTIFIER
+ SIMULATOR=SPICE3
+.MODEL DI_SBR2U100LP D  ( IS=2.009u RS=46.88m BV=111.00 IBV=10.00
++ CJO=723.7p M=638.1m N=1.587 TT=21.8n EG=480.0m VJ=52.26m )
+
+*                (c)  2018 Diodes Incorporated
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Diodes ").  They  are  supplied
+*   free of charge by Diodes for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved. The models
+*   are believed accurate but  no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Taiwan Inc.7F.,No. 50,Min-Chuan Road,Hsin-Tien District,New Taipei City 23141, Taiwan
+
+
+*TITLE: SBR2U150SA
+*SIMULATOR=SIMETRIX
+*ORIGIN=DZSL_DPG_SU
+*DATE=16Dec2014
+*VERSION=1
+
+
+.SUBCKT SBR2U150SA 1 2 
+
+D1 1 2 Dsch
+D2 1 2 Dpn 
+.MODEL Dsch D ( IS=4u RS=.3 BV=160.0 IBV=150.0u CJO=951p  M=0.333 N=1.145 TT=17.3n EG=.5 TRS1=3m NBV=10 IKF=200m)
+.model Dpn D(IS=2p IKF=20000m BV=160 TT=50n EG=1.12 RS=.02 ISR=1n)
+.ENDS
+
+
+
+*                (c)  2014 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*TITLE: SBR2U30P1
+*SIMULATOR=SIMETRIX
+*ORIGIN=DZSL_DPG_SU
+*DATE=31Jan2012
+*VERSION=2
+*PIN 1=Anode 2=Cathode
+
+
+.MODEL SBR2U30P1 D( IS=60u RS=25m BV=32.0 IBV=150.0u CJO=951p  M=0.333 N=1.14 TT=17.3n EG=.5 TRS1=3m NBV=10)
+
+
+*                (c)  2011 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+*
+
+
+*SBR2U60S1F Spice Model v1.0 Last Revised 6/26/2017  Diodes Inc SUPER BARRIER RECTIFIER
+ SIMULATOR=SPICE3
+.MODEL DI_SBR2U60S1F D  ( IS=12.49u RS=58.29m BV=62.00 IBV=10.00
++ CJO=1.727n M=2.037 N=1.060 TT=1.82n EG=480.0m VJ=357.3m )
+
+*                (c)  2017 Diodes Incorporated
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Diodes ").  They  are  supplied
+*   free of charge by Diodes for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved. The models
+*   are believed accurate but  no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Taiwan Inc.7F.,No. 50,Min-Chuan Road,Hsin-Tien District,New Taipei City 23141, Taiwan
+
+
+*SRC=SBR3045CT;DI_SBR3045CT;Diodes;Si;  45.0V  30.0A  35.2ns   Diodes Inc. SBR/ SKY
+.MODEL DI_SBR3045CT D  ( IS=2.03m RS=2.30m BV=45.0 IBV=500u
++ CJO=1.87n  M=0.333 N=1.66 TT=50.7n )
+
+
+*SRC=SBR30A45CT;DI_SBR30A45CT;Diodes;Si;  45.0V  30.0A  35.2ns   Diodes Inc. SBR/ SKY
+.MODEL DI_SBR30A45CT D  ( IS=120u RS=1.66m BV=45.0 IBV=500u
++ CJO=1.87n  M=0.333 N=1.18 TT=50.7n )
+
+
+*SRC=SBR30U30CT;DI_SBR30U30CT;Diodes;Si;  20.0V  30.0A  35.0ns   Diodes INC Schottky rectifier
+.MODEL DI_SBR30U30CT D  ( IS=580u RS=3.06m BV=20.0 IBV=230u
++ CJO=997p  M=0.333 N=1.35 TT=50.4n
+
+
+*TITLE: SBR3150SB
+*SIMULATOR=SIMETRIX
+*ORIGIN=DZSL_DPG_SU
+*DATE=16Dec2014
+*VERSION=1
+
+
+.SUBCKT SBR3150SB 1 2 
+D1 1 2 Dsch
+D2 1 2 Dpn 
+.MODEL Dsch D ( IS=11u RS=.22 BV=160.0 IBV=150.0u CJO=951p  M=0.333 N=1.145 TT=17.3n EG=.47 TRS1=2m NBV=10 IKF=120m)
+.model Dpn D(IS=2p IKF=100 BV=160 TT=50n EG=1.1 RS=.011 ISR=1n)
+.ENDS
+
+
+
+
+*                (c)  2014 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*SRC=SBR3A40SA;DI_SBR3A40SA;Diodes;Si;  40.0V  3.00A  12.0ns   Diodes Inc. SBR/ SKY
+.MODEL DI_SBR3A40SA D  ( IS=165u RS=18.5m BV=40.0 IBV=400u
++ CJO=57.0p  M=0.333 N=1.26 TT=17.3n )
+
+
+*SRC=SBR3M30P1;DI_SBR3M30P1;Diodes;Si;  30.0V  3.00A  12.0ns   Diodes INC Schottky rectifier
+.MODEL DI_SBR3M30P1 D  ( IS=11.4u RS=10.6m BV=30.0 IBV=19.0u
++ CJO=865p  M=0.333 N=1.13 TT=17.3n)
+
+
+*SRC=SBR3U100LP;DI_SBR3U100LP;Diodes;Si;  100V  3.00A  12.9ns   Diodes Inc. SBR/ SKY
+.MODEL DI_SBR3U100LP D  ( IS=8.73n RS=34.4m BV=100 IBV=16.0u
++ CJO=141p  M=0.333 N=0.700 TT=18.6n )
+
+
+*SRC=SBR3U150LP;DI_SBR3U150LP;Diodes;Si;  150V  3.00A  11.5ns   Diodes Inc. SBR/ SKY
+.MODEL DI_SBR3U150LP D  ( IS=311u RS=22.4m BV=150 IBV=600n
++ CJO=178p  M=0.333 N=2.78 TT=16.6n )
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG
+*SIMULATOR=PSPICE
+*DATE=02/07/2009
+*VERSION=3
+*PIN_ORDER   anode cathode
+*
+.SUBCKT SBR3U20SA 1 2
+D1 1 3 Dmod
+R1 3 2 95
+L1 3 2 1.8E-9
+.MODEL Dmod D (IS=8E-5 N=1.1 ISR=5E-8 NR=1.0 BV=21 IBV=1E-3 NBV=5
++ IBVL=2E-6 NBVL=500 RS=0.015 CJO=3500E-12 VJ=0.38 M=0.7 EG=0.5 XTI=2
++ TRS1=0.003 TT=3e-9)
+.ENDS
+*
+*$
+
+
+*SRC=SBR3U30P1;DI_SBR3U30P1;Diodes;Si;  30.0V  3.00A  12.0ns   Diodes INC Schottky rectifier
+.MODEL DI_SBR3U30P1 D  ( IS=1.14m RS=11.7m BV=30.0 IBV=146u
++ CJO=951p  M=0.333 N=1.71 TT=17.3n)
+
+
+*TITLE: SBR3U40P1
+*SIMULATOR=SIMETRIX
+*ORIGIN=DZSL_DPG_SU
+*DATE=1May2012
+*VERSION=1
+
+
+.MODEL SBR3U40P1 D( IS=20E-6 RS=35m BV=41.0 IBV=70u N=1 TT=10n EG=.53 TRS1=5m CJO=500p M=.6 VJ=.4)
+
+
+
+*                (c)  2012 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*SBR3U60P1 Spice Model v1.0 Last Revised 04/29/2014  Diodes Inc SUPER BARRIER RECTIFIER
+
+.MODEL DI_SBR3U60P1 D  ( IS=1.638u RS=62.49m BV=66.00 IBV=10.00
++ CJO=1.853n M=761.6m N=1.048 TT=10.00n EG=480.0m VJ=173.8m )
+
+*                (c)  2014 Diodes Incorporated
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Diodes ").  They  are  supplied
+*   free of charge by Diodes for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved. The models
+*   are believed accurate but  no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Taiwan Inc.7F.,No. 50,Min-Chuan Road,Hsin-Tien District,New Taipei City 23141, Taiwan
+
+
+*SBR40U300CTB Spice Model v1.0 Last Revised 12/17/2014  Diodes Inc SUPER BARRIER RECTIFIER
+ SIMULATOR=SPICE3
+.MODEL DI_SBR40U300CTB D  ( IS=233.1n RS=16.34m BV=330.0 IBV=10.00
++ CJO=1.055n M=487.5m N=1.424 TT=33.00n EG=480.0m VJ=504.9m )
+
+*                (c)  2014 Diodes Incorporated
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Diodes ").  They  are  supplied
+*   free of charge by Diodes for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved. The models
+*   are believed accurate but  no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Taiwan Inc.7F.,No. 50,Min-Chuan Road,Hsin-Tien District,New Taipei City 23141, Taiwan
+
+
+*SRC=SBR40U45CT;DI_SBR40U45CT;Diodes;Si;  45.0V  40.0A  74.0ns   Diodes INC Schottky rectifier
+.MODEL DI_SBR40U45CT D  ( IS=30.5m RS=1.77m BV=45.0 IBV=250u
++ CJO=8.18n  M=0.333 N=2.24 TT=107n
+
+
+.MODEL SBR4U130LP D (
++ IS=15.568E-6
++ N=1.031
++ RS=20e-3
++ IKF=257.62E-6
++ CJO=5.0982E-9
++ M=1.0812
++ VJ=68.681E-3
++ ISR=38.247E-9
++ NR=4.9950
++ BV=130.27
++ IBV=100.00E-6
++ XTI=2.89 )
+
+
+*SBR545SAFQ-13 Spice Model v1.0 Last Revised 11/14/2022  Diodes Inc SUPER BARRIER RECTIFIER
+ SIMULATOR=SPICE3
+.MODEL DI_SBR545SAFQ-13 D  ( IS=15.81u RS=24.82m BV=60.0 IBV=10.00
++ CJO=3.030n M=542.8m N=1.108 TT=14.88n EG=480.0m VJ=33.17m )
+
+*                (c)  2019 Diodes Incorporated
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Diodes ").  They  are  supplied
+*   free of charge by Diodes for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved. The models
+*   are believed accurate but  no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Taiwan Inc.7F.,No. 50,Min-Chuan Road,Hsin-Tien District,New Taipei City 23141, Taiwan
+
+
+*SBR60A300CT Spice Model v1.0 Last Revised 12/17/2014  Diodes Inc SUPER BARRIER RECTIFIER
+ SIMULATOR=SPICE3
+.MODEL DI_SBR60A300CT D  ( IS=3.829u RS=25.27m BV=330.0 IBV=10.00
++ CJO=1.006n M=557.8m N=1.413 TT=25.00n EG=480.0m VJ=826.8m )
+
+*                (c)  2014 Diodes Incorporated
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Diodes ").  They  are  supplied
+*   free of charge by Diodes for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved. The models
+*   are believed accurate but  no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Taiwan Inc.7F.,No. 50,Min-Chuan Road,Hsin-Tien District,New Taipei City 23141, Taiwan
+
+
+*SRC=SBR60A60CT;DI_SBR60A60CT;Diodes;Si;  60.0V  60.0A  68.0ns   Diodes INC Schottky rectifier
+.MODEL DI_SBR60A60CT D  ( IS=1.44m RS=1.34m BV=60.0 IBV=70.0u
++ CJO=7.24n  M=0.333 N=1.72 TT=97.9n )
+
+
+*SBR6100CTLQ Spice Model v1.0 Last Revised 7/20/2022  Diodes Inc SUPER BARRIER RECTIFIER
+ SIMULATOR=SPICE3
+.MODEL DI_SBR6100CTLQ   D  ( IS=388.8n RS=35.91m BV=110.0 IBV=10.00
++ CJO=2.366n M=532.4m N=1.117 TT=12.00n EG=480.0m VJ=19.00m)
+
+
+*SRC=SBR8U60P5;;Diodes;Si;  60.0V  8.00A  25.0ns   Diodes INC SBR rectifier
+.MODEL  D  ( IS=75.3u RS=20.1m BV=60.0 IBV=600u
++ CJO=13.3n  M=0.333 N=1.10 TT=36.0n )

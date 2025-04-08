@@ -396,6 +396,35 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "c131d68b-62f5-4c45-b130-1d10920b3403",
+      "Root"
+    ],
+    [
+      "46bb8653-ab5b-473e-ae4c-0621c199f7c3",
+      "PSU"
+    ],
+    [
+      "b685e560-a45a-4313-8d29-a96968b46a78",
+      "local_oscillators"
+    ],
+    [
+      "700ef356-58e4-451b-8a1e-602f846f9fb2",
+      "amplifiers"
+    ],
+    [
+      "0d3fdb9f-aa64-4253-817d-8c2e1f2492e7",
+      "mixers"
+    ],
+    [
+      "6e7b8894-4d10-41c8-ba35-622d365fe2df",
+      "APC"
+    ],
+    [
+      "0e1314fc-8bce-4819-a5af-1738951867e1",
+      "YIG_current_regulators"
+    ]
+  ],
   "text_variables": {}
 }

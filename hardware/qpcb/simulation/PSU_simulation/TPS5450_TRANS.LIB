@@ -1,0 +1,361 @@
+*$
+*TPS5450
+*****************************************************************************
+* (C) Copyright 2012 Texas Instruments Incorporated. All rights reserved.
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an "as is" basis.  The entire risk as to its quality
+** and performance is with the customer
+*****************************************************************************
+*
+* This model is subject to change without notice. Texas Instruments
+* Incorporated is not responsible for updating this model.
+*
+*****************************************************************************
+*
+** Released by: WEBENCH Design Center, Texas Instruments Inc.
+* Part: TPS5450
+* Date: 13SEP2012
+* Model Type: TRANSIENT
+* Simulator: PSPICE
+* Simulator Version: 16.2.0.p001
+* EVM Order Number: TPS5450EVM-254
+* EVM Users Guide: SLVU211-April 2007
+* Datasheet: SLVS757-MARCH 2007
+*
+* Model Version: Final 1.00
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Final 1.00
+* Release to Web.
+*
+*****************************************************************************
+.SUBCKT TPS5450_TRANS VIN NC NC1 ENA PH Boot VSENSE GND
+V5          VCC 0 5
+V7          13 GND 5
+Vvalley     14 GND 556M
+Vsaw        ramp 14 DC 0 AC 1 0
++ PWL
++      REPEAT FOREVER ( 0, 0 )
++       (+1.999U 450M)
++       (+0 450M)
++       (+1N 0)
++       (+0 0)
++       (+0 0)
++       (+0 0)
++      ENDREPEAT
+IS4         GND 28 1.221M
+VIphase     35 12 ; AmperMeter
+V6          37 GND 1.221
+V2          41 GND 500M
+IS1         VIN ENA 5U
+V4          Boot1 7 8
+V3          VIN 40 5.135
+V1          22 GND 3.3
+D2          7 VIN  D_1N4001_1
+XU1         8 9 D_D_0
+C4          8 0 10P IC=0
+R9          9 8 2.8k
+********changed from 8.5k*******
+ECS1        9 0 VALUE = {IF(V(10,0)>7.5,5,0)}
+SW6         PH GND J1 GND  S_VSWITCH_1
+SW5         12 PH J1 GND  S_VSWITCH_2
+R4          J-ramp ramp 1
+XU26        16 17 D_D_0
+C6          17 0 10P IC=0
+R8          16 17 18.8K
+********changed from 11.2k*******
+*U25         OR(2) VCC 0  17 18 19  U_SN7432_1 IO_STD
+X_25         17 18 19 OR2_BASIC_GEN PARAMS: VDD=5
++  VSS=0 VTHRESH=2.5
+*U24         AND(2) VCC 0  20 18 16  U_SN7408_1 IO_STD
+X_24          20 18 16 AND2_BASIC_GEN PARAMS:
++  VDD=5 VSS=0 VTHRESH=2.5
+*XU21        18 20 0 VCC IC_7404_0
+XU21         18 20 INV_DELAY_BASIC_GEN PARAMS: VDD=5 VSS=0 VTHRESH=2.5 DELAY = 10n
+XOP1        ref_out ea1 22 GND 23 STDOPAMP_0
++ PARAMS: GAIN=206.538K RIN=20MEG ROUT=1 SLEWRATE=1.5MEG FPOLE1=14.96
++ FPOLE2=10MEG VOFFS=0 IBIAS=0 IOFFS=0 VDROPOH=0 VDROPOL=0
+*U14         AND(2) VCC 0  24 cycle_current_limit 18  U_SN74S08_1 IO_S
+X_14         24 cycle_current_limit 18 AND2_BASIC_GEN PARAMS:
++  VDD=5 VSS=0 VTHRESH=2.5
+XU18        26 27 13 GND J1 VCVS-3FB_0
+D4          GND 28  D_1N4001_1
+SW4         28 GND J1 GND  S_VSWITCH_3
+R6          0 29 1K
+XU17        23 30 24 0 VCVS-2FB_0
+*U10         NAND(2) VCC 0  9 8 31  U_SN74S00_1 IO_S
+X_10          9 8 31 NAND2_BASIC_GEN PARAMS: VDD=5 VSS=0 VTHRESH=2.5
+*******
+*U12         DFF(1) VCC 0
+*+       31 32 VCC VCC 33 29  U_SN74S74_1 IO_S
+X_12     31 32 VCC VCC 33 29 DFFSBRB_RHPBASIC_GEN PARAMS: VDD=5 VSS=0 VTHRESH=2.5
+R7          0 34 1K
+XU19        J-ramp GND 32 GND VCVS-2FB_1
+*U16         DFF(1) VCC 0
+*+       VCC 32 33 32 34 cycle_current_limit  U_SN74S74_1 IO_S
+X_16 VCC 32 33 32 34 cycle_current_limit DFFSBRB_RHPBASIC_GEN PARAMS:VDD=5 VSS=0
++VTHRESH=2.5
+
+VCCV1_in    7 35
+HCCV1       10 0 VCCV1_in    1
+D1          ENA VIN  D_1N4001_1
+XU8         28 37 ref_out GND VCVS-2FB_2
+R5          Boot1 Boot 50
+SW3         J-ramp GND J1 GND  S_VSWITCH_4
+XU6         40 GND 26 GND HYSTCOMP_0
++ PARAMS: Vthres=0 Vhyst=165M VoutH=10 VoutL=-10
+XU3         ENA 41 27 GND VCVS-2FB_3
+R10         26 GND 1K
+C5          28 GND 8U IC=0
+XU5         J1 J-ramp 44 GND VCVS-2FB_4
+SW1         VIN 7 19 0  S_VSWITCH_5
+XU2         44 GND VIN GND 30 VCVS-3FB_1
+C3          ea1 23 1P IC=0
+R3          45 23 3.27MEG
+C2          ea1 45 30P IC=0
+R2          VSENSE ea1 2.75MEG
+C1          46 ea1 20P IC=0
+R1          VSENSE 46 260K
+.MODEL D_1N4001_1 D( IS=403P N=1.57 BV=50 IBV=10U RS=43.2M
++      CJO=52.8P VJ=300M M=272M FC=500M TT=5.05U
++      EG=1.11 XTI=3 KF=0 AF=1 )
+
+.MODEL S_VSWITCH_1 VSWITCH (RON=800M ROFF=1G VON=499M VOFF=500M)
+.MODEL S_VSWITCH_2 VSWITCH (RON=1G ROFF=1U VON=499M VOFF=500M)
+.MODEL S_VSWITCH_3 VSWITCH (RON=1M ROFF=1G VON=200M VOFF=300M)
+.MODEL S_VSWITCH_4 VSWITCH (RON=1M ROFF=1G VON=200M VOFF=300M)
+.MODEL S_VSWITCH_5 VSWITCH (RON=110M ROFF=10MEG VON=2.5 VOFF=0)
+.ENDS TPS5450_TRANS
+*$
+.SUBCKT D_D_0  1 2
+D1 1 2 DD
+.MODEL DD D
++ IS=1E-015
++ N=0.01
++ TT=1E-011
+.ENDS
+
+*$
+* STANDARD OPERATIONAL AMPLIFIER MACROMODEL SUBCIRCUIT
+.SUBCKT STDOPAMP_0  INP INM VP VM OUT
++ PARAMS: GAIN=200K RIN=2MEG RINC=1E9 ROUT=75 SLEWRATE=500K FPOLE1=5 FPOLE2=1MEG
++         VDROPOH=1.9 VDROPOL=1.9 VOFFS=1M IBIAS=80N IOFFS=20N
+*
+.PARAM VOSW = 15
+.PARAM PI = 3.141592
+.PARAM IS = 8.0E-16
+.PARAM VT = 0.02585
+.PARAM C1 = {VOSW/ROUT/SLEWRATE}
+.PARAM IMAX = {C1*SLEWRATE}
+.PARAM R1 = {1/(2*PI*C1*FPOLE1)}
+.PARAM GM1 = {GAIN/R1}
+.PARAM R2 = 100
+.PARAM G2 = {1/R2}
+.PARAM GOUT = {1/ROUT}
+.PARAM C2 = {1/(2*PI*R2*FPOLE2)}
+.PARAM VDF = {VT*LOG(1 + IMAX/IS)}
+*
+IBIASM      INM 0  {IBIAS - IOFFS}
+RINM      INM  8  {2*RINC}
+RINP      INP  8  {2*RINC}
+IBIAS       10 0   {IBIAS}
+VOFFS       10 INP  {VOFFS}
+EVP VPI 0 VP 0 1
+EVM VMI 0 VM 0 1
+VC          VPI 11  {VDROPOH + VDF}
+VE          12 VMI  {VDROPOL + VDF}
+D1          VM VP  D_1
+RP          VP VM  15E3
+ROUT        OUT 8  {ROUT}
+GMO         8 OUT VALUE =  {V(9,8)*GOUT}
+C2          9 8  {C2}
+R2          9 8  {R2}
+GM2         8 9  VALUE =  {V(7,8)*G2}
+RIN         INM 10  {RIN}
+EGND        8  0  POLY(2) (VP,0) (VM,0) 0 .5 .5
+D3         12 7  D_1
+D2          7 11  D_1
+C1          7 8  {C1}
+R1          7 8  {R1}
+GM1         8 7 VALUE = { LIMIT( GM1*V(10,INM), -IMAX, IMAX) }
+.MODEL D_1 D( IS={IS} RS=10M )
+.ENDS
+*$
+
+.SUBCKT VCVS-3FB_0  IN1 IN2 IN3 GND OUT
+
+EB3 OUT GND VALUE= {  IF ( (V(IN1,GND) > 0 & V(IN2,GND) >4.57 & V(IN3,GND) >4.8) ,1 , 0 ) }
+.ENDS
+
+*$
+.SUBCKT VCVS-2FB_0  IN1 IN2 OUT GND
+EB3 3 GND VALUE= { IF (V(IN1) > V(IN2), 5 , 0 )  }
+R 3 OUT 100
+C OUT GND 20P
+.ENDS
+
+*$
+.SUBCKT VCVS-2FB_1  IN1 IN2 OUT GND
+
+*90% OF THE CYCLE (+/-0.45)
+EB3 3 GND VALUE= {  IF ( (V(IN1,GND) < 0.95) , 5 , 0 ) }
+R 3 OUT 1
+C OUT GND 1N
+.ENDS
+
+*$
+.SUBCKT VCVS-2FB_2  IN1 IN2 OUT GND
+
+EB3 OUT GND VALUE= {  IF ( (V(IN1) <V(IN2) ) , V(IN1,GND) , V(IN2,GND)) }
+
+.ENDS
+*$
+
+.SUBCKT HYSTCOMP_0  IN+ IN- OUT GND
++ PARAMS: VTHRES=0 VHYST=1 VOUTH=5 VOUTL=0 ROUT=1 TDEL=1N
+*
+.PARAM VOUTM={(VOUTH-VOUTL)/2}
+.PARAM VTHH={VTHRES+VHYST}
+.PARAM VTHL={VTHRES-VHYST}
+.PARAM COUT={TDEL/0.693}
+*
+E1 THR GND VALUE= { IF ( V(OUT,GND) < {VOUTM}, {VTHH}, {VTHL}) }
+E2 2 GND VALUE= { IF ( V(IN+,IN-) > V(THR,GND), VOUTH , VOUTL ) }
+R1 2 OUT {ROUT}
+C1 OUT GND {COUT}
+.ENDS
+*$
+
+.SUBCKT VCVS-2FB_3  IN1 IN2 OUT GND
+
+EB3 OUT GND VALUE= {  IF ( (V(IN1) > V(IN2)) ,5 , 0 ) }
+
+.ENDS
+*$
+
+.SUBCKT VCVS-2FB_4  IN1 IN2 OUT GND
+
+EB3 OUT GND VALUE= {  IF ( (V(IN1,GND) > 0.5) , V(IN2,GND) , 0 ) }
+
+.ENDS
+
+*$
+.SUBCKT VCVS-3FB_1  IN1 IN2 IN3 GND OUT
+
+EB3 OUT GND VALUE= { (V(IN1)-V(IN2))* V(IN3,GND)/(25)+(0.3) }
+
+.ENDS
+
+*$
+
+.SUBCKT B540C IN OUT
+D1 IN OUT B540C
+.MODEL B540C D (IS=1.5672E-06 RS=21M N=1.01 IBV=100U
++ CJO=899P M=0.458 BV=50 TT=0 )
+.ENDS B540C
+*$
+*.SUBCKT IC_7404_0 1G 1A GND VCC
+*UNoname     INV VCC GND  1G 1A  U_SN7404_1 IO_STD
+*.MODEL U_SN7404_1 UGATE( TPLHTY=10N TPHLTY=10N )
+*.ENDS
+
+*$
+.SUBCKT INV_BASIC_GEN A  Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH} ,
++ {VSS},{VDD})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS INV_BASIC_GEN
+*$
+.SUBCKT OR2_BASIC_GEN A B Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH}  |
++ V(B) > {VTHRESH},{VDD},{VSS})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS OR2_BASIC_GEN
+*$
+.SUBCKT AND2_BASIC_GEN A B Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH}  &
++ V(B) > {VTHRESH},{VDD},{VSS})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS AND2_BASIC_GEN
+*$
+.SUBCKT NAND2_BASIC_GEN A B Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH}  &
++ V(B) > {VTHRESH},{VSS},{VDD})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS NAND2_BASIC_GEN
+*$
+.SUBCKT DFFSBRB_RHPBASIC_GEN SB RB CLK D  Q QB PARAMS: VDD=1 VSS=0 VTHRESH=0.5
+***Set has higher priority in this
+** Changed the delay from 7n/10n to 15n/20n to help larger time step simulations
+**Faster flip-flops require a a smaller time step to simulate
+X1 CLK CLKdel INV_DELAY_BASIC_GEN PARAMS: VDD={VDD} VSS={VSS} VTHRESH={VTHRESH} DELAY = 9n
+X2 CLK CLKdel CLKint AND2_BASIC_GEN PARAMS: VDD={VDD} VSS={VSS} VTHRESH={VTHRESH}
+GQ 0 Qint VALUE = {IF(V(RB) < {VTHRESH},-5,IF(V(SB)< {VTHRESH},5, IF(V(CLKint)> {VTHRESH},
++ IF(V(D)> {VTHRESH},5,-5),0)))}
+CQint Qint 0 1n
+RQint Qint 0 1000MEG
+D_D10 Qint MY5 D_D1
+V1 MY5 0 5
+D_D11 0 Qint D_D1
+EQ Qqq 0 Qint 0 1
+X3 Qqq Qqqd1 BUF_DELAY_BASIC_GEN PARAMS: VDD={VDD} VSS={VSS} VTHRESH={VTHRESH} DELAY = 9n
+*******************
+RQq Qqqd1 Q 260.38
+D_Qq Qqqd1 Q d_d1
+****************
+EQb Qbr 0 VALUE = {IF( V(Q) > {VTHRESH}, {VSS},{VDD})}
+RQb Qbr Qb 1
+Cdummy1 Q 0 1nF
+Cdummy2 QB 0 1nF
+.IC V(Qint) {VSS}
+.model d_d1 d
++ is=1e-015
++ n=0.0001
++ tt=1e-011
+.ENDS DFFSBRB_RHPBASIC_GEN
+*$
+.SUBCKT BUF_DELAY_BASIC_GEN A  Y PARAMS: VDD=5 VSS=0 VTHRESH=2.5 DELAY = 10n
+E_ABMGATE1    YINT1 0 VALUE {{IF(V(A) > {VTHRESH} ,
++ {VDD},{VSS})}}
+RINT YINT1 YINT2 1
+CINT YINT2 0 {DELAY*1.3}
+E_ABMGATE2    YINT3 0 VALUE {{IF(V(YINT2) > {VTHRESH} ,
++ {VDD},{VSS})}}
+RINT2 YINT3 Y 1
+CINT2 Y 0 1n
+.ENDS BUF_DELAY_BASIC_GEN
+*$
+.SUBCKT INV_DELAY_BASIC_GEN A  Y PARAMS: VDD=5 VSS=0 VTHRESH=2.5 DELAY = 10n
+E_ABMGATE1    YINT1 0 VALUE {{IF(V(A) > {VTHRESH} ,
++ {VDD},{VSS})}}
+RINT YINT1 YINT2 1
+CINT YINT2 0 {DELAY*1.3}
+E_ABMGATE2    YINT3 0 VALUE {{IF(V(YINT2) > {VTHRESH} ,
++ {VSS},{VDD})}}
+RINT2 YINT3 Y 1
+CINT2 Y 0 1n
+.ENDS INV_DELAY_BASIC_GEN
+*$
+.SUBCKT LDCR IN OUT
++ PARAMs:  L=1u DCR=0.01 IC=0
+L	IN 1  {L} IC={IC}
+RDCR	1 OUT {DCR}
+.ENDS LDCR
+*$
+.SUBCKT CESR IN OUT
++ PARAMs:  C=100u ESR=0.01 X=2 IC=0
+C	IN 1  {C*X} IC={IC}
+RESR	1 OUT {ESR/X}
+.ENDS CESR
+*$

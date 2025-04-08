@@ -1,0 +1,23 @@
+Circuit: * C:\Users\leona\Desktop\qpcb\hardware\qpcb\simulation\lt3083_LDO_regulator\lt3083_dc1585a.asc
+
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:1)
+
+Date: Tue Apr 08 13:17:19 2025
+Total elapsed time: 0.061 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2194
+traniter = 2178
+tranpoints = 1076
+accept = 1066
+rejected = 10
+matrix size = 8
+fillins = 2
+solver = Normal
+Matrix Compiler1: 786 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 858 bytes object code size  0.2/0.2/[0.1]
+

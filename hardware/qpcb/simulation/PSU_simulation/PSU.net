@@ -1,0 +1,24 @@
+* C:\Users\leona\Desktop\qpcb\hardware\qpcb\simulation\PSU_simulation\PSU.asc
+XU1 MP_01 N004 6V 7V5 7V5 LT3083
+C1 7V5 0 10µ
+C4 6V 0 10µ
+R1 N004 0 120k
+C5 N004 0 0.1µ
+V1 24V 0 V
+R7 6V 0 6k
+XU3 24V 0 0 24V N001 N002 N003 0 TPS5450_TRANS
+C2 24V 0 22µ
+C3 N002 N001 10n
+L2 N001 7V5 15µ
+R2 7V5 N003 10k
+R5 N003 0 1k96
+C6 7V5 0 220µ
+D2 0 N001 B540C
+.model D D
+.lib C:\Users\leona\Documents\LTspiceXVII\lib\cmp\standard.dio
+* *SBR10U200P5 Spice Model v1.0 Last Revised 2/24/2015  Diodes Inc SUPER BARRIER RECTIFIER\n SIMULATOR=SPICE3\n.MODEL DI_SBR10U200P5 D  ( IS=35.49n RS=15.06m BV=220.0 IBV=10.00\n+ CJO=1.190n M=412.1m N=1.366 TT=21.70n EG=480.0m VJ=61.27m )
+.tran 0 100u 0 0.1u uic
+.lib C:\Users\leona\Desktop\qpcb\hardware\qpcb\simulation\PSU_simulation\TPS5450_TRANS.LIB
+.lib LT3083.sub
+.backanno
+.end
