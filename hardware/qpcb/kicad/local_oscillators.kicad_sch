@@ -5,6 +5,108 @@
 	(uuid "0abdff53-e632-46c4-81fe-7359c14971f7")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1215,7 +1317,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 142.24) (xy 223.52 142.24)
+			(xy 209.55 129.54) (xy 223.52 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1225,7 +1327,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 52.07) (xy 63.5 60.96)
+			(xy 63.5 48.26) (xy 63.5 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1255,7 +1357,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 148.59) (xy 223.52 148.59)
+			(xy 209.55 135.89) (xy 223.52 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1295,7 +1397,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 137.16) (xy 223.52 137.16)
+			(xy 209.55 124.46) (xy 223.52 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1435,17 +1537,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 130.81) (xy 223.52 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80235b5c-53d7-4599-bded-98d874e2e7d7")
-	)
-	(wire
-		(pts
-			(xy 64.77 133.35) (xy 64.77 142.24)
+			(xy 64.77 130.81) (xy 64.77 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1475,17 +1567,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 124.46) (xy 223.52 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a686851b-77bc-4614-a113-14f5735eeff5")
-	)
-	(wire
-		(pts
-			(xy 209.55 154.94) (xy 223.52 154.94)
+			(xy 209.55 142.24) (xy 223.52 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1785,17 +1867,6 @@
 		)
 		(uuid "1b9de35e-77e4-48f7-9bbe-ea6324af35c1")
 	)
-	(label "MUXOUT_1"
-		(at 209.55 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "216228cc-5ace-429b-91b7-239082b91a85")
-	)
 	(label "3V3_A"
 		(at 232.41 53.34 0)
 		(fields_autoplaced yes)
@@ -1884,8 +1955,8 @@
 		)
 		(uuid "68885c45-2294-4e73-8aa0-f5889b356c5d")
 	)
-	(label "LE2"
-		(at 209.55 154.94 0)
+	(label "LE_2"
+		(at 209.55 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1895,8 +1966,8 @@
 		)
 		(uuid "6d7c850c-c3e7-4c0d-a764-a03648275259")
 	)
-	(label "LE1"
-		(at 209.55 148.59 0)
+	(label "LE_1"
+		(at 209.55 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1927,17 +1998,6 @@
 			(justify left bottom)
 		)
 		(uuid "8188caef-c942-48e2-acfd-6a44c15b95d2")
-	)
-	(label "MUXOUT_2"
-		(at 209.55 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "852e2661-8d81-427e-a926-fb8de6c52fd1")
 	)
 	(label "3V3_A"
 		(at 38.1 142.24 0)
@@ -2017,7 +2077,7 @@
 		(uuid "f6a4cb3b-1464-436e-9a37-f0fb28ed972f")
 	)
 	(label "CLK"
-		(at 209.55 137.16 0)
+		(at 209.55 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2050,7 +2110,7 @@
 		(uuid "fa63c574-5117-4b89-94af-3241093f2bdd")
 	)
 	(label "DATA"
-		(at 209.55 142.24 0)
+		(at 209.55 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2062,7 +2122,7 @@
 	)
 	(hierarchical_label "LO2_LE"
 		(shape input)
-		(at 223.52 154.94 0)
+		(at 223.52 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2084,30 +2144,6 @@
 		)
 		(uuid "2ad8f37b-c95b-43dc-9c2d-b7329ff765d6")
 	)
-	(hierarchical_label "MUXOUT_2"
-		(shape output)
-		(at 223.52 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "62dcb48d-1c3e-4a96-bcbc-dc006cbca58c")
-	)
-	(hierarchical_label "MUXOUT_1"
-		(shape output)
-		(at 223.52 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "68220ee5-48b4-42c7-87b3-5b280f07afa2")
-	)
 	(hierarchical_label "5V"
 		(shape input)
 		(at 223.52 119.38 0)
@@ -2122,7 +2158,7 @@
 	)
 	(hierarchical_label "LO1_LE"
 		(shape input)
-		(at 223.52 148.59 0)
+		(at 223.52 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2146,7 +2182,7 @@
 	)
 	(hierarchical_label "LO_CLK"
 		(shape input)
-		(at 223.52 137.16 0)
+		(at 223.52 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2158,7 +2194,7 @@
 	)
 	(hierarchical_label "LO_DATA"
 		(shape input)
-		(at 223.52 142.24 0)
+		(at 223.52 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3313,6 +3349,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 64.77 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df79943f-dfd6-471d-a5bc-24e55b343ee5")
+		(property "Reference" "MUXOUT_2"
+			(at 67.31 126.2379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 67.31 128.7779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 64.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8176138-1df8-41f8-8504-f6b96a279ff9")
+		)
+		(instances
+			(project "qpcb"
+				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/b685e560-a45a-4313-8d29-a96968b46a78"
+					(reference "MUXOUT_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_mount_PCBs:local_oscillator_adf5355")
 		(at 114.3 125.73 0)
 		(unit 1)
@@ -3423,6 +3526,73 @@
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/b685e560-a45a-4313-8d29-a96968b46a78"
 					(reference "LO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e07689a9-1ff5-4a7c-b256-c42807d6d539")
+		(property "Reference" "MUXOUT_1"
+			(at 66.04 43.6879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 66.04 46.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62f3c6dc-a17a-43cb-b450-afbe90370efb")
+		)
+		(instances
+			(project "qpcb"
+				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/b685e560-a45a-4313-8d29-a96968b46a78"
+					(reference "MUXOUT_1")
 					(unit 1)
 				)
 			)

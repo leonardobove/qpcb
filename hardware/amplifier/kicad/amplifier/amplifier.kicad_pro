@@ -39,11 +39,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|1485900|889000|c0553da5-7cca-4917-8781-5c8347e40bf1|1df6e123-327c-486b-9236-4292afd590e2|/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3|/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3|/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3",
-      "pin_to_pin|3302000|914400|cd0abc8a-3a02-425e-9010-9f14e0a50375|88a2bc0f-e2b8-4123-9e02-020883d55e1b|/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3|/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3|/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3",
-      "pin_to_pin|863600|838200|f199d029-71e7-4676-93fd-8d3fdba36ce4|306d8bcc-b063-472c-a9e6-d0766601402e|/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3|/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3|/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -258,7 +254,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "qpcb.kicad_pro",
+    "filename": "amplifier.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -389,14 +385,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -408,35 +396,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "c131d68b-62f5-4c45-b130-1d10920b3403",
-      "Root"
-    ],
-    [
-      "46bb8653-ab5b-473e-ae4c-0621c199f7c3",
-      "PSU"
-    ],
-    [
-      "b685e560-a45a-4313-8d29-a96968b46a78",
-      "local_oscillators"
-    ],
-    [
-      "700ef356-58e4-451b-8a1e-602f846f9fb2",
-      "amplifiers"
-    ],
-    [
-      "0d3fdb9f-aa64-4253-817d-8c2e1f2492e7",
-      "mixers"
-    ],
-    [
-      "6e7b8894-4d10-41c8-ba35-622d365fe2df",
-      "APC"
-    ],
-    [
-      "0e1314fc-8bce-4819-a5af-1738951867e1",
-      "YIG_current_regulators"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }

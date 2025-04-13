@@ -1,0 +1,14 @@
+*$
+*********** Discrete Rectifier Electrical Parameters ***********
+** Product: SS24FL
+** Package: SOD-123F
+** Surface Mount Schottky Barrier Rectifiers
+****************************************************************
+.MODEL SS24FL D
++ IS=5.396e-07      N=1.5             RS=0.00218
++ ISR=1.08e-07      NR=1.5            CJO=1.5854e-10
++ M=0.4117          VJ=0.48           BV=44
++ IBV=2.5e-4        EG=0.916          TT=8.84e-9
+****************************************************************
+** Creation: Nov.-24-2015   Rev: 1.0
+** Fairchild Semiconductor

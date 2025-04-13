@@ -1,4 +1,4 @@
-22675231863954030
+22694407187325879
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93146,5 +93146,82 @@ LO
 
 
 0
+18
+18
+footprints
+LT3083EQPBF
+Q package 5-Lead Plastic DD-PAK_2023
+Integrated Circuit
 0
+6
+6
+footprints
+PDIP-8_N_LIT
+
+LT1632CN8-PBF 
 0
+8
+8
+footprints
+RPi_Pico_SMD_TH
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+86
+43
+footprints
+SO-8_S
+
+
+0
+8
+8
+footprints
+SODFL3616X98N
+SOD-123FL CASE498
+Diode
+0
+2
+2
+footprints
+SOIC127P600X170-9N
+DDA1
+Integrated Circuit
+0
+9
+9
+footprints
+SOIC127P600X175-8N
+D
+Integrated Circuit
+0
+8
+8
+footprints
+SOIC127P600X175-9N
+SOIC_N_EP-1
+Integrated Circuit
+0
+9
+9
+footprints
+SOP50P490X110-10N
+
+
+0
+10
+10
+footprints
+SiT5157AIFK33N0100000000X
+10L CQFN-2021
+Crystal or Oscillator
+0
+10
+10
+footprints
+TO254P1054X470X1955-3
+
+
+0
+3
+3
