@@ -10656,7 +10656,7 @@
 				)
 			)
 		)
-		(property "Value" "MBR120VLSFT1G"
+		(property "Value" "RBE01VYM6AFHTR"
 			(at 115.57 355.6 0)
 			(effects
 				(font
@@ -12559,7 +12559,7 @@
 				)
 			)
 		)
-		(property "Value" "MBR120VLSFT1G"
+		(property "Value" "RBE01VYM6AFHTR"
 			(at 182.88 302.26 0)
 			(effects
 				(font
@@ -14815,15 +14815,15 @@
 		(fields_autoplaced yes)
 		(uuid "4923afd2-28e3-47f9-ae3e-77567ae69ea2")
 		(property "Reference" "D4"
-			(at 48.7882 298.9614 0)
+			(at 48.7882 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MBR120VLSFT1G"
-			(at 48.7882 301.5014 0)
+		(property "Value" "RBE01VYM6AFHTR"
+			(at 48.7882 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18154,7 +18154,7 @@
 				)
 			)
 		)
-		(property "Value" "MBR120VLSFT1G"
+		(property "Value" "RBE01VYM6AFHTR"
 			(at 115.57 302.26 0)
 			(effects
 				(font
@@ -20754,7 +20754,7 @@
 				)
 			)
 		)
-		(property "Value" "MBR120VLSFT1G"
+		(property "Value" "RBE01VYM6AFHTR"
 			(at 182.88 355.6 0)
 			(effects
 				(font
@@ -21855,15 +21855,15 @@
 		(fields_autoplaced yes)
 		(uuid "b910b9b7-5647-4ad7-ab3a-ae67b3bdf0b8")
 		(property "Reference" "D6"
-			(at 48.7882 352.3014 0)
+			(at 48.7882 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MBR120VLSFT1G"
-			(at 48.7882 354.8414 0)
+		(property "Value" "RBE01VYM6AFHTR"
+			(at 48.7882 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

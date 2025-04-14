@@ -2413,6 +2413,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 96.52) (xy 259.08 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c6323a-acfc-475a-b0e5-949bda221b49")
+	)
+	(wire
+		(pts
 			(xy 146.05 109.22) (xy 157.48 109.22)
 		)
 		(stroke
@@ -3327,6 +3337,17 @@
 			(justify left bottom)
 		)
 		(uuid "af06a281-6de0-4265-9de6-be379d91feb7")
+	)
+	(label "6V"
+		(at 259.08 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1f4b42f-5ca6-4d3a-96d7-decac53ee082")
 	)
 	(label "5V_B_EN_SW_n"
 		(at 86.36 66.04 0)
@@ -4888,8 +4909,8 @@
 		)
 	)
 	(sheet
-		(at 214.63 68.58)
-		(size 49.022 31.242)
+		(at 227.076 127.762)
+		(size 25.908 19.558)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4900,7 +4921,7 @@
 		)
 		(uuid "0d3fdb9f-aa64-4253-817d-8c2e1f2492e7")
 		(property "Sheetname" "mixers"
-			(at 214.63 67.8684 0)
+			(at 227.076 127.0504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,7 +4930,7 @@
 			)
 		)
 		(property "Sheetfile" "mixers.kicad_sch"
-			(at 214.63 100.4066 0)
+			(at 227.076 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,8 +5411,8 @@
 		)
 	)
 	(sheet
-		(at 215.9 111.76)
-		(size 44.196 34.036)
+		(at 228.346 88.138)
+		(size 24.384 16.256)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5402,7 +5423,7 @@
 		)
 		(uuid "700ef356-58e4-451b-8a1e-602f846f9fb2")
 		(property "Sheetname" "amplifiers"
-			(at 215.9 111.0484 0)
+			(at 228.346 87.4264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,13 +5432,23 @@
 			)
 		)
 		(property "Sheetfile" "amplifiers.kicad_sch"
-			(at 215.9 146.3806 0)
+			(at 228.346 104.9786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "6V" input
+			(at 252.73 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5d613383-451b-4248-b049-12cfb4d7c52b")
 		)
 		(instances
 			(project "qpcb"
