@@ -223,7 +223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b50a918-cf8c-4daa-9ffe-d0e6819026ec")
-		(property "Reference" "U21"
+		(property "Reference" "U15"
 			(at 63.5 67.9449 0)
 			(effects
 				(font
@@ -268,6 +268,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 57.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 57.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "36f0aa5d-d05e-4f35-9923-8ae4a0d1d04c")
 		)
@@ -295,7 +313,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0d3fdb9f-aa64-4253-817d-8c2e1f2492e7"
-					(reference "U21")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -311,7 +329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98134086-46e2-400a-abf8-78ef3e1bdf8a")
-		(property "Reference" "U20"
+		(property "Reference" "U14"
 			(at 63.5 45.0849 0)
 			(effects
 				(font
@@ -356,6 +374,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "087deb5c-080d-482d-9bc7-e28193278f03")
 		)
@@ -383,7 +419,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0d3fdb9f-aa64-4253-817d-8c2e1f2492e7"
-					(reference "U20")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -399,7 +435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a684256c-b8bb-41a2-a7ae-654e62eac952")
-		(property "Reference" "U22"
+		(property "Reference" "U16"
 			(at 63.5 93.3449 0)
 			(effects
 				(font
@@ -444,6 +480,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 57.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 57.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05243d9d-e5eb-426f-93c5-e914eaa2ae9e")
 		)
@@ -471,7 +525,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0d3fdb9f-aa64-4253-817d-8c2e1f2492e7"
-					(reference "U22")
+					(reference "U16")
 					(unit 1)
 				)
 			)

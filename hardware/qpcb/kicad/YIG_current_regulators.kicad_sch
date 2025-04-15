@@ -3058,7 +3058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/p2n2222a-d.pdf"
 			(at 304.8 41.91 0)
 			(effects
 				(font
@@ -3103,6 +3103,51 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "P2N2222A"
+			(at 241.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 241.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 241.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "P2N2222A"
+			(at 241.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23"
+			(at 241.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f76749a3-12e3-4bc6-b2d3-6d5eaaeee345")
 		)
@@ -3131,7 +3176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01f2f562-5145-474d-bf88-5b0a997bcc18")
-		(property "Reference" "R42"
+		(property "Reference" "R72"
 			(at 224.79 35.56 90)
 			(effects
 				(font
@@ -3174,6 +3219,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 224.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 224.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d96fb19e-29af-4fd9-b3b0-e577764c0bfb")
 		)
@@ -3183,7 +3246,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "R42")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -3199,7 +3262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04a24c3f-7404-44b4-a848-70057dc9d268")
-		(property "Reference" "R37"
+		(property "Reference" "R67"
 			(at 83.82 54.61 90)
 			(effects
 				(font
@@ -3242,6 +3305,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ef05cd0-a98f-4d71-81e5-7a3044536b19")
 		)
@@ -3251,7 +3332,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "R37")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -3267,7 +3348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08bbb53f-4231-45bd-9753-afd5b1d5db5d")
-		(property "Reference" "R39"
+		(property "Reference" "R69"
 			(at 114.3 58.4199 0)
 			(effects
 				(font
@@ -3312,6 +3393,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "988f3d87-8c00-4eea-8b03-b8defe407596")
 		)
@@ -3321,7 +3420,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "R39")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -3338,7 +3437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ac32f81-e6f1-4ce1-8e46-886d117dd700")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR0120"
 			(at 204.47 74.93 0)
 			(effects
 				(font
@@ -3388,7 +3487,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "#PWR074")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -3404,7 +3503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2041a239-99b3-4103-9f09-385522243748")
-		(property "Reference" "C49"
+		(property "Reference" "C57"
 			(at 97.79 170.1799 0)
 			(effects
 				(font
@@ -3449,6 +3548,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a51aec3a-153e-4e2a-bdc3-93942a87ee64")
 		)
@@ -3458,7 +3575,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "C49")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -3474,7 +3591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "220df67f-d58c-423d-ae0c-c2e6c3f6705a")
-		(property "Reference" "C42"
+		(property "Reference" "C56"
 			(at 33.02 62.23 90)
 			(effects
 				(font
@@ -3517,6 +3634,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 33.02 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 33.02 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7cb764a7-7b5f-464a-8064-b6e775e2d7e9")
 		)
@@ -3526,7 +3661,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "C42")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -3542,7 +3677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b04783b-f04a-4992-9345-404ea69d2889")
-		(property "Reference" "U4"
+		(property "Reference" "U21"
 			(at 45.72 36.83 0)
 			(effects
 				(font
@@ -3550,7 +3685,7 @@
 				)
 			)
 		)
-		(property "Value" "LT1632CN8-PBF"
+		(property "Value" "LT1632CS8#PBF "
 			(at 45.72 39.37 0)
 			(effects
 				(font
@@ -3568,7 +3703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LT1632CN8-PBF"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/609/16323fs-2954149.pdf"
 			(at 66.04 46.99 0)
 			(effects
 				(font
@@ -3578,8 +3713,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High Speed Operational Amplifiers 45MHz, 45V/ s, Dual Rail-to-Rail Input and Output Precision Op Amps"
 			(at 66.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LT1632CS8#PBF"
+			(at 44.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 44.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 44.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "584-LT1632CS8#PBF"
+			(at 44.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Analog-Devices/LT1632CS8PBF?qs=ytflclh7QUVRx92LenobCQ%3D%3D"
+			(at 44.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8"
+			(at 44.45 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +3803,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "U4")
+					(reference "U21")
 					(unit 1)
 				)
 			)
@@ -3631,7 +3820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c6ca172-560c-4f2a-90db-9d88ac7ef4cc")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR0118"
 			(at 167.64 172.72 0)
 			(effects
 				(font
@@ -3681,7 +3870,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "#PWR072")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -3697,7 +3886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "318fcd57-659a-4c4b-9f8e-fb44005fc73d")
-		(property "Reference" "R40"
+		(property "Reference" "R70"
 			(at 207.01 63.4999 0)
 			(effects
 				(font
@@ -3742,6 +3931,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 204.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 204.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5a3ed867-f9f7-4c47-aadf-9edac594abb9")
 		)
@@ -3751,7 +3958,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "R40")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -3767,7 +3974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3239c31c-b1a4-4ee6-a65e-a0ca3d12012f")
-		(property "Reference" "C43"
+		(property "Reference" "C58"
 			(at 107.95 158.7499 0)
 			(effects
 				(font
@@ -3812,6 +4019,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 104.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 104.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f782c13c-94c6-412b-9b8e-159f28ca29ea")
 		)
@@ -3821,7 +4046,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "C43")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -3838,7 +4063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66a66ffe-5611-415c-b140-4de1c67da993")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR0122"
 			(at 243.84 68.58 0)
 			(effects
 				(font
@@ -3888,7 +4113,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "#PWR075")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -3904,7 +4129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "691ffd8c-1b82-4318-a3b1-e03718b41ef8")
-		(property "Reference" "J11"
+		(property "Reference" "J17"
 			(at 246.38 165.0999 0)
 			(effects
 				(font
@@ -3931,7 +4156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "(text \"RF Shields\" (exclude_from_sim no)  (at 150.114 117.602 0)   (effects (font (size 2.54 2.54))) (uuid \"42db6b2d-cb00-420b-b89d-9b5397c4ff3c\") ) "
 			(at 243.84 165.1 0)
 			(effects
 				(font
@@ -3941,6 +4166,51 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 243.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "47053-1000 "
+			(at 243.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 243.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 243.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-47053-1000"
+			(at 243.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Molex/47053-1000?qs=ph4zPCVRuvqoDX7hrEhxNA%3D%3D&mgh=1&vip=1&utm_id=20395339358&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gclid=CjwKCAjw5PK_BhBBEiwAL7GTPe19kyPSBGPh_PQDeTnptWuB_j_odWY2XLmwmwlL3fqeT7ntiLnLqBoC0OYQAvD_BwE"
 			(at 243.84 165.1 0)
 			(effects
 				(font
@@ -3964,7 +4234,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "J11")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -3981,7 +4251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "787b105f-5047-4dac-ab13-4ffd60aa86ba")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR0117"
 			(at 111.76 69.85 0)
 			(effects
 				(font
@@ -4031,7 +4301,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "#PWR069")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -4047,7 +4317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d195c69-ad3a-439c-ba72-cd9b4c85a5bf")
-		(property "Reference" "C46"
+		(property "Reference" "C59"
 			(at 165.1 60.96 90)
 			(effects
 				(font
@@ -4090,6 +4360,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a4f9caf1-a0d9-4fff-b751-ed2b765c700c")
 		)
@@ -4099,7 +4387,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "C46")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -4116,7 +4404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84a91320-a73e-4102-aa3f-d9ce3b8f07fa")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0114"
 			(at 72.39 76.2 0)
 			(effects
 				(font
@@ -4166,7 +4454,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "#PWR068")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -4183,7 +4471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87e8e85b-6628-4271-a317-abdbde30d375")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR0119"
 			(at 200.66 59.69 0)
 			(effects
 				(font
@@ -4233,7 +4521,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "#PWR073")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -4249,7 +4537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89a955ac-c998-4fe4-910c-600b86f70050")
-		(property "Reference" "U5"
+		(property "Reference" "U22"
 			(at 177.8 35.56 0)
 			(effects
 				(font
@@ -4257,7 +4545,7 @@
 				)
 			)
 		)
-		(property "Value" "LT1632CN8-PBF"
+		(property "Value" "LT1632CS8#PBF "
 			(at 177.8 38.1 0)
 			(effects
 				(font
@@ -4275,7 +4563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LT1632CN8-PBF"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/609/16323fs-2954149.pdf"
 			(at 198.12 45.72 0)
 			(effects
 				(font
@@ -4285,8 +4573,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High Speed Operational Amplifiers 45MHz, 45V/ s, Dual Rail-to-Rail Input and Output Precision Op Amps"
 			(at 198.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LT1632CS8#PBF"
+			(at 176.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 176.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 176.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "584-LT1632CS8#PBF"
+			(at 176.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Analog-Devices/LT1632CS8PBF?qs=ytflclh7QUVRx92LenobCQ%3D%3D"
+			(at 176.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8"
+			(at 176.53 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +4663,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "U5")
+					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -4338,7 +4680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ef54c37-c097-488f-bbe8-04669afeb199")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR0115"
 			(at 93.98 181.61 0)
 			(effects
 				(font
@@ -4388,7 +4730,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "#PWR081")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -4404,7 +4746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbc83e7c-571a-40e7-995f-6e64ed53989e")
-		(property "Reference" "R43"
+		(property "Reference" "R73"
 			(at 246.38 57.1499 0)
 			(effects
 				(font
@@ -4449,6 +4791,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 243.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 243.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d686959d-c6c3-41a4-8de2-7c3b8607dcf5")
 		)
@@ -4458,7 +4818,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "R43")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -4474,7 +4834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbef9994-eea2-4d67-82c5-0d80ff3dd331")
-		(property "Reference" "J12"
+		(property "Reference" "J16"
 			(at 198.12 165.0999 0)
 			(effects
 				(font
@@ -4501,7 +4861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "(text \"RF Shields\" (exclude_from_sim no)  (at 150.114 117.602 0)   (effects (font (size 2.54 2.54))) (uuid \"42db6b2d-cb00-420b-b89d-9b5397c4ff3c\") ) "
 			(at 195.58 165.1 0)
 			(effects
 				(font
@@ -4511,6 +4871,51 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 195.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "47053-1000 "
+			(at 195.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 195.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 195.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-47053-1000"
+			(at 195.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Molex/47053-1000?qs=ph4zPCVRuvqoDX7hrEhxNA%3D%3D&mgh=1&vip=1&utm_id=20395339358&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gclid=CjwKCAjw5PK_BhBBEiwAL7GTPe19kyPSBGPh_PQDeTnptWuB_j_odWY2XLmwmwlL3fqeT7ntiLnLqBoC0OYQAvD_BwE"
 			(at 195.58 165.1 0)
 			(effects
 				(font
@@ -4534,7 +4939,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "J12")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -4551,7 +4956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bea4d851-3eda-4efb-bc11-607d0ffb0c6e")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR0113"
 			(at 68.58 60.96 0)
 			(effects
 				(font
@@ -4601,7 +5006,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "#PWR067")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -4618,7 +5023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bedafcdb-a717-45b7-8984-2dc4f872e56d")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0112"
 			(at 29.21 167.64 0)
 			(effects
 				(font
@@ -4668,7 +5073,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "#PWR070")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -4684,7 +5089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc02f335-9c64-4d2a-b993-187fdd074b42")
-		(property "Reference" "R41"
+		(property "Reference" "R71"
 			(at 215.9 53.34 90)
 			(effects
 				(font
@@ -4727,6 +5132,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 215.9 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 215.9 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5381ba67-02a7-4374-8e66-88be32b704ff")
 		)
@@ -4736,7 +5159,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "R41")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -4753,7 +5176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce43ce3d-4f49-4496-bbce-0790163138b0")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR0121"
 			(at 215.9 172.72 0)
 			(effects
 				(font
@@ -4803,7 +5226,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "#PWR083")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -4820,7 +5243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d94fcef7-8c54-4238-badc-e49e25cae45f")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0116"
 			(at 104.14 170.18 0)
 			(effects
 				(font
@@ -4870,7 +5293,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "#PWR071")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -4886,7 +5309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd50c744-1515-4ba8-ba5a-1848b018b6de")
-		(property "Reference" "R38"
+		(property "Reference" "R68"
 			(at 92.71 36.83 90)
 			(effects
 				(font
@@ -4929,6 +5352,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a9023edc-e45b-4d56-9c77-53e1014a8389")
 		)
@@ -4938,7 +5379,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "R38")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -4954,7 +5395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9ee021e-d325-4057-8a55-3e806c79a0fc")
-		(property "Reference" "IC9"
+		(property "Reference" "IC12"
 			(at 62.23 147.32 0)
 			(effects
 				(font
@@ -5029,23 +5470,39 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 101.6 854.94 0)
+		(property "Manufacturer Part Number" "DAC8562TDGSR"
+			(at 62.23 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DAC8562TDGSR"
-			(at 101.6 954.94 0)
+		(property "Field-1" ""
+			(at 62.23 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 62.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "MSOP-10"
+			(at 62.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5082,7 +5539,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "IC9")
+					(reference "IC12")
 					(unit 1)
 				)
 			)
@@ -5125,7 +5582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/p2n2222a-d.pdf"
 			(at 172.72 43.18 0)
 			(effects
 				(font
@@ -5170,6 +5627,51 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "P2N2222A"
+			(at 109.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 109.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 109.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "P2N2222A"
+			(at 109.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23"
+			(at 109.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "05d12124-d768-4347-b834-24b3b1b8ec80")
 		)
@@ -5198,7 +5700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa8ecf1b-ec03-4044-b6be-1e0020dfbf8e")
-		(property "Reference" "R36"
+		(property "Reference" "R66"
 			(at 74.93 64.7699 0)
 			(effects
 				(font
@@ -5243,6 +5745,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 72.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 72.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "da911f0d-4004-472f-b155-f5e7d8bc2021")
 		)
@@ -5252,7 +5772,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/0e1314fc-8bce-4819-a5af-1738951867e1"
-					(reference "R36")
+					(reference "R66")
 					(unit 1)
 				)
 			)
