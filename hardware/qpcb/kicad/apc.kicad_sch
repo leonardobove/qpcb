@@ -3548,7 +3548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:PDIP-8_N_LIT"
+		(property "Footprint" "footprints:SOIC127P600X175-8N"
 			(at 256.54 104.14 0)
 			(effects
 				(font
@@ -3631,6 +3631,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "31842a7d-3ee9-4b11-baa6-0f39f872b3e1")
 		)
@@ -3690,7 +3699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 31.75 36.068 90)
 			(effects
 				(font
@@ -3727,6 +3736,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 31.75 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 31.75 34.29 0)
 			(effects
 				(font
@@ -3776,7 +3794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DAC8562:SOP50P490X110-10N"
+		(property "Footprint" "footprints:SOP50P490X110-10N"
 			(at 118.11 134.29 0)
 			(effects
 				(font
@@ -3871,6 +3889,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 78.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "7a5d9177-f4d2-4796-9eca-eeca2951f09c")
 		)
@@ -3938,7 +3965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 154.178 72.39 90)
 			(effects
 				(font
@@ -3975,6 +4002,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 152.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 152.4 72.39 0)
 			(effects
 				(font
@@ -4024,7 +4060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 176.53 142.748 90)
 			(effects
 				(font
@@ -4061,6 +4097,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 176.53 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 176.53 140.97 0)
 			(effects
 				(font
@@ -4112,7 +4157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 123.5202 52.07 0)
 			(effects
 				(font
@@ -4121,7 +4166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/40/AutoMLCC-2952695.pdf"
 			(at 122.555 48.26 0)
 			(effects
 				(font
@@ -4130,7 +4175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" " Multilayer Ceramic Capacitors MLCC - SMD/SMT KAM21BR71C104MT NW G LOB PN 16V 0.1uF X7R A 581-KAM21BR71C104MT"
 			(at 122.555 48.26 0)
 			(effects
 				(font
@@ -4139,7 +4184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0805YC104M4T2A"
 			(at 122.555 48.26 0)
 			(effects
 				(font
@@ -4149,6 +4194,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 122.555 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 122.555 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805YC104M4T2A"
+			(at 122.555 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KYOCERA-AVX/0805YC104M4T2A?qs=f21FSZc47PigNiQmYVYs%252Bg%3D%3D"
+			(at 122.555 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 122.555 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 122.555 48.26 0)
 			(effects
 				(font
@@ -4266,7 +4356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 111.4552 52.07 0)
 			(effects
 				(font
@@ -4275,7 +4365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 110.49 48.26 0)
 			(effects
 				(font
@@ -4284,7 +4374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM21AR71C105KU NEW GLOBAL PN 16V 1uF X7 A 581-KGM21AR71C105KU"
 			(at 110.49 48.26 0)
 			(effects
 				(font
@@ -4293,7 +4383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0805YC105KAT2A"
 			(at 110.49 48.26 0)
 			(effects
 				(font
@@ -4303,6 +4393,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 110.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 110.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805YC105KAT2A"
+			(at 110.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KYOCERA-AVX/0805YC105KAT2A?qs=Ppq%252BQS%252B9qgKbltvIecMi5g%3D%3D"
+			(at 110.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 110.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 110.49 48.26 0)
 			(effects
 				(font
@@ -4354,7 +4489,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 28.448 39.37 90)
 			(effects
 				(font
@@ -4391,6 +4526,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 26.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 26.67 39.37 0)
 			(effects
 				(font
@@ -4442,7 +4586,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 154.178 144.78 90)
 			(effects
 				(font
@@ -4479,6 +4623,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 152.4 144.78 0)
 			(effects
 				(font
@@ -4527,7 +4680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 176.53 116.078 90)
 			(effects
 				(font
@@ -4564,6 +4717,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 176.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 176.53 114.3 0)
 			(effects
 				(font
@@ -4613,7 +4775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DAC8562:SOP50P490X110-10N"
+		(property "Footprint" "footprints:SOP50P490X110-10N"
 			(at 118.11 206.68 0)
 			(effects
 				(font
@@ -4708,6 +4870,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "69b184f7-c2b4-4c55-bf5e-a26f4c775ab8")
 		)
@@ -4775,7 +4946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 123.5202 124.46 0)
 			(effects
 				(font
@@ -4784,7 +4955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/40/AutoMLCC-2952695.pdf"
 			(at 122.555 120.65 0)
 			(effects
 				(font
@@ -4793,7 +4964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" " Multilayer Ceramic Capacitors MLCC - SMD/SMT KAM21BR71C104MT NW G LOB PN 16V 0.1uF X7R A 581-KAM21BR71C104MT"
 			(at 122.555 120.65 0)
 			(effects
 				(font
@@ -4802,7 +4973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0805YC104M4T2A"
 			(at 122.555 120.65 0)
 			(effects
 				(font
@@ -4812,6 +4983,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 122.555 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 122.555 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805YC104M4T2A"
+			(at 122.555 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KYOCERA-AVX/0805YC104M4T2A?qs=f21FSZc47PigNiQmYVYs%252Bg%3D%3D"
+			(at 122.555 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 122.555 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 122.555 120.65 0)
 			(effects
 				(font
@@ -4992,7 +5208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 176.53 43.688 90)
 			(effects
 				(font
@@ -5029,6 +5245,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 176.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 176.53 41.91 0)
 			(effects
 				(font
@@ -5189,6 +5414,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 236.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "b948a6f5-2ff1-4a3a-a8fa-cb54288cd296")
 		)
@@ -5254,7 +5488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 161.29 43.688 90)
 			(effects
 				(font
@@ -5291,6 +5525,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 161.29 41.91 0)
 			(effects
 				(font
@@ -5340,7 +5583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 176.53 70.358 90)
 			(effects
 				(font
@@ -5377,6 +5620,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 176.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 176.53 68.58 0)
 			(effects
 				(font
@@ -5492,7 +5744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 165.1 129.8448 0)
 			(effects
 				(font
@@ -5501,7 +5753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/40/AutoMLCC-2952695.pdf"
 			(at 161.29 130.81 0)
 			(effects
 				(font
@@ -5510,7 +5762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" " Multilayer Ceramic Capacitors MLCC - SMD/SMT KAM21BR71C104MT NW G LOB PN 16V 0.1uF X7R A 581-KAM21BR71C104MT"
 			(at 161.29 130.81 0)
 			(effects
 				(font
@@ -5519,7 +5771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0805YC104M4T2A"
 			(at 161.29 130.81 0)
 			(effects
 				(font
@@ -5529,6 +5781,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 161.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 161.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805YC104M4T2A"
+			(at 161.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KYOCERA-AVX/0805YC104M4T2A?qs=f21FSZc47PigNiQmYVYs%252Bg%3D%3D"
+			(at 161.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 161.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 161.29 130.81 0)
 			(effects
 				(font
@@ -5578,7 +5875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 165.1 103.1748 0)
 			(effects
 				(font
@@ -5587,7 +5884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/40/AutoMLCC-2952695.pdf"
 			(at 161.29 104.14 0)
 			(effects
 				(font
@@ -5596,7 +5893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" " Multilayer Ceramic Capacitors MLCC - SMD/SMT KAM21BR71C104MT NW G LOB PN 16V 0.1uF X7R A 581-KAM21BR71C104MT"
 			(at 161.29 104.14 0)
 			(effects
 				(font
@@ -5605,7 +5902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0805YC104M4T2A"
 			(at 161.29 104.14 0)
 			(effects
 				(font
@@ -5615,6 +5912,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805YC104M4T2A"
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KYOCERA-AVX/0805YC104M4T2A?qs=f21FSZc47PigNiQmYVYs%252Bg%3D%3D"
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 161.29 104.14 0)
 			(effects
 				(font
@@ -5664,7 +6006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 165.1 57.4548 0)
 			(effects
 				(font
@@ -5673,7 +6015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/40/AutoMLCC-2952695.pdf"
 			(at 161.29 58.42 0)
 			(effects
 				(font
@@ -5682,7 +6024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" " Multilayer Ceramic Capacitors MLCC - SMD/SMT KAM21BR71C104MT NW G LOB PN 16V 0.1uF X7R A 581-KAM21BR71C104MT"
 			(at 161.29 58.42 0)
 			(effects
 				(font
@@ -5691,7 +6033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0805YC104M4T2A"
 			(at 161.29 58.42 0)
 			(effects
 				(font
@@ -5701,6 +6043,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805YC104M4T2A"
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KYOCERA-AVX/0805YC104M4T2A?qs=f21FSZc47PigNiQmYVYs%252Bg%3D%3D"
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 161.29 58.42 0)
 			(effects
 				(font
@@ -5752,7 +6139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 154.178 45.72 90)
 			(effects
 				(font
@@ -5789,6 +6176,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 152.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 152.4 45.72 0)
 			(effects
 				(font
@@ -5840,7 +6236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 28.448 111.76 90)
 			(effects
 				(font
@@ -5877,6 +6273,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 26.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 26.67 111.76 0)
 			(effects
 				(font
@@ -5926,7 +6331,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:PDIP-8_N_LIT"
+		(property "Footprint" "footprints:SOIC127P600X175-8N"
 			(at 256.54 31.75 0)
 			(effects
 				(font
@@ -6001,6 +6406,15 @@
 			)
 		)
 		(property "Package" "SOIC-8"
+			(at 234.95 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 234.95 35.56 0)
 			(effects
 				(font
@@ -6133,7 +6547,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 48.26 110.998 90)
 			(effects
 				(font
@@ -6170,6 +6584,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 48.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 48.26 109.22 0)
 			(effects
 				(font
@@ -6221,7 +6644,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 44.958 113.03 90)
 			(effects
 				(font
@@ -6258,6 +6681,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 43.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 43.18 113.03 0)
 			(effects
 				(font
@@ -6636,7 +7068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 48.26 38.608 90)
 			(effects
 				(font
@@ -6673,6 +7105,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 48.26 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 48.26 36.83 0)
 			(effects
 				(font
@@ -6724,7 +7165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 111.4552 124.46 0)
 			(effects
 				(font
@@ -6733,7 +7174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 110.49 120.65 0)
 			(effects
 				(font
@@ -6742,7 +7183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM21AR71C105KU NEW GLOBAL PN 16V 1uF X7 A 581-KGM21AR71C105KU"
 			(at 110.49 120.65 0)
 			(effects
 				(font
@@ -6751,7 +7192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0805YC105KAT2A"
 			(at 110.49 120.65 0)
 			(effects
 				(font
@@ -6761,6 +7202,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805YC105KAT2A"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KYOCERA-AVX/0805YC105KAT2A?qs=Ppq%252BQS%252B9qgKbltvIecMi5g%3D%3D"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 110.49 120.65 0)
 			(effects
 				(font
@@ -6810,7 +7296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 161.29 116.078 90)
 			(effects
 				(font
@@ -6847,6 +7333,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 161.29 114.3 0)
 			(effects
 				(font
@@ -7030,7 +7525,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 44.958 40.64 90)
 			(effects
 				(font
@@ -7067,6 +7562,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 43.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 43.18 40.64 0)
 			(effects
 				(font
@@ -7182,7 +7686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 31.75 108.458 90)
 			(effects
 				(font
@@ -7219,6 +7723,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 31.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 31.75 106.68 0)
 			(effects
 				(font
@@ -7270,7 +7783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 154.178 118.11 90)
 			(effects
 				(font
@@ -7307,6 +7820,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 152.4 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 152.4 118.11 0)
 			(effects
 				(font
@@ -7356,7 +7878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 165.1 30.7848 0)
 			(effects
 				(font
@@ -7365,7 +7887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/40/AutoMLCC-2952695.pdf"
 			(at 161.29 31.75 0)
 			(effects
 				(font
@@ -7374,7 +7896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" " Multilayer Ceramic Capacitors MLCC - SMD/SMT KAM21BR71C104MT NW G LOB PN 16V 0.1uF X7R A 581-KAM21BR71C104MT"
 			(at 161.29 31.75 0)
 			(effects
 				(font
@@ -7383,7 +7905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0805YC104M4T2A"
 			(at 161.29 31.75 0)
 			(effects
 				(font
@@ -7393,6 +7915,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 161.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 161.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805YC104M4T2A"
+			(at 161.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KYOCERA-AVX/0805YC104M4T2A?qs=f21FSZc47PigNiQmYVYs%252Bg%3D%3D"
+			(at 161.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 161.29 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 161.29 31.75 0)
 			(effects
 				(font
@@ -7442,7 +8009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 161.29 142.748 90)
 			(effects
 				(font
@@ -7479,6 +8046,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 161.29 140.97 0)
 			(effects
 				(font
@@ -7573,6 +8149,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 236.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "536fb623-ed99-4046-8ca1-5159459eee02")
 		)
@@ -7638,7 +8223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 161.29 70.358 90)
 			(effects
 				(font
@@ -7675,6 +8260,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 161.29 68.58 0)
 			(effects
 				(font

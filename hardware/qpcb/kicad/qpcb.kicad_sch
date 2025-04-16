@@ -3993,6 +3993,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 200.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b8f2200-b52f-419b-98c1-73db8f0d0715")
 		)
@@ -4411,6 +4420,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5b195b12-7fff-4086-9517-b76980971e97")
 		)
@@ -4495,6 +4513,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 63.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 63.5 49.53 0)
 			(effects
 				(font
@@ -4821,6 +4848,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 176.53 133.35 0)
 			(effects
 				(font
@@ -5162,6 +5198,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 226.06 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ea8e9af-24fe-4e15-8283-5fa7e1b112f8")
 		)
@@ -5370,6 +5415,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 43.18 105.41 0)
 			(effects
 				(font
@@ -5604,6 +5658,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 226.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcf7defc-d7ad-4c25-bd92-83308a011d53")
 		)
@@ -5663,6 +5726,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 151.13 133.35 0)
 			(effects
 				(font
@@ -5797,6 +5869,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 200.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 200.66 148.59 0)
 			(effects
 				(font

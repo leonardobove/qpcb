@@ -557,6 +557,225 @@
 				)
 			)
 		)
+		(symbol "Connector:Barrel_Jack_Switch"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack_Switch"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack with an internal switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.286) (xy 1.905 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -2817,6 +3036,179 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "TPS5450QDDARQ1:TPS5450QDDARQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3811,12 +4203,6 @@
 		(uuid "6a6859d7-d978-499b-802f-8bf9814cecc1")
 	)
 	(junction
-		(at 518.16 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bef9faf-21cf-44d5-b23f-bd28962912e4")
-	)
-	(junction
 		(at 58.9482 306.5814)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3931,6 +4317,12 @@
 		(uuid "8af7b715-1b82-4a99-aed9-d6cbcdaf5726")
 	)
 	(junction
+		(at 527.05 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c7d1f05-9427-41dd-9fce-4b3af58bc177")
+	)
+	(junction
 		(at 527.05 311.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4027,6 +4419,12 @@
 		(uuid "a74a6af4-ea50-47b6-a0aa-005595ac23c2")
 	)
 	(junction
+		(at 509.27 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac0e4498-8c7b-47ba-b7f7-fb2f17f64559")
+	)
+	(junction
 		(at 135.89 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4037,12 +4435,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b26f98fe-f6c4-4362-bdb9-fefacf404465")
-	)
-	(junction
-		(at 509.27 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b34f3283-190e-471b-826c-40996e2b96df")
 	)
 	(junction
 		(at 492.76 203.2)
@@ -4229,6 +4621,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "feeb03e5-4459-4534-b881-79a409eaea40")
+	)
+	(junction
+		(at 478.79 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff3980a2-9c76-4828-a7b5-850f05c88303")
+	)
+	(no_connect
+		(at 515.62 251.46)
+		(uuid "d7c2c164-d57d-4bf4-aaba-e3a087d2617b")
 	)
 	(wire
 		(pts
@@ -4652,6 +5054,16 @@
 	)
 	(wire
 		(pts
+			(xy 529.59 66.04) (xy 529.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180bafaf-7d77-448f-8b78-1719de6ccbfc")
+	)
+	(wire
+		(pts
 			(xy 74.93 20.32) (xy 38.1 20.32)
 		)
 		(stroke
@@ -4822,16 +5234,6 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 255.27) (xy 527.05 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f59368e-a2a9-43fe-96ea-99fd9da0a4fe")
-	)
-	(wire
-		(pts
 			(xy 349.25 45.72) (xy 326.39 45.72)
 		)
 		(stroke
@@ -4982,7 +5384,7 @@
 	)
 	(wire
 		(pts
-			(xy 518.16 252.73) (xy 532.13 252.73)
+			(xy 525.78 248.92) (xy 535.94 248.92)
 		)
 		(stroke
 			(width 0)
@@ -5039,6 +5441,16 @@
 			(type default)
 		)
 		(uuid "2e53e860-275d-44f2-b9d0-fcced50e42ad")
+	)
+	(wire
+		(pts
+			(xy 527.05 254) (xy 527.05 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0ac625-e35d-4a42-bcaa-510deb78b3d7")
 	)
 	(wire
 		(pts
@@ -5139,6 +5551,16 @@
 			(type default)
 		)
 		(uuid "34a8edfc-f9db-400d-976a-5b354a97bf33")
+	)
+	(wire
+		(pts
+			(xy 535.94 251.46) (xy 527.05 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35386ba0-10c3-40be-a490-872dd9930164")
 	)
 	(wire
 		(pts
@@ -5379,6 +5801,16 @@
 			(type default)
 		)
 		(uuid "46501863-41a0-474a-beb0-1f9b92a6f044")
+	)
+	(wire
+		(pts
+			(xy 524.51 57.15) (xy 529.59 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ac4989-8813-4948-9f2d-f5566c9e27a3")
 	)
 	(wire
 		(pts
@@ -5972,7 +6404,7 @@
 	)
 	(wire
 		(pts
-			(xy 518.16 57.15) (xy 521.97 57.15)
+			(xy 510.54 57.15) (xy 516.89 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6162,6 +6594,16 @@
 	)
 	(wire
 		(pts
+			(xy 509.27 80.01) (xy 509.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b1c2fb-7855-4c2d-8bdc-53cf8e4cb8dd")
+	)
+	(wire
+		(pts
 			(xy 463.55 43.18) (xy 468.63 43.18)
 		)
 		(stroke
@@ -6242,7 +6684,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 255.27) (xy 527.05 255.27)
+			(xy 527.05 254) (xy 535.94 254)
 		)
 		(stroke
 			(width 0)
@@ -6399,6 +6841,16 @@
 			(type default)
 		)
 		(uuid "79d6f663-8853-4117-8ff0-9a36d94bc7a7")
+	)
+	(wire
+		(pts
+			(xy 527.05 251.46) (xy 527.05 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79fe4f55-9b37-48c0-9788-811d40f3d711")
 	)
 	(wire
 		(pts
@@ -6762,16 +7214,6 @@
 	)
 	(wire
 		(pts
-			(xy 514.35 82.55) (xy 514.35 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d170a54-3f22-446e-8122-4c0f0db618f9")
-	)
-	(wire
-		(pts
 			(xy 488.95 35.56) (xy 488.95 38.1)
 		)
 		(stroke
@@ -6799,16 +7241,6 @@
 			(type default)
 		)
 		(uuid "8f6cb71a-f46c-4b08-a0d0-969ee8ef4d94")
-	)
-	(wire
-		(pts
-			(xy 510.54 57.15) (xy 518.16 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f7fce68-99c4-4624-90b8-ab5a8f7ce0bc")
 	)
 	(wire
 		(pts
@@ -7072,6 +7504,16 @@
 	)
 	(wire
 		(pts
+			(xy 509.27 246.38) (xy 515.62 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd80c02-66b3-4880-b9ee-2e8802fe80d5")
+	)
+	(wire
+		(pts
 			(xy 125.73 360.68) (xy 125.73 364.49)
 		)
 		(stroke
@@ -7159,16 +7601,6 @@
 			(type default)
 		)
 		(uuid "a181587a-09b5-4840-96fb-58de6d834185")
-	)
-	(wire
-		(pts
-			(xy 509.27 82.55) (xy 514.35 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2b5dadc-99e8-4ed6-b3b5-41f1941cc5b1")
 	)
 	(wire
 		(pts
@@ -7969,6 +8401,16 @@
 			(type default)
 		)
 		(uuid "ce2313ae-207f-489e-9ca5-11d721bf5784")
+	)
+	(wire
+		(pts
+			(xy 529.59 57.15) (xy 529.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce86e0af-21a1-475d-8f81-dd7f95a897d3")
 	)
 	(wire
 		(pts
@@ -9062,7 +9504,7 @@
 		)
 		(uuid "b577bc3e-bd54-4611-a368-26a67171423e")
 	)
-	(text "The TPS5450-Q1 circuit was designed using TI WEBENCH POWER DESIGNER.\nThe design can be obtained at the following link:\nhttps://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=2D7513C0D29458C6"
+	(text "The TPS5450-Q1 circuit was designed using TI WEBENCH POWER DESIGNER.\nThe design can be obtained at the following link:\nhttps://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=D236DE5285518499"
 		(exclude_from_sim no)
 		(at 67.818 62.484 0)
 		(effects
@@ -9188,17 +9630,6 @@
 			(justify left bottom)
 		)
 		(uuid "13db7b5d-8574-476d-bc77-1f4973c7877a")
-	)
-	(label "24V"
-		(at 518.16 252.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1422aadf-f8d6-4911-8602-4e5037193694")
 	)
 	(label "5V_A"
 		(at 491.49 162.56 0)
@@ -9342,6 +9773,17 @@
 			(justify left bottom)
 		)
 		(uuid "43f05a17-563e-4a6b-ad0f-ae78a29f5847")
+	)
+	(label "24V"
+		(at 509.27 246.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45015b82-662d-4c3d-adfd-712a7fc30047")
 	)
 	(label "6V_EN"
 		(at 212.09 297.18 0)
@@ -9684,6 +10126,17 @@
 		)
 		(uuid "91c2c176-ddaa-4abd-bc89-5539ebca6f2f")
 	)
+	(label "-6V_INT"
+		(at 529.59 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9285cc2a-45d9-470b-a461-ea12d7a3ff6b")
+	)
 	(label "3V3_B_EN"
 		(at 273.05 185.42 0)
 		(fields_autoplaced yes)
@@ -9782,17 +10235,6 @@
 			(justify left bottom)
 		)
 		(uuid "a8a6a76c-96d2-4806-ad1a-fd312fbc3627")
-	)
-	(label "-6V_INT"
-		(at 521.97 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8cb9905-89e7-47c3-b569-ed2be09daafe")
 	)
 	(label "3V3_B"
 		(at 143.51 186.69 0)
@@ -10452,6 +10894,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 344.17 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3516540a-9274-49b7-b3f1-cdba4ae2e727")
 		)
@@ -10540,6 +10991,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 58.9482 292.6114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b61216ee-25a7-4981-aa94-1be1a51cfafb")
 		)
@@ -10581,7 +11041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 449.58 172.212 90)
 			(effects
 				(font
@@ -10618,6 +11078,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 449.58 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 449.58 173.99 0)
 			(effects
 				(font
@@ -10669,7 +11138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:09652028"
 			(at 537.21 308.61 0)
 			(effects
 				(font
@@ -10678,7 +11147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/09652028?display=pdf"
 			(at 537.21 308.61 0)
 			(effects
 				(font
@@ -10687,7 +11156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Headers & Wire Housings HDR SPOX VERTICAL 2P"
 			(at 537.21 308.61 0)
 			(effects
 				(font
@@ -10696,7 +11165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "09-65-2028"
 			(at 537.21 308.61 0)
 			(effects
 				(font
@@ -10706,6 +11175,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 537.21 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 537.21 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-09-65-2028"
+			(at 537.21 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Molex/09-65-2028?qs=cRUT3GdJqnzinf38S8Zx4g%3D%3D&mgh=1&vip=1&utm_id=22244003751&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeamsp&gad_source=1&gbraid=0AAAAADn_wf1M2tgLv3XphLF6RzO2y7_9s&gclid=Cj0KCQjwh_i_BhCzARIsANimeoE0KTZhOPhncdYZMz4V6cWPPhY13ZIefNQ0qpO5xSn2CwO9J9G0u_4aAk4ZEALw_wcB"
+			(at 537.21 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" "538-08-70-1031-CT"
+			(at 537.21 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Part" "538-09-50-1021"
 			(at 537.21 308.61 0)
 			(effects
 				(font
@@ -10802,6 +11316,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 243.84 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b52eae16-5701-45a3-a16b-e602949f17f0")
 		)
@@ -10832,7 +11355,7 @@
 				)
 			)
 		)
-		(property "Value" "15u"
+		(property "Value" "22u"
 			(at 90.17 17.526 90)
 			(effects
 				(font
@@ -10840,7 +11363,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:IND_SER1390_COC"
 			(at 91.44 20.32 0)
 			(effects
 				(font
@@ -10849,7 +11372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.it/datasheet/2/597/mss1210-270677.pdf"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/597/ser1390-471319.pdf"
 			(at 91.44 20.32 0)
 			(effects
 				(font
@@ -10858,7 +11381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power Inductors - SMD 15uH Shld 20% 8.7A 22mOhms AECQ2"
+		(property "Description" "Power Inductors - SMD 22uH Shld 20% 7.7A 23.1mOhms"
 			(at 91.44 20.32 0)
 			(effects
 				(font
@@ -10867,7 +11390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "MSS1210-153MED"
+		(property "Manufacturer Part Number" "SER1390-223MLD"
 			(at 91.44 20.32 0)
 			(effects
 				(font
@@ -10894,7 +11417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "994-MSS1210-153MED"
+		(property "Mouser Part Number" "994-SER1390-223MLD "
 			(at 91.44 20.32 0)
 			(effects
 				(font
@@ -10903,7 +11426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Coilcraft/MSS1210-153MED?qs=zCSbvcPd3pYo0QP%2FrFWmRA%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Coilcraft/SER1390-223MLD?qs=mBwMfv9Clf21e%2FWQcFlm5Q%3D%3D"
 			(at 91.44 20.32 0)
 			(effects
 				(font
@@ -10912,7 +11435,16 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "4747 (1212 metric)"
+		(property "Package" ""
+			(at 91.44 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 91.44 20.32 0)
 			(effects
 				(font
@@ -11028,7 +11560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SODFL3616X98N"
+		(property "Footprint" "footprints:RBE01VYM6AFHTR"
 			(at 111.76 263.22 0)
 			(effects
 				(font
@@ -11123,6 +11655,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 123.19 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0594c499-e590-4a35-a105-ae44db912105")
 		)
@@ -11133,72 +11674,6 @@
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3"
 					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 518.16 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07bf330b-1d25-4fd5-b676-7b50396d154f")
-		(property "Reference" "#FLG08"
-			(at 518.16 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 518.16 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 518.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 518.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 518.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58c83bab-4074-4bf7-b5d7-0e5480224954")
-		)
-		(instances
-			(project "qpcb"
-				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3"
-					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -11233,7 +11708,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "footprints:16SVF270M"
 			(at 105.41 34.29 0)
 			(effects
 				(font
@@ -11242,7 +11717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C193.pdf"
 			(at 105.41 34.29 0)
 			(effects
 				(font
@@ -11251,7 +11726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Aluminium Organic Polymer Capacitors 10volts 150uF ESR 35mohm"
 			(at 105.41 34.29 0)
 			(effects
 				(font
@@ -11260,7 +11735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "10SVP150MX"
 			(at 105.41 34.29 0)
 			(effects
 				(font
@@ -11270,6 +11745,42 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 105.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 105.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-10SVP150MX"
+			(at 105.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Panasonic/10SVP150MX?qs=OE1iw1LrrPHivwvo07HIWQ%3D%3D"
+			(at 105.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 105.41 34.29 0)
 			(effects
 				(font
@@ -11378,7 +11889,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150"
 			(at 91.44 199.3899 0)
 			(effects
 				(font
@@ -11387,7 +11898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 87.122 198.12 90)
 			(effects
 				(font
@@ -11424,6 +11935,24 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 88.9 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 88.9 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 88.9 198.12 0)
 			(effects
 				(font
@@ -11569,6 +12098,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 401.32 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "87843847-00f1-4165-8541-d3c50f2acb42")
 		)
@@ -11678,6 +12216,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 273.05 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc1b5069-969c-423d-b18d-e960518579c5")
 		)
@@ -11718,7 +12265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "footprints:SOT96P240X120-3N"
 			(at 147.32 362.585 0)
 			(effects
 				(font
@@ -11794,6 +12341,15 @@
 			)
 		)
 		(property "Package" "SOT-23-3"
+			(at 142.24 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 142.24 360.68 0)
 			(effects
 				(font
@@ -11885,6 +12441,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 198.12 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 198.12 222.25 0)
 			(effects
 				(font
@@ -11998,7 +12563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 191.262 368.3 90)
 			(effects
 				(font
@@ -12035,6 +12600,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 193.04 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 193.04 368.3 0)
 			(effects
 				(font
@@ -12086,7 +12660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "footprints:SOT96P240X120-3N"
 			(at 147.32 309.245 0)
 			(effects
 				(font
@@ -12170,6 +12744,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 142.24 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "85e4a528-b752-43cc-b0f8-ce685f2fdf6c")
 		)
@@ -12216,7 +12799,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 137.668 91.44 90)
 			(effects
 				(font
@@ -12225,7 +12808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 135.89 91.44 0)
 			(effects
 				(font
@@ -12234,7 +12817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thin Film Resistors - SMD 0805 120Kohms 25ppm 0.5% AEC-Q200"
 			(at 135.89 91.44 0)
 			(effects
 				(font
@@ -12243,7 +12826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ERA-6AED124V"
 			(at 135.89 91.44 0)
 			(effects
 				(font
@@ -12253,6 +12836,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-6AED124V"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Panasonic/ERA-6AED124V?qs=sGAEpiMZZMtlubZbdhIBINE5Vwz7C5t%2F3r%252BRfVIg9go%3D"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 135.89 91.44 0)
 			(effects
 				(font
@@ -12415,6 +13043,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 229.87 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8805f0e-80a9-4b7d-bda7-beeb8260de95")
 		)
@@ -12492,6 +13129,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 214.63 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 214.63 200.66 0)
 			(effects
 				(font
@@ -12604,7 +13250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 485.14 57.658 90)
 			(effects
 				(font
@@ -12676,6 +13322,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 485.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 485.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "edc3bf38-b069-416a-b1c4-418bba1ca6b1")
 		)
@@ -12719,7 +13383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "footprints:CAPC3225X230N"
 			(at 143.51 119.38 0)
 			(effects
 				(font
@@ -12792,6 +13456,15 @@
 			)
 		)
 		(property "Package" "1210"
+			(at 143.51 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 143.51 119.38 0)
 			(effects
 				(font
@@ -13066,6 +13739,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 294.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "263c0929-0108-4307-a9ef-e91c304f707d")
 		)
@@ -13186,7 +13868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 71.12 210.82 0)
 			(effects
 				(font
@@ -13259,6 +13941,15 @@
 			)
 		)
 		(property "Package" "0805"
+			(at 71.12 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 71.12 210.82 0)
 			(effects
 				(font
@@ -13355,6 +14046,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 273.05 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49fb23e8-7404-43c0-98d7-598ce2364e5c")
 		)
@@ -13395,7 +14095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 106.68 210.82 0)
 			(effects
 				(font
@@ -13476,6 +14176,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 106.68 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "045faeed-22f0-43fe-bb17-c350a2b1c722")
 		)
@@ -13519,7 +14228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 571.1952 167.64 0)
 			(effects
 				(font
@@ -13556,6 +14265,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 570.23 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 570.23 163.83 0)
 			(effects
 				(font
@@ -13607,7 +14325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 384.5052 186.69 0)
 			(effects
 				(font
@@ -13644,6 +14362,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 383.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 383.54 182.88 0)
 			(effects
 				(font
@@ -13693,7 +14420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SODFL3616X98N"
+		(property "Footprint" "footprints:RBE01VYM6AFHTR"
 			(at 179.07 209.88 0)
 			(effects
 				(font
@@ -13780,6 +14507,15 @@
 			)
 		)
 		(property "Package" "SOD-323-HE-2"
+			(at 190.5 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 190.5 307.34 0)
 			(effects
 				(font
@@ -13894,7 +14630,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:T491C"
 			(at 392.1252 36.83 0)
 			(effects
 				(font
@@ -13975,6 +14711,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 391.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "89901f1e-b7f0-4caf-a282-898fca60e4bb")
 		)
@@ -14016,7 +14761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM337T:TO254P1054X470X1955-3"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 481.33 101.6 0)
 			(effects
 				(font
@@ -14169,6 +14914,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 481.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "632f7ec2-22e0-4380-a988-6914497001d1")
 		)
@@ -14215,7 +14969,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "footprints:CAPPM3528X210N"
 			(at 369.57 40.64 0)
 			(effects
 				(font
@@ -14288,6 +15042,15 @@
 			)
 		)
 		(property "Package" "1210"
+			(at 369.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 369.57 40.64 0)
 			(effects
 				(font
@@ -14376,6 +15139,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 243.84 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 243.84 200.66 0)
 			(effects
 				(font
@@ -14490,7 +15262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 394.6652 187.96 0)
 			(effects
 				(font
@@ -14527,6 +15299,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 393.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 393.7 184.15 0)
 			(effects
 				(font
@@ -14575,7 +15356,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:PMEG3050EP115"
 			(at 543.56 34.29 0)
 			(effects
 				(font
@@ -14656,6 +15437,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 543.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2edbe004-6b4f-4245-b7cf-315284583e16")
 		)
@@ -14699,7 +15489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "footprints:CAPC3225X230N"
 			(at 45.72 119.38 0)
 			(effects
 				(font
@@ -14772,6 +15562,15 @@
 			)
 		)
 		(property "Package" "1210"
+			(at 45.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 45.72 119.38 0)
 			(effects
 				(font
@@ -14868,6 +15667,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 289.56 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69fc5125-5551-4bed-b2e7-86cae850c247")
 		)
@@ -14908,7 +15716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "footprints:CAPC3225X230N"
 			(at 90.17 88.9 0)
 			(effects
 				(font
@@ -14989,6 +15797,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0efe7d8f-a68a-4e34-9045-bf71e44e9955")
 		)
@@ -15032,7 +15849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:09652028"
 			(at 537.21 275.59 0)
 			(effects
 				(font
@@ -15041,7 +15858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/09652028?display=pdf"
 			(at 537.21 275.59 0)
 			(effects
 				(font
@@ -15050,7 +15867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Headers & Wire Housings HDR SPOX VERTICAL 2P"
 			(at 537.21 275.59 0)
 			(effects
 				(font
@@ -15059,7 +15876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "09-65-2028"
 			(at 537.21 275.59 0)
 			(effects
 				(font
@@ -15069,6 +15886,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 537.21 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 537.21 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-09-65-2028"
+			(at 537.21 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Molex/09-65-2028?qs=cRUT3GdJqnzinf38S8Zx4g%3D%3D&mgh=1&vip=1&utm_id=22244003751&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeamsp&gad_source=1&gbraid=0AAAAADn_wf1M2tgLv3XphLF6RzO2y7_9s&gclid=Cj0KCQjwh_i_BhCzARIsANimeoE0KTZhOPhncdYZMz4V6cWPPhY13ZIefNQ0qpO5xSn2CwO9J9G0u_4aAk4ZEALw_wcB"
+			(at 537.21 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" "538-08-70-1031-CT"
+			(at 537.21 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Part" "538-09-50-1021"
 			(at 537.21 275.59 0)
 			(effects
 				(font
@@ -15101,10 +15963,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2f7feb07-704a-4af6-8197-48bcdf6650af")
 		(property "Reference" "D21"
-			(at 508 46.6724 90)
+			(at 516.382 46.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15113,7 +15974,7 @@
 			)
 		)
 		(property "Value" "1N5819"
-			(at 508 49.2124 90)
+			(at 519.938 48.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15121,7 +15982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "footprints:SOD3716X145N"
 			(at 514.985 48.26 0)
 			(effects
 				(font
@@ -15194,6 +16055,15 @@
 			)
 		)
 		(property "Package" "SOD-123-2"
+			(at 510.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 510.54 48.26 0)
 			(effects
 				(font
@@ -15309,7 +16179,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:PMEG3050EP115"
 			(at 386.08 102.87 0)
 			(effects
 				(font
@@ -15390,6 +16260,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 386.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1061d87-24df-4a7f-85d3-dcf48387e33e")
 		)
@@ -15434,7 +16313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 94.742 45.72 90)
 			(effects
 				(font
@@ -15443,7 +16322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 96.52 45.72 0)
 			(effects
 				(font
@@ -15452,7 +16331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick Film Resistors - SMD 1/8watt 1.8Kohms 1% 100ppm"
 			(at 96.52 45.72 0)
 			(effects
 				(font
@@ -15461,7 +16340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW08051K80FKEA"
 			(at 96.52 45.72 0)
 			(effects
 				(font
@@ -15471,6 +16350,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0805-1.8K-E3"
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Vishay-Dale/CRCW08051K80FKEA?qs=1CkV0QOCgMoRk%2FQwwKgpqA%3D%3D"
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 96.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 96.52 45.72 0)
 			(effects
 				(font
@@ -15567,6 +16491,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 193.04 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71fc2448-db9e-4392-80ad-d5fc6c53af0a")
 		)
@@ -15601,7 +16534,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k"
+		(property "Value" "5.9k"
 			(at 104.14 91.4399 0)
 			(effects
 				(font
@@ -15610,7 +16543,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 103.378 90.17 90)
 			(effects
 				(font
@@ -15619,7 +16552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -15628,7 +16561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick Film Resistors - SMD 1/8watt 5.9Kohms 1% 100ppm"
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -15637,7 +16570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW08055K90FKEA"
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -15647,6 +16580,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0805-5.9K-E3"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Vishay-Dale/CRCW08055K90FKEA?qs=8UjxRNpjuULrGxnmc8Mlig%3D%3D"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -15696,7 +16674,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:T491C"
 			(at 126.6952 30.48 0)
 			(effects
 				(font
@@ -15705,7 +16683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.it/datasheet/2/447/KEM_T2005_T491-3316937.pdf KEMET 80-T491C106M020 https://www.mouser.it/ProductDetail/KEMET/T491C106M020AT?qs=sGAEpiMZZMsh%252B1woXyUXjzByPvGWtptJ%2FL%2Fh4br2tmA%3D 2412 Tantalum Capacitors - Solid SMD 20V 10uF 2312 20% ESR=1.8ohms T491C106M020AT "
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/447/KEM_T2005_T491-3316937.pdf"
 			(at 125.73 34.29 0)
 			(effects
 				(font
@@ -15769,6 +16747,15 @@
 			)
 		)
 		(property "Package" "2412"
+			(at 125.73 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 125.73 34.29 0)
 			(effects
 				(font
@@ -15853,6 +16840,110 @@
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 520.7 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a7948a3-b8ad-4ecd-8b8d-a2951c603c64")
+		(property "Reference" "L6"
+			(at 520.7 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330u"
+			(at 520.7 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:DR1050331R"
+			(at 520.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/87/eaton_dr1050_shielded_power_inductors_data_sheet-1608442.pdf"
+			(at 520.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Inductors - SMD 330uH 0.8A 554mOhms"
+			(at 520.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton Electronics"
+			(at 520.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "DR1050-331-R"
+			(at 520.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "704-DR1050-331-R"
+			(at 520.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Eaton-Electronics/DR1050-331-R?qs=yzwxPInThYT%252ByGkRvzn1hg%3D%3D"
+			(at 520.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2a5d77a-f755-4401-9150-4642d65f9401")
+		)
+		(pin "2"
+			(uuid "619c8142-476f-43bb-8d69-7d64750b82e6")
+		)
+		(instances
+			(project "qpcb"
+				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3"
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -15951,7 +17042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:09652028"
 			(at 537.21 318.77 0)
 			(effects
 				(font
@@ -15960,7 +17051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/09652028?display=pdf"
 			(at 537.21 318.77 0)
 			(effects
 				(font
@@ -15969,7 +17060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Headers & Wire Housings HDR SPOX VERTICAL 2P"
 			(at 537.21 318.77 0)
 			(effects
 				(font
@@ -15978,7 +17069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "09-65-2028"
 			(at 537.21 318.77 0)
 			(effects
 				(font
@@ -15988,6 +17079,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 537.21 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 537.21 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-09-65-2028"
+			(at 537.21 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Molex/09-65-2028?qs=cRUT3GdJqnzinf38S8Zx4g%3D%3D&mgh=1&vip=1&utm_id=22244003751&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeamsp&gad_source=1&gbraid=0AAAAADn_wf1M2tgLv3XphLF6RzO2y7_9s&gclid=Cj0KCQjwh_i_BhCzARIsANimeoE0KTZhOPhncdYZMz4V6cWPPhY13ZIefNQ0qpO5xSn2CwO9J9G0u_4aAk4ZEALw_wcB"
+			(at 537.21 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" "538-08-70-1031-CT"
+			(at 537.21 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Part" "538-09-50-1021"
 			(at 537.21 318.77 0)
 			(effects
 				(font
@@ -16037,7 +17173,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 558.8 201.422 90)
 			(effects
 				(font
@@ -16082,6 +17218,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 558.8 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d5f5e1ed-dd68-4d62-bab7-660aa20abc31")
 		)
@@ -16116,7 +17261,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "198"
+		(property "Value" "300"
 			(at 501.65 87.6299 0)
 			(effects
 				(font
@@ -16125,7 +17270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 497.332 86.36 90)
 			(effects
 				(font
@@ -16134,7 +17279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Panasonic_03-31-2024_Resistor_Anti-Sulfur(ERJ-UP6D-Series).pdf?_gl=1*66i8rs*_gcl_aw*R0NMLjE3NDQ3OTQ4MjEuQ2p3S0NBanc1UEtfQmhCQkVpd0FMN0dUUGUxOWt5UFNCR1BoX1BRRGVUbnB0V3VCX2pfb2RXWTJYTG13bXdsTDNmcWVUN250aUxuTHFCb0MwT1lRQXZEX0J3RQ..*_gcl_au*MTcxOTgxODkzMi4xNzQ0NjE5Nzkz*_ga*MTMxNTc5ODI1Ny4xNzQ0NjU1MDE5*_ga_15W4STQT4T*MTc0NDc5OTQ2MC40LjEuMTc0NDc5OTY4NC40My4wLjA."
 			(at 499.11 86.36 0)
 			(effects
 				(font
@@ -16143,7 +17288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick Film Resistors - SMD 0805 Anti-sulfur 0.5W, 0.5%, 300Ohm AEC-Q200"
 			(at 499.11 86.36 0)
 			(effects
 				(font
@@ -16152,7 +17297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ERJ-UP6D3000V"
 			(at 499.11 86.36 0)
 			(effects
 				(font
@@ -16162,6 +17307,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 499.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
+			(at 499.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 499.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-UP6D3000V"
+			(at 499.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Panasonic/ERJ-UP6D3000V?qs=sGAEpiMZZMtlubZbdhIBIKPMpJOYNEkDRt8nvmGqAI4%3D"
+			(at 499.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 499.11 86.36 0)
 			(effects
 				(font
@@ -16271,7 +17461,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1.4k"
 			(at 402.59 43.1799 0)
 			(effects
 				(font
@@ -16280,7 +17470,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 403.352 41.91 90)
 			(effects
 				(font
@@ -16289,7 +17479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "RK73H2ATTDD1401F"
 			(at 405.13 41.91 0)
 			(effects
 				(font
@@ -16298,7 +17488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick Film Resistors - SMD 1/4W 1.4K OHM 1%"
 			(at 405.13 41.91 0)
 			(effects
 				(font
@@ -16307,7 +17497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RK73H2ATTDD1401F"
 			(at 405.13 41.91 0)
 			(effects
 				(font
@@ -16317,6 +17507,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 405.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer"
+			(at 405.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "660-RK73H2ATTDD1401F"
+			(at 405.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KOA-Speer/RK73H2ATTDD1401F?qs=QxwJM3NKmUNYbyY%2Fa%2FfhXA%3D%3D"
+			(at 405.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 405.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 405.13 41.91 0)
 			(effects
 				(font
@@ -16368,7 +17603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SBR10200CTL13"
 			(at 86.36 29.21 0)
 			(effects
 				(font
@@ -16441,6 +17676,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 86.36 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 86.36 29.21 0)
 			(effects
 				(font
@@ -16549,7 +17793,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "510"
 			(at 57.15 199.3899 0)
 			(effects
 				(font
@@ -16558,7 +17802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 52.832 198.12 90)
 			(effects
 				(font
@@ -16567,7 +17811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Panasonic_03-31-2024_Resistor_Anti-Sulfur(ERJ-UP6D-Series).pdf?_gl=1*102d1s*_gcl_aw*R0NMLjE3NDQ2NjgxMjMuQ2p3S0NBanc1UEtfQmhCQkVpd0FMN0dUUGUxOWt5UFNCR1BoX1BRRGVUbnB0V3VCX2pfb2RXWTJYTG13bXdsTDNmcWVUN250aUxuTHFCb0MwT1lRQXZEX0J3RQ..*_gcl_au*MTcxOTgxODkzMi4xNzQ0NjE5Nzkz*_ga*MTM2MDMyNzg5OC4xNzQwNjc3NjEy*_ga_15W4STQT4T*MTc0NDcxMDMzOC44LjEuMTc0NDcxMDgwNi41OS4wLjA."
 			(at 54.61 198.12 0)
 			(effects
 				(font
@@ -16576,7 +17820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" " Thick Film Resistors - SMD 0805 Anti-sulfur 0.5W, 0.5%, 510Ohm AEC-Q200"
 			(at 54.61 198.12 0)
 			(effects
 				(font
@@ -16585,7 +17829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ERJ-UP6D5100V"
 			(at 54.61 198.12 0)
 			(effects
 				(font
@@ -16595,6 +17839,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 54.61 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 54.61 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-UP6D5100V"
+			(at 54.61 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Panasonic/ERJ-UP6D5100V?qs=ZcfC38r4Pos4pRbggWLScA%3D%3D"
+			(at 54.61 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 54.61 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 54.61 198.12 0)
 			(effects
 				(font
@@ -16740,6 +18029,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 401.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "845d5a4f-44ec-4d72-b77c-3760fd675cf5")
 		)
@@ -16804,7 +18102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 375.6152 168.91 0)
 			(effects
 				(font
@@ -16841,6 +18139,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 374.65 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 374.65 165.1 0)
 			(effects
 				(font
@@ -16890,7 +18197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SODFL3616X98N"
+		(property "Footprint" "footprints:RBE01VYM6AFHTR"
 			(at 44.9782 209.1214 0)
 			(effects
 				(font
@@ -16977,6 +18284,15 @@
 			)
 		)
 		(property "Package" "SOD-323-HE-2"
+			(at 56.4082 306.5814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 56.4082 306.5814 0)
 			(effects
 				(font
@@ -17138,6 +18454,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 193.04 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7ed3f95-bc4c-4e1b-a25c-35e0e46804f9")
 		)
@@ -17179,7 +18504,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 65.2982 308.3594 90)
 			(effects
 				(font
@@ -17224,6 +18549,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 65.2982 306.5814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7783b9e3-ea8a-457a-80b6-099a2e4248e2")
 		)
@@ -17241,8 +18575,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 514.35 87.63 0)
-		(mirror y)
+		(at 509.27 80.01 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17250,7 +18584,7 @@
 		(dnp no)
 		(uuid "4edd809a-2b01-44d3-9458-e854508a85d4")
 		(property "Reference" "#PWR072"
-			(at 514.35 93.98 0)
+			(at 509.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17259,7 +18593,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 516.89 87.376 0)
+			(at 506.73 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17267,7 +18601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 514.35 87.63 0)
+			(at 509.27 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17276,7 +18610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 514.35 87.63 0)
+			(at 509.27 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17285,7 +18619,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 514.35 87.63 0)
+			(at 509.27 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17300,6 +18634,137 @@
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 529.59 62.23 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f8b922f-aad7-493c-8e04-5b957815a6cc")
+		(property "Reference" "C60"
+			(at 534.416 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 534.162 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:T491C"
+			(at 530.5552 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/447/KEM_T2005_T491-3316937.pdf"
+			(at 529.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tantalum Capacitors - Solid SMD 20V 10uF 2312 20% ESR=1.8ohms"
+			(at 529.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "T491C106M020AT"
+			(at 529.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 529.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 529.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-T491C106M020"
+			(at 529.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KEMET/T491C106M020AT?qs=sGAEpiMZZMsh%252B1woXyUXjzByPvGWtptJ%2FL%2Fh4br2tmA%3D"
+			(at 529.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2412"
+			(at 529.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
+			(at 529.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "64ed7f38-e362-42ea-b1ad-f8bc8c4bc8fd")
+		)
+		(pin "1"
+			(uuid "d711d8ae-e13c-4071-b454-b4b8497db42f")
+		)
+		(instances
+			(project "qpcb"
+				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3"
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -17333,7 +18798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 57.1702 367.5414 90)
 			(effects
 				(font
@@ -17370,6 +18835,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 58.9482 367.5414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 58.9482 367.5414 0)
 			(effects
 				(font
@@ -17610,7 +19084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "190p"
+		(property "Value" "200p"
 			(at 466.344 49.022 0)
 			(effects
 				(font
@@ -17628,7 +19102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.it/datasheet/2/40/700A-2899706.pdf"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/40/600F-2899696.pdf"
 			(at 463.55 46.99 0)
 			(effects
 				(font
@@ -17637,7 +19111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Silicon RF Capacitors / Thin Film 150V 190pF Tol 5% Las Mkg"
+		(property "Description" "Silicon RF Capacitors / Thin Film 250volts 200pF 5% NP0"
 			(at 463.55 46.99 0)
 			(effects
 				(font
@@ -17646,7 +19120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "700A191JCA150XC100"
+		(property "Manufacturer Part Number" "600F201JT250XT"
 			(at 463.55 46.99 0)
 			(effects
 				(font
@@ -17673,7 +19147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-700A191JCA150100"
+		(property "Mouser Part Number" "581-600F201JT"
 			(at 463.55 46.99 0)
 			(effects
 				(font
@@ -17682,7 +19156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KYOCERA-AVX/700A191JCA150XC100?qs=7D1LtPJG0i2KcLpGFemaJQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KYOCERA-AVX/600F201JT250XT?qs=sGAEpiMZZMsh%252B1woXyUXjychPV2OuKV0mKjl47fezow%3D"
 			(at 463.55 46.99 0)
 			(effects
 				(font
@@ -17691,7 +19165,16 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0505"
+		(property "Package" "0805"
+			(at 463.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 463.55 46.99 0)
 			(effects
 				(font
@@ -17741,7 +19224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 328.6252 26.67 0)
 			(effects
 				(font
@@ -17814,6 +19297,15 @@
 			)
 		)
 		(property "Package" "0805"
+			(at 327.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 327.66 30.48 0)
 			(effects
 				(font
@@ -17995,7 +19487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC6050X550N"
 			(at 274.6248 46.99 0)
 			(effects
 				(font
@@ -18059,6 +19551,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/TDK/CKG57NX5R1H226M500JH?qs=NRhsANhppD%252BjpkOyWXm7kw%3D%3D"
+			(at 275.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 275.59 43.18 0)
 			(effects
 				(font
@@ -18176,7 +19677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 191.262 314.96 90)
 			(effects
 				(font
@@ -18213,6 +19714,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 193.04 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 193.04 314.96 0)
 			(effects
 				(font
@@ -18264,7 +19774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "footprints:CAPC3225X230N"
 			(at 330.2 99.06 0)
 			(effects
 				(font
@@ -18345,6 +19855,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 330.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "719411a0-c73c-4661-8b46-9bb571560297")
 		)
@@ -18388,7 +19907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 493.7252 215.9 0)
 			(effects
 				(font
@@ -18425,6 +19944,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 492.76 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 492.76 212.09 0)
 			(effects
 				(font
@@ -18476,7 +20004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "footprints:SOT96P240X120-3N"
 			(at 214.63 362.585 0)
 			(effects
 				(font
@@ -18560,6 +20088,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 209.55 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "075b2e59-dd59-4cb8-b033-1c93cde25f4e")
 		)
@@ -18606,7 +20143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "footprints:CAPC3225X280N"
 			(at 457.2 36.83 0)
 			(effects
 				(font
@@ -18615,7 +20152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/396/mlcc02_e-1307760.pdf"
 			(at 457.2 36.83 0)
 			(effects
 				(font
@@ -18624,7 +20161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT RPLCMT PN 963-MSASL32MAB5107MP 10V 100uF X5R 1210 20 %"
 			(at 457.2 36.83 0)
 			(effects
 				(font
@@ -18633,7 +20170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "LMK325ABJ107MM-T"
 			(at 457.2 36.83 0)
 			(effects
 				(font
@@ -18643,6 +20180,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 457.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAIYO YUDEN"
+			(at 457.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-LMK325ABJ107MM-T"
+			(at 457.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/TAIYO-YUDEN/LMK325ABJ107MM-T?qs=sGAEpiMZZMsh%252B1woXyUXjydUYsq5p9fhgQ04MWjdlzg%3D"
+			(at 457.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1210"
+			(at 457.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 457.2 36.83 0)
 			(effects
 				(font
@@ -18686,7 +20268,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "787"
 			(at 137.16 36.8299 0)
 			(effects
 				(font
@@ -18695,7 +20277,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 137.922 35.56 90)
 			(effects
 				(font
@@ -18704,7 +20286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 139.7 35.56 0)
 			(effects
 				(font
@@ -18713,7 +20295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick Film Resistors - SMD 1/8watt 787ohms 1% 100ppm"
 			(at 139.7 35.56 0)
 			(effects
 				(font
@@ -18722,7 +20304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW0805787RFKEA"
 			(at 139.7 35.56 0)
 			(effects
 				(font
@@ -18732,6 +20314,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0805-787-E3"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Vishay-Dale/CRCW0805787RFKEA?qs=Lu3mkJd%252BoBHFo%2FQlWc6ASQ%3D%3D"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 139.7 35.56 0)
 			(effects
 				(font
@@ -18849,7 +20476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 503.8852 176.53 0)
 			(effects
 				(font
@@ -18894,6 +20521,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 502.92 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7fd7b820-7891-4d80-84aa-b6a666707c49")
 		)
@@ -18904,6 +20540,122 @@
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3"
 					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 520.7 248.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6638257d-fb76-4e6d-beab-aff2e0e80ac7")
+		(property "Reference" "SW1"
+			(at 520.7 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 520.7 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_500SSP1S2M2QEA"
+			(at 520.7 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/140/500SSP1S1M2QEA-3449971.pdf"
+			(at 520.7 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switches SPDT ON-ON PC MNT"
+			(at 520.7 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "E-Switch"
+			(at 520.7 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "500SSP1S1M2QEA"
+			(at 520.7 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "612-500-A121"
+			(at 520.7 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/E-Switch/500SSP1S1M2QEA?qs=rR7wk9eDIwofjM3j2mZRnA%3D%3D"
+			(at 520.7 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
+			(at 520.7 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "766f0bf5-83ed-425d-9fcf-316e449d2f45")
+		)
+		(pin "1"
+			(uuid "a7cb5643-e780-47f0-9e20-aa4c1e7506fb")
+		)
+		(pin "3"
+			(uuid "1e719aa6-651b-49b1-9efb-e0aa09c7faea")
+		)
+		(instances
+			(project "qpcb"
+				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -18935,7 +20687,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 132.08 362.458 90)
 			(effects
 				(font
@@ -18972,6 +20724,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 132.08 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 132.08 360.68 0)
 			(effects
 				(font
@@ -19133,6 +20894,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 58.9482 345.9514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "66fedfb6-d805-404e-8c2e-3c353180361b")
 		)
@@ -19176,7 +20946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 343.408 100.33 90)
 			(effects
 				(font
@@ -19185,7 +20955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/447/PYu_AF_51_RoHS_L_9-3358811.pdf"
 			(at 341.63 100.33 0)
 			(effects
 				(font
@@ -19194,7 +20964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" " Thick Film Resistors - SMD 12k Ohms 1/8 Wa 0805 1% AEC-Q200"
 			(at 341.63 100.33 0)
 			(effects
 				(font
@@ -19203,7 +20973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "AF0805FR-0712KL"
 			(at 341.63 100.33 0)
 			(effects
 				(font
@@ -19213,6 +20983,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 341.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 341.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AF0805FR-0712KL"
+			(at 341.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/YAGEO/AF0805FR-0712KL?qs=tggtontpCXNCKdPHmR4X7Q%3D%3D"
+			(at 341.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 341.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 341.63 100.33 0)
 			(effects
 				(font
@@ -19265,7 +21080,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 94.742 26.67 90)
 			(effects
 				(font
@@ -19274,7 +21089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 26.67 0)
 			(effects
 				(font
@@ -19302,6 +21117,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 96.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 96.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 96.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 96.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 96.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 96.52 26.67 0)
 			(effects
 				(font
@@ -19353,7 +21213,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 54.61 210.82 0)
 			(effects
 				(font
@@ -19434,6 +21294,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 54.61 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff172536-24d4-4fd7-b735-f3770712a04d")
 		)
@@ -19477,7 +21346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SODFL3617X108N"
 			(at 339.09 35.56 0)
 			(effects
 				(font
@@ -19550,6 +21419,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 339.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 339.09 35.56 0)
 			(effects
 				(font
@@ -19665,7 +21543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 75.8952 20.32 0)
 			(effects
 				(font
@@ -19746,6 +21624,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 74.93 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c0c10ed9-c8c6-4509-9181-5b963efe5d5e")
 		)
@@ -19789,7 +21676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 123.952 314.96 90)
 			(effects
 				(font
@@ -19834,6 +21721,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 125.73 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8da9929e-961b-4a1b-b175-eba7dffee535")
 		)
@@ -19868,7 +21764,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k"
+		(property "Value" "5.9k"
 			(at 201.93 91.4399 0)
 			(effects
 				(font
@@ -19877,7 +21773,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 201.168 90.17 90)
 			(effects
 				(font
@@ -19886,7 +21782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 199.39 90.17 0)
 			(effects
 				(font
@@ -19895,7 +21791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick Film Resistors - SMD 1/8watt 5.9Kohms 1% 100ppm"
 			(at 199.39 90.17 0)
 			(effects
 				(font
@@ -19904,7 +21800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW08055K90FKEA"
 			(at 199.39 90.17 0)
 			(effects
 				(font
@@ -19914,6 +21810,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 199.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 199.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0805-5.9K-E3"
+			(at 199.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Vishay-Dale/CRCW08055K90FKEA?qs=8UjxRNpjuULrGxnmc8Mlig%3D%3D"
+			(at 199.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 199.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 199.39 90.17 0)
 			(effects
 				(font
@@ -19965,7 +21906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 484.8352 198.12 0)
 			(effects
 				(font
@@ -20002,6 +21943,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 483.87 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 483.87 194.31 0)
 			(effects
 				(font
@@ -20098,6 +22048,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 257.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4d60c80-352e-4d93-aebb-2b0af18cd1b8")
 		)
@@ -20138,7 +22097,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "footprints:CAPPM3528X210N"
 			(at 358.14 40.64 0)
 			(effects
 				(font
@@ -20219,6 +22178,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 358.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1513e472-1ea5-4838-a810-2a40e18e537b")
 		)
@@ -20262,7 +22230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:09652028"
 			(at 392.43 295.91 0)
 			(effects
 				(font
@@ -20271,7 +22239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/09652028?display=pdf"
 			(at 392.43 295.91 0)
 			(effects
 				(font
@@ -20280,7 +22248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Headers & Wire Housings HDR SPOX VERTICAL 2P"
 			(at 392.43 295.91 0)
 			(effects
 				(font
@@ -20289,7 +22257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "09-65-2028"
 			(at 392.43 295.91 0)
 			(effects
 				(font
@@ -20299,6 +22267,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 392.43 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 392.43 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-09-65-2028"
+			(at 392.43 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Molex/09-65-2028?qs=cRUT3GdJqnzinf38S8Zx4g%3D%3D&mgh=1&vip=1&utm_id=22244003751&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeamsp&gad_source=1&gbraid=0AAAAADn_wf1M2tgLv3XphLF6RzO2y7_9s&gclid=Cj0KCQjwh_i_BhCzARIsANimeoE0KTZhOPhncdYZMz4V6cWPPhY13ZIefNQ0qpO5xSn2CwO9J9G0u_4aAk4ZEALw_wcB"
+			(at 392.43 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" "538-08-70-1031-CT"
+			(at 392.43 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Part" "538-09-50-1021"
 			(at 392.43 295.91 0)
 			(effects
 				(font
@@ -20508,6 +22521,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "115912be-88b7-4c55-966b-e83f636b1497")
 		)
@@ -20674,6 +22696,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 198.12 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a66c8068-d46d-44a0-bd3f-ca1187d5c850")
 		)
@@ -20714,7 +22745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "footprints:CAPPM2014X170N"
 			(at 509.27 93.98 0)
 			(effects
 				(font
@@ -20732,7 +22763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tantalum Capacitors - Solid SMD 10V 10uF 10%"
 			(at 509.27 93.98 0)
 			(effects
 				(font
@@ -20795,6 +22826,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 509.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b633130b-5ebb-4caf-bb89-d3d90ba791a1")
 		)
@@ -20838,7 +22878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 571.1952 208.28 0)
 			(effects
 				(font
@@ -20875,6 +22915,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 570.23 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 570.23 204.47 0)
 			(effects
 				(font
@@ -20992,7 +23041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 123.952 368.3 90)
 			(effects
 				(font
@@ -21029,6 +23078,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 125.73 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 125.73 368.3 0)
 			(effects
 				(font
@@ -21143,7 +23201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SODFL3616X98N"
+		(property "Footprint" "footprints:RBE01VYM6AFHTR"
 			(at 111.76 209.88 0)
 			(effects
 				(font
@@ -21238,6 +23296,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 123.19 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48cea504-c05f-49c2-bdc6-0324754fd357")
 		)
@@ -21282,7 +23349,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "https://www.mouser.it/ProductDetail/Vishay-Dale/CRCW0805953RFKEA?qs=sGAEpiMZZMtlubZbdhIBIP55dmWdEGuB3ZlBKXDeB7I%3D"
 			(at 347.472 52.07 90)
 			(effects
 				(font
@@ -21354,6 +23421,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 349.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 349.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "04a76779-483c-4cc2-ba4c-ba1b6de7265b")
 		)
@@ -21406,7 +23491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/40/X7RDielectric-2943470.pdf"
 			(at 27.94 91.44 0)
 			(effects
 				(font
@@ -21415,7 +23500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT KGF21BR71E104JT NW G LOB PN 25V 0.1uF X7R A 581-KGF21BR71E104JT"
 			(at 27.94 91.44 0)
 			(effects
 				(font
@@ -21424,7 +23509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "08053C104JAZ2A"
 			(at 27.94 91.44 0)
 			(effects
 				(font
@@ -21434,6 +23519,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 27.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 27.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-08053C104JAZ2A"
+			(at 27.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KYOCERA-AVX/08053C104JAZ2A?qs=YtXa1zY%252Bjw7108MDhSwtdw%3D%3D"
+			(at 27.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 27.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 27.94 91.44 0)
 			(effects
 				(font
@@ -21485,7 +23615,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 39.878 91.44 90)
 			(effects
 				(font
@@ -21494,7 +23624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 38.1 91.44 0)
 			(effects
 				(font
@@ -21503,7 +23633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thin Film Resistors - SMD 0805 120Kohms 25ppm 0.5% AEC-Q200"
 			(at 38.1 91.44 0)
 			(effects
 				(font
@@ -21512,7 +23642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ERA-6AED124V"
 			(at 38.1 91.44 0)
 			(effects
 				(font
@@ -21522,6 +23652,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 38.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 38.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-6AED124V"
+			(at 38.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Panasonic/ERA-6AED124V?qs=sGAEpiMZZMtlubZbdhIBINE5Vwz7C5t%2F3r%252BRfVIg9go%3D"
+			(at 38.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 38.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 38.1 91.44 0)
 			(effects
 				(font
@@ -21618,6 +23793,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 257.81 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4101e15e-ce9f-40fd-b446-d1440c21e254")
 		)
@@ -21657,7 +23841,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 286.258 99.06 90)
 			(effects
 				(font
@@ -21721,6 +23905,24 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Panasonic/ERA-6AED244V?qs=sGAEpiMZZMtlubZbdhIBINE5Vwz7C5t%2FxETu3bxeqb8%3D"
+			(at 284.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
+			(at 284.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 284.48 99.06 0)
 			(effects
 				(font
@@ -21866,6 +24068,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 510.54 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "506e7e6d-9332-43a1-90b9-71a5abba6579")
 		)
@@ -21930,7 +24141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 440.3852 231.14 0)
 			(effects
 				(font
@@ -21967,6 +24178,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 439.42 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 439.42 227.33 0)
 			(effects
 				(font
@@ -22084,7 +24304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:09652028"
 			(at 392.43 307.34 0)
 			(effects
 				(font
@@ -22093,7 +24313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/09652028?display=pdf"
 			(at 392.43 307.34 0)
 			(effects
 				(font
@@ -22102,7 +24322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Headers & Wire Housings HDR SPOX VERTICAL 2P"
 			(at 392.43 307.34 0)
 			(effects
 				(font
@@ -22111,7 +24331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "09-65-2028"
 			(at 392.43 307.34 0)
 			(effects
 				(font
@@ -22121,6 +24341,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 392.43 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 392.43 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-09-65-2028"
+			(at 392.43 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Molex/09-65-2028?qs=cRUT3GdJqnzinf38S8Zx4g%3D%3D&mgh=1&vip=1&utm_id=22244003751&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeamsp&gad_source=1&gbraid=0AAAAADn_wf1M2tgLv3XphLF6RzO2y7_9s&gclid=Cj0KCQjwh_i_BhCzARIsANimeoE0KTZhOPhncdYZMz4V6cWPPhY13ZIefNQ0qpO5xSn2CwO9J9G0u_4aAk4ZEALw_wcB"
+			(at 392.43 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" "538-08-70-1031-CT"
+			(at 392.43 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Part" "538-09-50-1021"
 			(at 392.43 307.34 0)
 			(effects
 				(font
@@ -22163,7 +24428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "121"
+		(property "Value" "86.6"
 			(at 501.65 96.5199 0)
 			(effects
 				(font
@@ -22172,7 +24437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 497.332 95.25 90)
 			(effects
 				(font
@@ -22181,7 +24446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 499.11 95.25 0)
 			(effects
 				(font
@@ -22190,7 +24455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thin Film Resistors - SMD 0805 86.6ohm 0.1% 25ppm"
 			(at 499.11 95.25 0)
 			(effects
 				(font
@@ -22199,7 +24464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ERA-6AEB86R6V"
 			(at 499.11 95.25 0)
 			(effects
 				(font
@@ -22209,6 +24474,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 499.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
+			(at 499.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 499.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-6AEB86R6V"
+			(at 499.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Panasonic/ERA-6AEB86R6V?qs=nuXzIS8loXFI3rwabnXBGA%3D%3D"
+			(at 499.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 499.11 95.25 0)
 			(effects
 				(font
@@ -22324,7 +24634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 449.58 212.852 90)
 			(effects
 				(font
@@ -22369,6 +24679,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 449.58 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0c760612-8a52-46cb-9e79-41fd29d86247")
 		)
@@ -22403,7 +24722,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.1k"
 			(at 40.64 199.3899 0)
 			(effects
 				(font
@@ -22412,7 +24731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 36.322 198.12 90)
 			(effects
 				(font
@@ -22421,7 +24740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Panasonic_03-31-2024_Resistor_Anti-Sulfur(ERJ-UP6D-Series).pdf?_gl=1*1xzge31*_gcl_aw*R0NMLjE3NDQ2NjgxMjMuQ2p3S0NBanc1UEtfQmhCQkVpd0FMN0dUUGUxOWt5UFNCR1BoX1BRRGVUbnB0V3VCX2pfb2RXWTJYTG13bXdsTDNmcWVUN250aUxuTHFCb0MwT1lRQXZEX0J3RQ..*_gcl_au*MTcxOTgxODkzMi4xNzQ0NjE5Nzkz*_ga*MTM2MDMyNzg5OC4xNzQwNjc3NjEy*_ga_15W4STQT4T*MTc0NDcxMDMzOC44LjEuMTc0NDcxMDYzNC4zNi4wLjA."
 			(at 38.1 198.12 0)
 			(effects
 				(font
@@ -22430,7 +24749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" " Thick Film Resistors - SMD 0805 Anti-sulfur 0.5W, 0.5%, 1.1KOhm AEC-Q200"
 			(at 38.1 198.12 0)
 			(effects
 				(font
@@ -22439,7 +24758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ERJ-UP6D1101V"
 			(at 38.1 198.12 0)
 			(effects
 				(font
@@ -22449,6 +24768,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 38.1 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 38.1 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-UP6D1101V"
+			(at 38.1 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Panasonic/ERJ-UP6D1101V?qs=ZcfC38r4PoswARN6HQ6gmw%3D%3D"
+			(at 38.1 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 38.1 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 38.1 198.12 0)
 			(effects
 				(font
@@ -22564,7 +24928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:PMEG3050EP115"
 			(at 543.56 41.91 0)
 			(effects
 				(font
@@ -22645,6 +25009,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 543.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "141844ac-c6d5-40a9-9130-2ba99ea52cf8")
 		)
@@ -22688,7 +25061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 440.3852 190.5 0)
 			(effects
 				(font
@@ -22725,6 +25098,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 439.42 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 439.42 186.69 0)
 			(effects
 				(font
@@ -22821,6 +25203,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 273.05 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "feb589c7-6d92-44a6-b1a5-b8ffe7ac3343")
 		)
@@ -22861,7 +25252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "footprints:SOT96P240X120-3N"
 			(at 80.5382 308.4864 0)
 			(effects
 				(font
@@ -22945,6 +25336,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 75.4582 306.5814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9be2cd5a-6515-4671-8d6a-e6499fb0bfac")
 		)
@@ -23000,7 +25400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/40/X7RDielectric-2943470.pdf"
 			(at 274.32 99.06 0)
 			(effects
 				(font
@@ -23009,7 +25409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT KGF21BR71E104JT NW G LOB PN 25V 0.1uF X7R A 581-KGF21BR71E104JT"
 			(at 274.32 99.06 0)
 			(effects
 				(font
@@ -23018,7 +25418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "08053C104JAZ2A"
 			(at 274.32 99.06 0)
 			(effects
 				(font
@@ -23028,6 +25428,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 274.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 274.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-08053C104JAZ2A"
+			(at 274.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KYOCERA-AVX/08053C104JAZ2A?qs=YtXa1zY%252Bjw7108MDhSwtdw%3D%3D"
+			(at 274.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 274.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 274.32 99.06 0)
 			(effects
 				(font
@@ -23080,7 +25525,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 347.472 33.02 90)
 			(effects
 				(font
@@ -23117,6 +25562,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 349.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 349.25 33.02 0)
 			(effects
 				(font
@@ -23168,7 +25622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:09652028"
 			(at 537.21 331.47 0)
 			(effects
 				(font
@@ -23177,7 +25631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/09652028?display=pdf"
 			(at 537.21 331.47 0)
 			(effects
 				(font
@@ -23186,7 +25640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Headers & Wire Housings HDR SPOX VERTICAL 2P"
 			(at 537.21 331.47 0)
 			(effects
 				(font
@@ -23195,7 +25649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "09-65-2028"
 			(at 537.21 331.47 0)
 			(effects
 				(font
@@ -23205,6 +25659,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 537.21 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 537.21 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-09-65-2028"
+			(at 537.21 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Molex/09-65-2028?qs=cRUT3GdJqnzinf38S8Zx4g%3D%3D&mgh=1&vip=1&utm_id=22244003751&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeamsp&gad_source=1&gbraid=0AAAAADn_wf1M2tgLv3XphLF6RzO2y7_9s&gclid=Cj0KCQjwh_i_BhCzARIsANimeoE0KTZhOPhncdYZMz4V6cWPPhY13ZIefNQ0qpO5xSn2CwO9J9G0u_4aAk4ZEALw_wcB"
+			(at 537.21 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" "538-08-70-1031-CT"
+			(at 537.21 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Part" "538-09-50-1021"
 			(at 537.21 331.47 0)
 			(effects
 				(font
@@ -23256,7 +25755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 394.6652 228.6 0)
 			(effects
 				(font
@@ -23293,6 +25792,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 393.7 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 393.7 224.79 0)
 			(effects
 				(font
@@ -23652,6 +26160,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 198.12 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13b471df-7e6e-4567-8a3a-c94759ce6955")
 		)
@@ -23692,7 +26209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 484.8352 157.48 0)
 			(effects
 				(font
@@ -23729,6 +26246,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 483.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 483.87 153.67 0)
 			(effects
 				(font
@@ -23825,6 +26351,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 304.8 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb1e80bf-8acb-430f-b00b-fec22ae0e870")
 		)
@@ -23856,7 +26391,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150"
 			(at 109.22 199.3899 0)
 			(effects
 				(font
@@ -23865,7 +26400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 104.902 198.12 90)
 			(effects
 				(font
@@ -23902,6 +26437,24 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 106.68 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 106.68 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 106.68 198.12 0)
 			(effects
 				(font
@@ -23954,7 +26507,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:ETQ-P4M_KFM"
 			(at 496.57 48.26 0)
 			(effects
 				(font
@@ -23963,7 +26516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "667-ETQ-P5M101YGM"
+		(property "Datasheet" "ETQ-P5M101YGM "
 			(at 496.57 48.26 0)
 			(effects
 				(font
@@ -23981,7 +26534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ETQ-P5M101YGM"
+		(property "Manufacturer Part Number" "ETQ-P5M101YGM "
 			(at 496.57 48.26 0)
 			(effects
 				(font
@@ -24008,7 +26561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ETQ-P5M101YGM"
+		(property "Mouser Part Number" "667-ETQ-P5M101YGM "
 			(at 496.57 48.26 0)
 			(effects
 				(font
@@ -24018,6 +26571,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Panasonic/ETQ-P5M101YGM?qs=P1JMDcb91o78CcRAb6iA0g%3D%3D"
+			(at 496.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 496.57 48.26 0)
 			(effects
 				(font
@@ -24067,7 +26629,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 199.39 309.118 90)
 			(effects
 				(font
@@ -24104,6 +26666,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 199.39 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 199.39 307.34 0)
 			(effects
 				(font
@@ -24212,7 +26783,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 73.66 199.3899 0)
 			(effects
 				(font
@@ -24221,7 +26792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 69.342 198.12 90)
 			(effects
 				(font
@@ -24258,6 +26829,24 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 71.12 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 71.12 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 71.12 198.12 0)
 			(effects
 				(font
@@ -24310,7 +26899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC6050X550N"
 			(at 21.8948 40.64 0)
 			(effects
 				(font
@@ -24382,6 +26971,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 22.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9ca49961-c913-4068-a9fe-4662308b1d88")
 		)
@@ -24422,7 +27020,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:PMEG3050EP115"
 			(at 172.72 31.75 0)
 			(effects
 				(font
@@ -24503,6 +27101,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 172.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d0548ce8-9da0-4c28-a7a5-aaf98d74e18c")
 		)
@@ -24544,7 +27151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SODFL3616X98N"
+		(property "Footprint" "footprints:RBE01VYM6AFHTR"
 			(at 179.07 263.22 0)
 			(effects
 				(font
@@ -24639,6 +27246,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 190.5 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c126c8dc-87fe-4fd0-aa74-60f87a846d25")
 		)
@@ -24682,7 +27298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 493.7252 175.26 0)
 			(effects
 				(font
@@ -24719,6 +27335,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 492.76 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 492.76 171.45 0)
 			(effects
 				(font
@@ -24856,6 +27481,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 326.39 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 326.39 34.29 0)
 			(effects
 				(font
@@ -25087,6 +27721,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 148.59 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9e69a3d1-7b69-4bf3-b348-8216aa81869b")
 		)
@@ -25187,6 +27830,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 243.84 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03f9c8bd-66b1-4524-a09a-50ac809163ab")
 		)
@@ -25225,7 +27877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "footprints:SOIC127P599X175-8N"
 			(at 480.06 49.53 0)
 			(effects
 				(font
@@ -25307,6 +27959,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 478.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "9bdf7b59-c79b-40c0-8637-f2920bb5d3c1")
 		)
@@ -25368,7 +28029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 549.6052 219.71 0)
 			(effects
 				(font
@@ -25405,6 +28066,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 548.64 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 548.64 215.9 0)
 			(effects
 				(font
@@ -25456,7 +28126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "footprints:T521D"
 			(at 461.01 93.98 0)
 			(effects
 				(font
@@ -25465,7 +28135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/447/KEM_T2076_T52X_530-3317002.pdf"
 			(at 461.01 93.98 0)
 			(effects
 				(font
@@ -25474,7 +28144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tantalum Capacitors - Polymer 50V 5.6uF 2917 20% ESR=70mOhms"
 			(at 461.01 93.98 0)
 			(effects
 				(font
@@ -25483,7 +28153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "T521D565M050ATE070"
 			(at 461.01 93.98 0)
 			(effects
 				(font
@@ -25493,6 +28163,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 461.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 461.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-T521D565M50ATE70"
+			(at 461.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KEMET/T521D565M050ATE070?qs=JjsU9qTd9zATkiM6wZ6A0Q%3D%3D"
+			(at 461.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "D Case"
+			(at 461.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 461.01 93.98 0)
 			(effects
 				(font
@@ -25544,7 +28259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "footprints:SOT96P240X120-3N"
 			(at 214.63 309.245 0)
 			(effects
 				(font
@@ -25628,6 +28343,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 209.55 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "ab4605ef-cbd1-4c54-99f7-401c5ef61dd0")
 		)
@@ -25674,7 +28398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 503.8852 217.17 0)
 			(effects
 				(font
@@ -25711,6 +28435,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 502.92 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 502.92 213.36 0)
 			(effects
 				(font
@@ -25807,6 +28540,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 229.87 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5dff260-f002-4419-bf01-88a48a5621f3")
 		)
@@ -25845,7 +28587,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 558.8 160.782 90)
 			(effects
 				(font
@@ -25882,6 +28624,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 558.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 558.8 162.56 0)
 			(effects
 				(font
@@ -25933,7 +28684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 384.5052 227.33 0)
 			(effects
 				(font
@@ -25970,6 +28721,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 383.54 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 383.54 223.52 0)
 			(effects
 				(font
@@ -26019,7 +28779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SODFL3616X98N"
+		(property "Footprint" "footprints:RBE01VYM6AFHTR"
 			(at 44.9782 262.4614 0)
 			(effects
 				(font
@@ -26106,6 +28866,15 @@
 			)
 		)
 		(property "Package" "SOD-323-HE-2"
+			(at 56.4082 359.9214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 56.4082 359.9214 0)
 			(effects
 				(font
@@ -26221,7 +28990,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:PMEG3050EP115"
 			(at 172.72 39.37 0)
 			(effects
 				(font
@@ -26302,6 +29071,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 172.72 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f075a981-b605-4716-8a2b-0d76534bad8f")
 		)
@@ -26343,7 +29121,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 65.2982 361.6994 90)
 			(effects
 				(font
@@ -26380,6 +29158,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 65.2982 359.9214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 65.2982 359.9214 0)
 			(effects
 				(font
@@ -26553,7 +29340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "68"
 			(at 146.05 199.3899 0)
 			(effects
 				(font
@@ -26562,7 +29349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 141.732 198.12 90)
 			(effects
 				(font
@@ -26599,6 +29386,24 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 143.51 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 143.51 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 143.51 198.12 0)
 			(effects
 				(font
@@ -26725,7 +29530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/40/X7RDielectric-2943470.pdf"
 			(at 125.73 91.44 0)
 			(effects
 				(font
@@ -26734,7 +29539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT KGF21BR71E104JT NW G LOB PN 25V 0.1uF X7R A 581-KGF21BR71E104JT"
 			(at 125.73 91.44 0)
 			(effects
 				(font
@@ -26743,7 +29548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "08053C104JAZ2A"
 			(at 125.73 91.44 0)
 			(effects
 				(font
@@ -26753,6 +29558,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-08053C104JAZ2A"
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KYOCERA-AVX/08053C104JAZ2A?qs=YtXa1zY%252Bjw7108MDhSwtdw%3D%3D"
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 125.73 91.44 0)
 			(effects
 				(font
@@ -26804,7 +29654,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 125.73 210.82 0)
 			(effects
 				(font
@@ -26885,6 +29735,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 125.73 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0be8880d-6005-4527-8b57-de3c18ff1371")
 		)
@@ -26928,7 +29787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:09652028"
 			(at 537.21 346.71 0)
 			(effects
 				(font
@@ -26937,7 +29796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/09652028?display=pdf"
 			(at 537.21 346.71 0)
 			(effects
 				(font
@@ -26946,7 +29805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Headers & Wire Housings HDR SPOX VERTICAL 2P"
 			(at 537.21 346.71 0)
 			(effects
 				(font
@@ -26955,7 +29814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "09-65-2028"
 			(at 537.21 346.71 0)
 			(effects
 				(font
@@ -26965,6 +29824,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 537.21 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 537.21 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-09-65-2028"
+			(at 537.21 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Molex/09-65-2028?qs=cRUT3GdJqnzinf38S8Zx4g%3D%3D&mgh=1&vip=1&utm_id=22244003751&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeamsp&gad_source=1&gbraid=0AAAAADn_wf1M2tgLv3XphLF6RzO2y7_9s&gclid=Cj0KCQjwh_i_BhCzARIsANimeoE0KTZhOPhncdYZMz4V6cWPPhY13ZIefNQ0qpO5xSn2CwO9J9G0u_4aAk4ZEALw_wcB"
+			(at 537.21 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" "538-08-70-1031-CT"
+			(at 537.21 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Part" "538-09-50-1021"
 			(at 537.21 346.71 0)
 			(effects
 				(font
@@ -27082,7 +29986,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 38.1 210.82 0)
 			(effects
 				(font
@@ -27155,6 +30059,15 @@
 			)
 		)
 		(property "Package" "0805"
+			(at 38.1 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 38.1 210.82 0)
 			(effects
 				(font
@@ -27206,7 +30119,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 88.9 210.82 0)
 			(effects
 				(font
@@ -27287,6 +30200,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 88.9 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf479d36-4a3d-470b-aadd-d6eec35b745f")
 		)
@@ -27327,7 +30249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-128"
+		(property "Footprint" "footprints:PMEG3050EP115"
 			(at 386.08 95.25 0)
 			(effects
 				(font
@@ -27400,6 +30322,15 @@
 			)
 		)
 		(property "Package" "SOD-128-2"
+			(at 386.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 386.08 95.25 0)
 			(effects
 				(font
@@ -27514,7 +30445,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SRP1038WA100M"
 			(at 381 26.67 0)
 			(effects
 				(font
@@ -27578,6 +30509,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Bourns/SRP1038WA-100M?qs=Li%252BoUPsLEns2YO42nd2bfg%3D%3D"
+			(at 381 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 381 26.67 0)
 			(effects
 				(font
@@ -27787,6 +30727,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 510.54 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "a630e083-39e9-4cb1-bd97-a23a8916808e")
 		)
@@ -27957,6 +30906,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Barrel_Jack_Switch")
+		(at 543.56 251.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdce7546-95fd-4680-a0fb-b6811fda8bdc")
+		(property "Reference" "J7"
+			(at 543.56 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack_Switch"
+			(at 543.56 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:694106301002_1"
+			(at 542.29 252.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/694106301002.pdf"
+			(at 542.29 252.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Power Connectors WR-DC PwrJk CtrPnTHT Right Angled"
+			(at 543.56 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 543.56 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "694106301002"
+			(at 543.56 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-694106301002"
+			(at 543.56 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Wurth-Elektronik/694106301002?qs=a9WhcLg8qCwOEkcI62k5mA%3D%3D"
+			(at 543.56 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Part" ""
+			(at 543.56 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
+			(at 543.56 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2a714f64-41f6-43a2-b751-0961668a8f82")
+		)
+		(pin "1"
+			(uuid "bf6b473a-6de3-4ee0-b7c0-4f9f1352607f")
+		)
+		(pin "2"
+			(uuid "ad17e525-c18e-4d15-a113-e02a2535616a")
+		)
+		(instances
+			(project "qpcb"
+				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 132.08 307.34 90)
 		(unit 1)
@@ -27982,7 +31056,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 132.08 309.118 90)
 			(effects
 				(font
@@ -28019,6 +31093,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 132.08 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 132.08 307.34 0)
 			(effects
 				(font
@@ -28070,7 +31153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 461.9752 179.07 0)
 			(effects
 				(font
@@ -28115,6 +31198,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 461.01 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1245995e-d254-4470-a000-9fb5aebd857d")
 		)
@@ -28149,7 +31241,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "68"
 			(at 163.83 201.9299 0)
 			(effects
 				(font
@@ -28158,7 +31250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 159.512 200.66 90)
 			(effects
 				(font
@@ -28195,6 +31287,24 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 161.29 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 161.29 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 161.29 200.66 0)
 			(effects
 				(font
@@ -28246,7 +31356,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 161.29 213.36 0)
 			(effects
 				(font
@@ -28319,6 +31429,15 @@
 			)
 		)
 		(property "Package" "0805"
+			(at 161.29 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 161.29 213.36 0)
 			(effects
 				(font
@@ -28501,7 +31620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 57.1702 314.2014 90)
 			(effects
 				(font
@@ -28538,6 +31657,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 58.9482 314.2014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 58.9482 314.2014 0)
 			(effects
 				(font
@@ -28589,7 +31717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:09652028"
 			(at 537.21 264.16 0)
 			(effects
 				(font
@@ -28598,7 +31726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/09652028?display=pdf"
 			(at 537.21 264.16 0)
 			(effects
 				(font
@@ -28607,7 +31735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Headers & Wire Housings HDR SPOX VERTICAL 2P"
 			(at 537.21 264.16 0)
 			(effects
 				(font
@@ -28616,7 +31744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "09-65-2028"
 			(at 537.21 264.16 0)
 			(effects
 				(font
@@ -28626,6 +31754,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 537.21 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 537.21 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-09-65-2028"
+			(at 537.21 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Molex/09-65-2028?qs=cRUT3GdJqnzinf38S8Zx4g%3D%3D&mgh=1&vip=1&utm_id=22244003751&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeamsp&gad_source=1&gbraid=0AAAAADn_wf1M2tgLv3XphLF6RzO2y7_9s&gclid=Cj0KCQjwh_i_BhCzARIsANimeoE0KTZhOPhncdYZMz4V6cWPPhY13ZIefNQ0qpO5xSn2CwO9J9G0u_4aAk4ZEALw_wcB"
+			(at 537.21 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" "538-08-70-1031-CT"
+			(at 537.21 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Part" "538-09-50-1021"
 			(at 537.21 264.16 0)
 			(effects
 				(font
@@ -28716,6 +31889,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 529.59 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d51f1136-d736-4ecb-87e3-a2bcca64c4eb")
+		(property "Reference" "#PWR0129"
+			(at 529.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 529.59 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 529.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 529.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 529.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42a354a5-8147-4bf6-90bc-af92429ab96e")
+		)
+		(instances
+			(project "qpcb"
+				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 143.51 210.82 90)
 		(unit 1)
@@ -28743,7 +31982,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 143.51 210.82 0)
 			(effects
 				(font
@@ -28824,6 +32063,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 143.51 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b162746f-2702-4df3-8fe3-163802f98549")
 		)
@@ -28858,7 +32106,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "68"
 			(at 128.27 199.3899 0)
 			(effects
 				(font
@@ -28867,7 +32115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 123.952 198.12 90)
 			(effects
 				(font
@@ -28912,6 +32160,24 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0805"
+			(at 125.73 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
+			(at 125.73 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b027554-0b65-4592-bee2-9e3b63aae497")
 		)
@@ -28922,6 +32188,73 @@
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 478.79 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d696e614-bd2c-470a-b68a-7e2aea741244")
+		(property "Reference" "#FLG08"
+			(at 476.885 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 474.98 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 478.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 478.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 478.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d6ed967-ecb6-4728-892a-d59ec08af5b5")
+		)
+		(instances
+			(project "qpcb"
+				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -28955,7 +32288,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 491.998 59.69 90)
 			(effects
 				(font
@@ -29027,6 +32360,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 490.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 490.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8ef3c808-03e7-4997-93f8-17d6208091a0")
 		)
@@ -29070,7 +32421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 375.6152 209.55 0)
 			(effects
 				(font
@@ -29107,6 +32458,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 374.65 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 374.65 205.74 0)
 			(effects
 				(font
@@ -29195,6 +32555,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 125.73 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 125.73 346.71 0)
 			(effects
 				(font
@@ -29313,7 +32682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:09652028"
 			(at 392.43 284.48 0)
 			(effects
 				(font
@@ -29322,7 +32691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/09652028?display=pdf"
 			(at 392.43 284.48 0)
 			(effects
 				(font
@@ -29331,7 +32700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Headers & Wire Housings HDR SPOX VERTICAL 2P"
 			(at 392.43 284.48 0)
 			(effects
 				(font
@@ -29340,7 +32709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "09-65-2028"
 			(at 392.43 284.48 0)
 			(effects
 				(font
@@ -29350,6 +32719,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 392.43 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 392.43 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-09-65-2028"
+			(at 392.43 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Molex/09-65-2028?qs=cRUT3GdJqnzinf38S8Zx4g%3D%3D&mgh=1&vip=1&utm_id=22244003751&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeamsp&gad_source=1&gbraid=0AAAAADn_wf1M2tgLv3XphLF6RzO2y7_9s&gclid=Cj0KCQjwh_i_BhCzARIsANimeoE0KTZhOPhncdYZMz4V6cWPPhY13ZIefNQ0qpO5xSn2CwO9J9G0u_4aAk4ZEALw_wcB"
+			(at 392.43 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" "538-08-70-1031-CT"
+			(at 392.43 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Part" "538-09-50-1021"
 			(at 392.43 284.48 0)
 			(effects
 				(font
@@ -29530,7 +32944,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 199.39 362.458 90)
 			(effects
 				(font
@@ -29567,6 +32981,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 199.39 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 199.39 360.68 0)
 			(effects
 				(font
@@ -29684,7 +33107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:09652028"
 			(at 537.21 285.75 0)
 			(effects
 				(font
@@ -29693,7 +33116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/09652028?display=pdf"
 			(at 537.21 285.75 0)
 			(effects
 				(font
@@ -29702,7 +33125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Headers & Wire Housings HDR SPOX VERTICAL 2P"
 			(at 537.21 285.75 0)
 			(effects
 				(font
@@ -29711,7 +33134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "09-65-2028"
 			(at 537.21 285.75 0)
 			(effects
 				(font
@@ -29721,6 +33144,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 537.21 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 537.21 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-09-65-2028"
+			(at 537.21 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Molex/09-65-2028?qs=cRUT3GdJqnzinf38S8Zx4g%3D%3D&mgh=1&vip=1&utm_id=22244003751&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeamsp&gad_source=1&gbraid=0AAAAADn_wf1M2tgLv3XphLF6RzO2y7_9s&gclid=Cj0KCQjwh_i_BhCzARIsANimeoE0KTZhOPhncdYZMz4V6cWPPhY13ZIefNQ0qpO5xSn2CwO9J9G0u_4aAk4ZEALw_wcB"
+			(at 537.21 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" "538-08-70-1031-CT"
+			(at 537.21 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Part" "538-09-50-1021"
 			(at 537.21 285.75 0)
 			(effects
 				(font
@@ -29772,7 +33240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 549.6052 179.07 0)
 			(effects
 				(font
@@ -29809,6 +33277,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 548.64 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 548.64 175.26 0)
 			(effects
 				(font
@@ -29860,7 +33337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 461.9752 219.71 0)
 			(effects
 				(font
@@ -29897,6 +33374,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 461.01 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 461.01 215.9 0)
 			(effects
 				(font
@@ -29993,6 +33479,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 125.73 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39538872-30ab-4e06-89e0-931f4bbdb2d6")
 		)
@@ -30073,6 +33568,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 257.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 257.81 222.25 0)
 			(effects
 				(font
@@ -30166,6 +33670,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 229.87 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8461532-d170-46f7-b826-ff8345b2d697")
 		)
@@ -30203,7 +33716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SRP1038WA100M"
 			(at 115.57 20.32 0)
 			(effects
 				(font
@@ -30267,6 +33780,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Bourns/SRP1038WA-100M?qs=Li%252BoUPsLEns2YO42nd2bfg%3D%3D"
+			(at 115.57 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 115.57 20.32 0)
 			(effects
 				(font
@@ -30412,6 +33934,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "a6fcb51f-503e-4992-8119-55994af83fa4")
 		)
@@ -30541,7 +34072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "footprints:CAPC3225X230N"
 			(at 289.56 124.46 0)
 			(effects
 				(font
@@ -30614,6 +34145,15 @@
 			)
 		)
 		(property "Package" "1210"
+			(at 289.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 289.56 124.46 0)
 			(effects
 				(font
@@ -30796,7 +34336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "footprints:SOT96P240X120-3N"
 			(at 80.5382 361.8264 0)
 			(effects
 				(font
@@ -30872,6 +34412,15 @@
 			)
 		)
 		(property "Package" "SOT-23-3"
+			(at 75.4582 359.9214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 75.4582 359.9214 0)
 			(effects
 				(font
@@ -30992,7 +34541,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "footprints:EEEFK0J332AV"
 			(at 510.54 62.23 0)
 			(effects
 				(font
@@ -31001,7 +34550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "UCZ1J751MNS1MS"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1251.pdf"
 			(at 510.54 62.23 0)
 			(effects
 				(font
@@ -31010,7 +34559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Aluminium Electrolytic Capacitors - SMD 63V 750uf 20% SMD, high vibration"
+		(property "Description" " Aluminium Electrolytic Capacitors - SMD 35VDC 750uF 20% AEC-Q200 Vibe proof"
 			(at 510.54 62.23 0)
 			(effects
 				(font
@@ -31019,7 +34568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "UCZ1J751MNS1MS"
+		(property "Manufacturer Part Number" "EEE-FK1V751SV"
 			(at 510.54 62.23 0)
 			(effects
 				(font
@@ -31037,7 +34586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nichicon"
+		(property "Manufacturer" "Panasonic"
 			(at 510.54 62.23 0)
 			(effects
 				(font
@@ -31046,7 +34595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "647-UCZ1J751MNS1MS"
+		(property "Mouser Part Number" "667-EEE-FK1V751SV"
 			(at 510.54 62.23 0)
 			(effects
 				(font
@@ -31055,7 +34604,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Nichicon/UCZ1J751MNS1MS?qs=DPoM0jnrROX4KnyCpA4slg%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Panasonic/EEE-FK1V751SV?qs=sGAEpiMZZMsh%252B1woXyUXj5hl8V69wsA%252BnjvVshjG5Qo%3D"
+			(at 510.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 510.54 62.23 0)
 			(effects
 				(font
@@ -31172,7 +34730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:09652028"
 			(at 537.21 297.18 0)
 			(effects
 				(font
@@ -31181,7 +34739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/09652028?display=pdf"
 			(at 537.21 297.18 0)
 			(effects
 				(font
@@ -31190,7 +34748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Headers & Wire Housings HDR SPOX VERTICAL 2P"
 			(at 537.21 297.18 0)
 			(effects
 				(font
@@ -31199,7 +34757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "09-65-2028"
 			(at 537.21 297.18 0)
 			(effects
 				(font
@@ -31209,6 +34767,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 537.21 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 537.21 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-09-65-2028"
+			(at 537.21 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Molex/09-65-2028?qs=cRUT3GdJqnzinf38S8Zx4g%3D%3D&mgh=1&vip=1&utm_id=22244003751&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeamsp&gad_source=1&gbraid=0AAAAADn_wf1M2tgLv3XphLF6RzO2y7_9s&gclid=Cj0KCQjwh_i_BhCzARIsANimeoE0KTZhOPhncdYZMz4V6cWPPhY13ZIefNQ0qpO5xSn2CwO9J9G0u_4aAk4ZEALw_wcB"
+			(at 537.21 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" "538-08-70-1031-CT"
+			(at 537.21 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Part" "538-09-50-1021"
 			(at 537.21 297.18 0)
 			(effects
 				(font
@@ -31498,94 +35101,6 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 537.21 252.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2679194-e197-48d3-a3be-8db14a73c09b")
-		(property "Reference" "J7"
-			(at 539.75 252.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 539.75 255.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 537.21 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 537.21 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 537.21 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 537.21 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field-1" ""
-			(at 537.21 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4d4a7f3-ab94-400e-8be7-84c28e24a64e")
-		)
-		(pin "2"
-			(uuid "b6816f13-4c8b-4ae1-b5da-16b6ce662018")
-		)
-		(instances
-			(project "qpcb"
-				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/46bb8653-ab5b-473e-ae4c-0621c199f7c3"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
 		(at 392.43 318.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31612,7 +35127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:09652028"
 			(at 392.43 318.77 0)
 			(effects
 				(font
@@ -31621,7 +35136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/09652028?display=pdf"
 			(at 392.43 318.77 0)
 			(effects
 				(font
@@ -31630,7 +35145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Headers & Wire Housings HDR SPOX VERTICAL 2P"
 			(at 392.43 318.77 0)
 			(effects
 				(font
@@ -31639,7 +35154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "09-65-2028"
 			(at 392.43 318.77 0)
 			(effects
 				(font
@@ -31649,6 +35164,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 392.43 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 392.43 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-09-65-2028"
+			(at 392.43 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Molex/09-65-2028?qs=cRUT3GdJqnzinf38S8Zx4g%3D%3D&mgh=1&vip=1&utm_id=22244003751&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeamsp&gad_source=1&gbraid=0AAAAADn_wf1M2tgLv3XphLF6RzO2y7_9s&gclid=Cj0KCQjwh_i_BhCzARIsANimeoE0KTZhOPhncdYZMz4V6cWPPhY13ZIefNQ0qpO5xSn2CwO9J9G0u_4aAk4ZEALw_wcB"
+			(at 392.43 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" "538-08-70-1031-CT"
+			(at 392.43 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Part" "538-09-50-1021"
 			(at 392.43 318.77 0)
 			(effects
 				(font
@@ -31766,7 +35326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 455.422 29.21 90)
 			(effects
 				(font
@@ -31847,6 +35407,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 457.2 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cea67457-1a4c-4f5b-9dbe-2cc9e2deb5f9")
 		)
@@ -31890,7 +35459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "footprints:CAPC3225X230N"
 			(at 187.96 88.9 0)
 			(effects
 				(font
@@ -31963,6 +35532,15 @@
 			)
 		)
 		(property "Package" "1210"
+			(at 187.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 187.96 88.9 0)
 			(effects
 				(font
@@ -32051,6 +35629,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 214.63 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 214.63 176.53 0)
 			(effects
 				(font
@@ -32267,6 +35854,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 214.63 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 214.63 222.25 0)
 			(effects
 				(font

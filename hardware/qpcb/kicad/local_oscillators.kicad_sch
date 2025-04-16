@@ -2232,7 +2232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 233.3752 62.23 0)
 			(effects
 				(font
@@ -2269,6 +2269,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 232.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 232.41 58.42 0)
 			(effects
 				(font
@@ -2385,7 +2394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 55.88 62.738 90)
 			(effects
 				(font
@@ -2422,6 +2431,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 55.88 60.96 0)
 			(effects
 				(font
@@ -2540,7 +2558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 65.7352 151.13 0)
 			(effects
 				(font
@@ -2549,7 +2567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?45199"
 			(at 64.77 147.32 0)
 			(effects
 				(font
@@ -2558,7 +2576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.039uF 16volts 10%"
 			(at 64.77 147.32 0)
 			(effects
 				(font
@@ -2567,7 +2585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VJ0805Y393KXJAC"
 			(at 64.77 147.32 0)
 			(effects
 				(font
@@ -2577,6 +2595,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 64.77 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 64.77 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "77-VJ0805Y393KXJAC"
+			(at 64.77 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Vishay-Vitramon/VJ0805Y393KXJAC?qs=WfX1YUoJW7SWMZbklXp%252Bcg%3D%3D"
+			(at 64.77 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 64.77 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 64.77 147.32 0)
 			(effects
 				(font
@@ -2626,7 +2689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 57.15 144.018 90)
 			(effects
 				(font
@@ -2663,6 +2726,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 57.15 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 57.15 142.24 0)
 			(effects
 				(font
@@ -2712,7 +2784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 69.85 62.738 90)
 			(effects
 				(font
@@ -2721,7 +2793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
 			(at 69.85 60.96 0)
 			(effects
 				(font
@@ -2730,7 +2802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick Film Resistors - SMD 0805 1.3Kohms 1% Anti-Sulfur"
 			(at 69.85 60.96 0)
 			(effects
 				(font
@@ -2739,7 +2811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ERJ-S06F1301V"
 			(at 69.85 60.96 0)
 			(effects
 				(font
@@ -2749,6 +2821,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 69.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 69.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-S06F1301V"
+			(at 69.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Panasonic/ERJ-S06F1301V?qs=Zyl8A9hlmJqgQE%252BUc5W8iQ%3D%3D"
+			(at 69.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 69.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 69.85 60.96 0)
 			(effects
 				(font
@@ -2864,7 +2981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 71.12 144.018 90)
 			(effects
 				(font
@@ -2873,7 +2990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
 			(at 71.12 142.24 0)
 			(effects
 				(font
@@ -2882,7 +2999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick Film Resistors - SMD 0805 1.3Kohms 1% Anti-Sulfur"
 			(at 71.12 142.24 0)
 			(effects
 				(font
@@ -2891,7 +3008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ERJ-S06F1301V"
 			(at 71.12 142.24 0)
 			(effects
 				(font
@@ -2901,6 +3018,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-S06F1301V"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Panasonic/ERJ-S06F1301V?qs=Zyl8A9hlmJqgQE%252BUc5W8iQ%3D%3D"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 71.12 142.24 0)
 			(effects
 				(font
@@ -3084,7 +3246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 64.4652 69.85 0)
 			(effects
 				(font
@@ -3093,7 +3255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?45199"
 			(at 63.5 66.04 0)
 			(effects
 				(font
@@ -3102,7 +3264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.039uF 16volts 10%"
 			(at 63.5 66.04 0)
 			(effects
 				(font
@@ -3111,7 +3273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VJ0805Y393KXJAC"
 			(at 63.5 66.04 0)
 			(effects
 				(font
@@ -3121,6 +3283,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "77-VJ0805Y393KXJAC"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Vishay-Vitramon/VJ0805Y393KXJAC?qs=WfX1YUoJW7SWMZbklXp%252Bcg%3D%3D"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 63.5 66.04 0)
 			(effects
 				(font
@@ -3172,7 +3379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 246.0752 62.23 0)
 			(effects
 				(font
@@ -3181,7 +3388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/40/X7RDielectric-2943470.pdf"
 			(at 245.11 58.42 0)
 			(effects
 				(font
@@ -3190,7 +3397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT KGF21BR71E104JT NW G LOB PN 25V 0.1uF X7R A 581-KGF21BR71E104JT"
 			(at 245.11 58.42 0)
 			(effects
 				(font
@@ -3199,7 +3406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "08053C104JAZ2A"
 			(at 245.11 58.42 0)
 			(effects
 				(font
@@ -3209,6 +3416,51 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 245.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 245.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-08053C104JAZ2A"
+			(at 245.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/KYOCERA-AVX/08053C104JAZ2A?qs=YtXa1zY%252Bjw7108MDhSwtdw%3D%3D"
+			(at 245.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 245.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 245.11 58.42 0)
 			(effects
 				(font
@@ -3353,6 +3605,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 196.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "2d6cde2e-b6e1-4d0a-840a-59387ef8ae78")
 		)
@@ -3455,6 +3716,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 113.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 113.03 44.45 0)
 			(effects
 				(font
@@ -3599,6 +3869,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 64.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8176138-1df8-41f8-8504-f6b96a279ff9")
 		)
@@ -3674,6 +3953,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 114.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 114.3 125.73 0)
 			(effects
 				(font
@@ -3810,6 +4098,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 63.5 48.26 0)
 			(effects
 				(font

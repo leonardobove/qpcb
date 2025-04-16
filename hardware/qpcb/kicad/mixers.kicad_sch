@@ -286,6 +286,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 57.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "36f0aa5d-d05e-4f35-9923-8ae4a0d1d04c")
 		)
@@ -392,6 +401,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Crimp" ""
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "087deb5c-080d-482d-9bc7-e28193278f03")
 		)
@@ -490,6 +508,15 @@
 			)
 		)
 		(property "Field-1" ""
+			(at 57.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Crimp" ""
 			(at 57.15 87.63 0)
 			(effects
 				(font
