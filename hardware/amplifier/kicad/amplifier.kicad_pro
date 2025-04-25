@@ -489,7 +489,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "dxf_output/",
+      "plot": "gerber_output/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
