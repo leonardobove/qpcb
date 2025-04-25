@@ -2214,7 +2214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07a09b29-91c6-46c1-8c3e-af6691c856ad")
-		(property "Reference" "C46"
+		(property "Reference" "C69"
 			(at 236.22 57.1499 0)
 			(effects
 				(font
@@ -2295,7 +2295,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/b685e560-a45a-4313-8d29-a96968b46a78"
-					(reference "C46")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -2311,7 +2311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1509e677-ef59-446f-84f3-9b2dbcb33d52")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR0105"
 			(at 63.5 76.2 0)
 			(effects
 				(font
@@ -2362,7 +2362,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/b685e560-a45a-4313-8d29-a96968b46a78"
-					(reference "#PWR080")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -2473,7 +2473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e4b6e16-d9b5-4963-a2ef-b6d56ae132d6")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR0106"
 			(at 64.77 157.48 0)
 			(effects
 				(font
@@ -2524,7 +2524,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/b685e560-a45a-4313-8d29-a96968b46a78"
-					(reference "#PWR081")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -2540,7 +2540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "528cd7fa-c64e-490c-8f9c-bc079f56fd93")
-		(property "Reference" "C45"
+		(property "Reference" "C68"
 			(at 68.58 146.0499 0)
 			(effects
 				(font
@@ -2657,7 +2657,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/b685e560-a45a-4313-8d29-a96968b46a78"
-					(reference "C45")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -2899,7 +2899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aea6393-4e84-4f47-bf37-b3da5b8bd3d4")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR0109"
 			(at 193.04 59.69 0)
 			(effects
 				(font
@@ -2949,7 +2949,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/b685e560-a45a-4313-8d29-a96968b46a78"
-					(reference "#PWR084")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -3096,7 +3096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72fcd495-dd9a-42d0-a602-cead5759b055")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR0110"
 			(at 232.41 71.12 0)
 			(effects
 				(font
@@ -3146,7 +3146,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/b685e560-a45a-4313-8d29-a96968b46a78"
-					(reference "#PWR085")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -3162,7 +3162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8552029d-be7e-4896-aa9d-e2269b94f85f")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR0108"
 			(at 93.98 168.91 0)
 			(effects
 				(font
@@ -3212,7 +3212,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/b685e560-a45a-4313-8d29-a96968b46a78"
-					(reference "#PWR083")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -3228,7 +3228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99a37aaa-265c-4c8f-9e08-e287806e4211")
-		(property "Reference" "C44"
+		(property "Reference" "C67"
 			(at 67.31 64.7699 0)
 			(effects
 				(font
@@ -3345,7 +3345,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/b685e560-a45a-4313-8d29-a96968b46a78"
-					(reference "C44")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -3361,7 +3361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ba3cce9-fb1a-49d7-b164-125ec589ba67")
-		(property "Reference" "C47"
+		(property "Reference" "C70"
 			(at 248.92 57.1499 0)
 			(effects
 				(font
@@ -3478,7 +3478,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/b685e560-a45a-4313-8d29-a96968b46a78"
-					(reference "C47")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -3679,7 +3679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:LO"
 			(at 113.03 44.45 0)
 			(effects
 				(font
@@ -3824,7 +3824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 69.85 130.81 0)
 			(effects
 				(font
@@ -3916,7 +3916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:LO"
 			(at 114.3 125.73 0)
 			(effects
 				(font
@@ -4061,7 +4061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 68.58 48.26 0)
 			(effects
 				(font
@@ -4137,7 +4137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef00df69-da4a-4f45-a865-a45a67e5cb47")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0107"
 			(at 92.71 87.63 0)
 			(effects
 				(font
@@ -4187,7 +4187,7 @@
 		(instances
 			(project "qpcb"
 				(path "/c131d68b-62f5-4c45-b130-1d10920b3403/b685e560-a45a-4313-8d29-a96968b46a78"
-					(reference "#PWR082")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)

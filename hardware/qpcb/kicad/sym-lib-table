@@ -13,4 +13,5 @@
   (lib (name "RF_mount_PCBs")(type "KiCad")(uri "${KIPRJMOD}/symbols/RF_mount_PCBs.kicad_sym")(options "")(descr ""))
   (lib (name "SiT5157AI-FK-33N0-100_000000X")(type "KiCad")(uri "${KIPRJMOD}/symbols/SiT5157AI-FK-33N0-100_000000X.kicad_sym")(options "")(descr ""))
   (lib (name "TPS5450QDDARQ1")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS5450QDDARQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "LM2991S_NOPB")(type "KiCad")(uri "${KIPRJMOD}/symbols/LM2991S_NOPB.kicad_sym")(options "")(descr ""))
 )

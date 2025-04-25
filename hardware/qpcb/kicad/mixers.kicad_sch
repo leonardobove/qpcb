@@ -221,10 +221,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7b50a918-cf8c-4daa-9ffe-d0e6819026ec")
 		(property "Reference" "U15"
-			(at 63.5 67.9449 0)
+			(at 55.118 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:mixer"
 			(at 57.15 62.23 0)
 			(effects
 				(font
@@ -336,10 +335,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "98134086-46e2-400a-abf8-78ef3e1bdf8a")
 		(property "Reference" "U14"
-			(at 63.5 45.0849 0)
+			(at 55.372 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -356,7 +354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:mixer"
 			(at 57.15 39.37 0)
 			(effects
 				(font
@@ -451,10 +449,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a684256c-b8bb-41a2-a7ae-654e62eac952")
 		(property "Reference" "U16"
-			(at 63.5 93.3449 0)
+			(at 55.626 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -471,7 +468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:mixer"
 			(at 57.15 87.63 0)
 			(effects
 				(font
