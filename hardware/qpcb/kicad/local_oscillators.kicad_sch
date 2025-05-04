@@ -2648,6 +2648,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3881405"
+			(at 64.77 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cfdaff2b-8e2f-409f-91eb-ccaeda212ee5")
 		)
@@ -2874,6 +2883,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2110984"
+			(at 69.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9a1c698-9994-41e5-8b32-6471e85abf38")
 		)
@@ -3063,6 +3081,15 @@
 			)
 		)
 		(property "Mating Crimp" ""
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2110984"
 			(at 71.12 142.24 0)
 			(effects
 				(font
@@ -3336,6 +3363,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3881405"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7fa76db4-dba7-4821-aa6a-50f4334d7683")
 		)
@@ -3461,6 +3497,15 @@
 			)
 		)
 		(property "Mating Crimp" ""
+			(at 245.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2170167"
 			(at 245.11 58.42 0)
 			(effects
 				(font

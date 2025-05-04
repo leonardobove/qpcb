@@ -3483,6 +3483,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C313850"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "988f3d87-8c00-4eea-8b03-b8defe407596")
 		)
@@ -3778,6 +3787,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2255672"
+			(at 33.02 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7cb764a7-7b5f-464a-8064-b6e775e2d7e9")
 		)
@@ -3903,6 +3921,15 @@
 			)
 		)
 		(property "Mating Crimp" ""
+			(at 44.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C579789"
 			(at 44.45 50.8 0)
 			(effects
 				(font
@@ -4226,6 +4253,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2172092"
+			(at 104.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f782c13c-94c6-412b-9b8e-159f28ca29ea")
 		)
@@ -4418,6 +4454,15 @@
 			)
 		)
 		(property "Mating Part" "538-47054-1000"
+			(at 243.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3025061"
 			(at 243.84 165.1 0)
 			(effects
 				(font
@@ -4622,6 +4667,15 @@
 			)
 		)
 		(property "Mating Crimp" ""
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2255672"
 			(at 165.1 68.58 0)
 			(effects
 				(font
@@ -4897,6 +4951,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C579789"
+			(at 176.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "cbb8bc0c-1266-4db0-a65b-cc1356b054ff")
 		)
@@ -5115,6 +5178,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C313850"
+			(at 243.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d686959d-c6c3-41a4-8de2-7c3b8607dcf5")
 		)
@@ -5240,6 +5312,15 @@
 			)
 		)
 		(property "Mating Part" "538-47054-1000"
+			(at 195.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3025061"
 			(at 195.58 165.1 0)
 			(effects
 				(font
@@ -5849,6 +5930,15 @@
 			)
 		)
 		(property "Mating Crimp" ""
+			(at 62.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1554732"
 			(at 62.23 160.02 0)
 			(effects
 				(font
