@@ -5862,6 +5862,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 202.565 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "251bea53-372f-4b04-8404-d90cece121f2")
 		)
@@ -6013,6 +6022,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 300.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6226,6 +6244,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 164.465 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6669378a-6446-4edb-8dbf-03aeabbf8d3f")
 		)
@@ -6361,6 +6388,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 167.005 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3869b144-8711-4aac-b9b5-db2d69880e14")
 		)
@@ -6431,6 +6467,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 76.835 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9d68885-c200-4883-8daf-45cafb709139")
 		)
@@ -6493,6 +6538,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.215 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 69.215 57.785 0)
 			(effects
 				(font
@@ -6787,6 +6841,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 255.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9272dd10-d86c-4672-8f47-215eac475ef9")
 		)
@@ -6923,6 +6986,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 215.265 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 215.265 85.725 0)
 			(effects
 				(font
@@ -7200,6 +7272,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 47.625 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e83116f-d97b-4780-a8d3-ca5d3dcddd33")
 		)
@@ -7282,6 +7363,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 175.895 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 175.895 58.42 0)
 			(effects
 				(font
@@ -7444,6 +7534,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 256.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf53a70f-eb17-441a-87c9-ec0a6e3f54f1")
 		)
@@ -7523,6 +7622,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 184.785 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca9e8562-35e5-4bf8-be20-095143dd2cc7")
 		)
@@ -7593,6 +7701,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 180.975 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "edbc5203-6d7c-4279-82be-4178c997e927")
 		)
@@ -7652,6 +7769,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 113.665 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 113.665 93.345 0)
 			(effects
 				(font
@@ -7852,6 +7978,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.095 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 125.095 93.345 0)
 			(effects
 				(font
@@ -8127,6 +8262,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 211.455 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58fcb4fe-4bb0-485d-9e72-4f8ceb7cfd3b")
 		)
@@ -8254,6 +8398,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 79.375 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 79.375 57.785 0)
 			(effects
 				(font
@@ -8441,6 +8594,51 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3154895"
+			(at 219.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Mini-Circuits"
+			(at 219.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EP2W+"
+			(at 219.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "139-EP2W"
+			(at 219.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Mini-Circuits/EP2W%2b?qs=sGAEpiMZZMukHu%252BjC5l7Yew1d77lVEa%252BTYvvoJuH0%2FE%3D"
+			(at 219.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "24"
 			(uuid "305a1a79-683e-49db-9f13-c797a7384ba9")
 		)
@@ -8596,6 +8794,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 84.455 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 84.455 42.545 0)
 			(effects
 				(font
@@ -8803,6 +9010,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 160.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07ca5f32-3e2b-48b0-b854-a7eedcff533e")
 		)
@@ -8937,6 +9153,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 112.395 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43e32a4d-56e9-4272-8307-9f975d2a0c0b")
 		)
@@ -9007,6 +9232,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 118.745 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "931e07d0-b0d6-4afc-b551-2cd1b4ab19b4")
 		)
@@ -9067,6 +9301,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3304869"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Mini-Circuits"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NCR2-113+"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "139-NCR2-113"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Mini-Circuits/NCR2-113%2b?qs=xZ%2FP%252Ba9zWqaeCHs2W%2FppYg%3D%3D"
 			(at 256.54 116.84 0)
 			(effects
 				(font
@@ -9158,6 +9437,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 224.155 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1093f60-5f70-4315-9752-ee9864c9c35a")
 		)
@@ -9218,6 +9506,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 31.75 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 31.75 103.505 0)
 			(effects
 				(font
@@ -9309,6 +9606,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 154.305 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 154.305 147.955 0)
 			(effects
 				(font
@@ -9471,6 +9777,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 300.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17a2faf1-b144-448e-a277-b0d6810e03bc")
 		)
@@ -9616,6 +9931,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 205.105 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8d1dbe0-4705-4c04-b508-1c8668c14082")
 		)
@@ -9678,6 +10002,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 194.945 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 194.945 147.955 0)
 			(effects
 				(font
@@ -9951,6 +10284,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 186.055 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8edb335a-da45-4bfa-b557-02b4dddbb244")
 		)
@@ -10021,6 +10363,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 189.865 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff4f81a4-7567-4c21-b347-f2532d75d286")
 		)
@@ -10083,6 +10434,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 184.785 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 184.785 58.42 0)
 			(effects
 				(font
@@ -10270,6 +10630,51 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3154895"
+			(at 257.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Mini-Circuits"
+			(at 257.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EP2W+"
+			(at 257.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "139-EP2W"
+			(at 257.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Mini-Circuits/EP2W%2b?qs=sGAEpiMZZMukHu%252BjC5l7Yew1d77lVEa%252BTYvvoJuH0%2FE%3D"
+			(at 257.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "24"
 			(uuid "5e975af6-d9db-4993-9031-dab20ab3c3c2")
 		)
@@ -10431,6 +10836,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 125.095 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33513712-7271-42e6-b397-dca83811b9f7")
 		)
@@ -10568,6 +10982,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 208.915 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7259bdf-bb14-4ae6-8084-0c126d81d690")
 		)
@@ -10630,6 +11053,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 174.625 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 174.625 147.955 0)
 			(effects
 				(font
@@ -10906,6 +11338,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 189.865 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77c4193d-aa91-4f1f-ae54-03a1ff2f7d50")
 		)
@@ -10966,6 +11407,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 224.155 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 224.155 99.695 0)
 			(effects
 				(font
@@ -11108,6 +11558,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 126.365 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa02addf-d3b2-4ccd-a132-77c297716e78")
 		)
@@ -11235,6 +11694,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 86.995 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 86.995 75.565 0)
 			(effects
 				(font
@@ -11515,6 +11983,51 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C514325"
+			(at 155.575 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 155.575 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ADF5355BCPZ"
+			(at 155.575 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "584-ADF5355BCPZ"
+			(at 155.575 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Analog-Devices/ADF5355BCPZ?qs=hpwIUhX6lWz%252By8O4aZ7X5w%3D%3D"
+			(at 155.575 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba7785c0-348a-4363-9cc1-114674bed514")
 		)
@@ -11678,6 +12191,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 74.295 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84a7bd3c-daca-4cf9-a0f2-5db9afd1a303")
 		)
@@ -11740,6 +12262,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 172.72 41.275 0)
 			(effects
 				(font
