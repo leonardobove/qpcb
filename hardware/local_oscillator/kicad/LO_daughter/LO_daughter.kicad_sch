@@ -5862,7 +5862,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0402"
+			(at 202.565 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 202.565 112.395 0)
 			(effects
 				(font
@@ -6025,7 +6034,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Field-1" ""
 			(at 300.99 81.28 0)
 			(effects
 				(font
@@ -6244,7 +6253,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0603"
+			(at 164.465 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 164.465 147.955 0)
 			(effects
 				(font
@@ -6388,7 +6406,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0805"
+			(at 167.005 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 167.005 41.275 0)
 			(effects
 				(font
@@ -6467,7 +6494,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0805"
+			(at 76.835 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 76.835 75.565 0)
 			(effects
 				(font
@@ -6546,7 +6582,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0805"
+			(at 69.215 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 69.215 57.785 0)
 			(effects
 				(font
@@ -6841,7 +6886,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Field-1" ""
 			(at 255.27 49.53 0)
 			(effects
 				(font
@@ -6994,7 +7039,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0402"
+			(at 215.265 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 215.265 85.725 0)
 			(effects
 				(font
@@ -7272,7 +7326,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Field-1" ""
 			(at 47.625 137.16 0)
 			(effects
 				(font
@@ -7371,7 +7425,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0805"
+			(at 175.895 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 175.895 58.42 0)
 			(effects
 				(font
@@ -7534,7 +7597,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Field-1" ""
 			(at 256.54 25.4 0)
 			(effects
 				(font
@@ -7622,7 +7685,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0603"
+			(at 184.785 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 184.785 147.955 0)
 			(effects
 				(font
@@ -7701,7 +7773,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0805"
+			(at 180.975 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 180.975 121.285 0)
 			(effects
 				(font
@@ -7777,7 +7858,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0402"
+			(at 113.665 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 113.665 93.345 0)
 			(effects
 				(font
@@ -7986,7 +8076,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0402"
+			(at 125.095 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 125.095 93.345 0)
 			(effects
 				(font
@@ -8262,7 +8361,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0201"
+			(at 211.455 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 211.455 121.285 0)
 			(effects
 				(font
@@ -8406,7 +8514,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0603"
+			(at 79.375 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 79.375 57.785 0)
 			(effects
 				(font
@@ -8594,16 +8711,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3154895"
-			(at 219.71 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Mini-Circuits"
+		(property "LCSC Part #" "C3154895 "
 			(at 219.71 39.37 0)
 			(effects
 				(font
@@ -8631,6 +8739,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Mini-Circuits/EP2W%2b?qs=sGAEpiMZZMukHu%252BjC5l7Yew1d77lVEa%252BTYvvoJuH0%2FE%3D"
+			(at 219.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 219.71 39.37 0)
 			(effects
 				(font
@@ -8802,7 +8919,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0603"
+			(at 84.455 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 84.455 42.545 0)
 			(effects
 				(font
@@ -9010,7 +9136,43 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C668299"
+			(at 160.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BLM15AX100SN1D"
+			(at 160.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-BLM15AX100SN1D"
+			(at 160.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Murata-Electronics/BLM15AX100SN1D?qs=MY6wChARw2wKbKCnjw7BCA%3D%3D"
+			(at 160.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 160.02 59.69 0)
 			(effects
 				(font
@@ -9153,7 +9315,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0402"
+			(at 112.395 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 112.395 80.645 0)
 			(effects
 				(font
@@ -9232,7 +9403,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0603"
+			(at 118.745 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 118.745 86.995 0)
 			(effects
 				(font
@@ -9309,16 +9489,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3304869"
-			(at 256.54 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Mini-Circuits"
+		(property "LCSC Part #" "C3304869"
 			(at 256.54 116.84 0)
 			(effects
 				(font
@@ -9346,6 +9517,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Mini-Circuits/NCR2-113%2b?qs=xZ%2FP%252Ba9zWqaeCHs2W%2FppYg%3D%3D"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 256.54 116.84 0)
 			(effects
 				(font
@@ -9437,7 +9617,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Field-1" ""
 			(at 224.155 86.995 0)
 			(effects
 				(font
@@ -9514,7 +9694,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Field-1" ""
 			(at 31.75 103.505 0)
 			(effects
 				(font
@@ -9614,7 +9794,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0805"
+			(at 154.305 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 154.305 147.955 0)
 			(effects
 				(font
@@ -9777,7 +9966,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Field-1" ""
 			(at 300.99 105.41 0)
 			(effects
 				(font
@@ -9931,7 +10120,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0603"
+			(at 205.105 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 205.105 147.955 0)
 			(effects
 				(font
@@ -10010,7 +10208,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0805"
+			(at 194.945 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 194.945 147.955 0)
 			(effects
 				(font
@@ -10284,7 +10491,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0603"
+			(at 186.055 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 186.055 88.265 0)
 			(effects
 				(font
@@ -10363,7 +10579,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0603"
+			(at 189.865 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 189.865 126.365 0)
 			(effects
 				(font
@@ -10442,7 +10667,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0603"
+			(at 184.785 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 184.785 58.42 0)
 			(effects
 				(font
@@ -10630,16 +10864,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3154895"
-			(at 257.81 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Mini-Circuits"
+		(property "LCSC Part #" "C3154895 "
 			(at 257.81 85.09 0)
 			(effects
 				(font
@@ -10667,6 +10892,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Mini-Circuits/EP2W%2b?qs=sGAEpiMZZMukHu%252BjC5l7Yew1d77lVEa%252BTYvvoJuH0%2FE%3D"
+			(at 257.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 257.81 85.09 0)
 			(effects
 				(font
@@ -10836,7 +11070,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0402"
+			(at 125.095 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 125.095 80.645 0)
 			(effects
 				(font
@@ -10982,7 +11225,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0402"
+			(at 208.915 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 208.915 85.725 0)
 			(effects
 				(font
@@ -11061,7 +11313,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0805"
+			(at 174.625 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 174.625 147.955 0)
 			(effects
 				(font
@@ -11338,7 +11599,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "1206"
+			(at 189.865 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 189.865 116.205 0)
 			(effects
 				(font
@@ -11415,7 +11685,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Field-1" ""
 			(at 224.155 99.695 0)
 			(effects
 				(font
@@ -11558,7 +11828,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0805"
+			(at 126.365 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 126.365 107.315 0)
 			(effects
 				(font
@@ -11702,7 +11981,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0603"
+			(at 86.995 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 86.995 75.565 0)
 			(effects
 				(font
@@ -11983,24 +12271,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C514325"
-			(at 155.575 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at 155.575 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "ADF5355BCPZ"
 			(at 155.575 98.425 0)
 			(effects
@@ -12020,6 +12290,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/Analog-Devices/ADF5355BCPZ?qs=hpwIUhX6lWz%252By8O4aZ7X5w%3D%3D"
+			(at 155.575 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 155.575 98.425 0)
 			(effects
 				(font
@@ -12191,7 +12470,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0805"
+			(at 74.295 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 74.295 42.545 0)
 			(effects
 				(font
@@ -12270,7 +12558,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "Package" "0603"
+			(at 172.72 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 172.72 41.275 0)
 			(effects
 				(font

@@ -549,9 +549,15 @@
         },
         {
           "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -587,7 +593,7 @@
           "group_by": false,
           "label": "Manufacturer_Name",
           "name": "Manufacturer_Name",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -647,19 +653,13 @@
           "group_by": false,
           "label": "LCSC Part #",
           "name": "LCSC Part #",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "PARTREV",
           "name": "PARTREV",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": true
         },
         {
           "group_by": false,
@@ -699,22 +699,16 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
+          "label": "Package",
           "name": "Field-1",
           "show": false
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
